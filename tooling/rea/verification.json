@@ -1,0 +1,199 @@
+{
+  "scope": "REA and supporting analysis tooling installation; no device actions",
+  "rea_repository": "https://github.com/morluto/rea.git",
+  "rea_source_commit": "0909d89c966c30955fd0906b622ff25f3700789f",
+  "rea_cli_version": "6.8.0",
+  "host": {
+    "os": "Linux",
+    "architecture": "x86_64",
+    "node": "24.22.1",
+    "python": "3.12.14"
+  },
+  "installation": {
+    "rea_repository": "https://github.com/morluto/rea.git",
+    "rea_source_commit": "0909d89c966c30955fd0906b622ff25f3700789f",
+    "rea_cli_version": "6.8.0",
+    "ghidra": {
+      "directory": "ghidra_12.1.4_PUBLIC",
+      "url": "https://github.com/NationalSecurityAgency/ghidra/releases/download/Ghidra_12.1.4_build/ghidra_12.1.4_PUBLIC_20260921.zip",
+      "sha256": "ddac49f903da9d5bac833e5cc79395098b9c33cfd3279be5f31bd00387d2d4db",
+      "kind": "zip"
+    },
+    "jdk": {
+      "directory": "jdk-21.0.13+9",
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13%2B9/OpenJDK21U-jdk_x64_linux_hotspot_21.0.13_9.tar.gz",
+      "sha256": "d7f5d5cf865a2902b70ff549b97586a7d3f234e016f041ab447ea740c7d66d1c",
+      "kind": "tar"
+    },
+    "triton_library": "1.0.0rc4",
+    "z3_solver": "5.4.1.0"
+  },
+  "checks": {
+    "scoped_doctor": {
+      "healthy": true,
+      "provider": "ghidra",
+      "checks": [
+        {
+          "name": "node",
+          "ok": true,
+          "classification": "healthy",
+          "detail": "24.22.1",
+          "details": {
+            "runtime": "node",
+            "version": "24.22.1"
+          }
+        },
+        {
+          "name": "ghidra",
+          "ok": true,
+          "classification": "healthy",
+          "detail": "/workspace/work/re-tools/ghidra_12.1.4_PUBLIC"
+        },
+        {
+          "name": "ghidra-platform",
+          "ok": true,
+          "classification": "healthy",
+          "detail": "linux"
+        },
+        {
+          "name": "ghidra-architecture",
+          "ok": true,
+          "classification": "healthy",
+          "detail": "x64"
+        },
+        {
+          "name": "ghidra-installation",
+          "ok": true,
+          "classification": "healthy",
+          "detail": "/workspace/work/re-tools/ghidra_12.1.4_PUBLIC/Ghidra/application.properties"
+        },
+        {
+          "name": "ghidra-version",
+          "ok": true,
+          "classification": "healthy",
+          "detail": "12.1.4"
+        },
+        {
+          "name": "ghidra-headless",
+          "ok": true,
+          "classification": "healthy",
+          "detail": "/workspace/work/re-tools/ghidra_12.1.4_PUBLIC/support/analyzeHeadless"
+        },
+        {
+          "name": "ghidra-native_decompiler",
+          "ok": true,
+          "classification": "healthy",
+          "detail": "/workspace/work/re-tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/Decompiler/os/linux_x86_64/decompile reports elf x86_64, which matches linux/x64"
+        },
+        {
+          "name": "ghidra-java",
+          "ok": true,
+          "classification": "healthy",
+          "detail": "21.0.13; 64-bit; JDK; /workspace/work/re-tools/jdk-21.0.13+9; accepted a 64-bit full JDK 21 or newer"
+        }
+      ],
+      "environment_healthy": false,
+      "note": "Other providers and global MCP/skill registration were not selected or installed."
+    },
+    "managed_static": {
+      "evidence_id": "ev_9410809349e03c697fe2a1d05862f640c997fd4e5a69af9cd8771f2d92c5671f",
+      "input_sha256": "4d052853671fa97a65489dd8285a1485ca1fd422b786eba823b22e586ce6ee7b",
+      "classification": {
+        "status": "managed",
+        "container": "pe",
+        "runtime_family": "dotnet-framework",
+        "implementation": "cil",
+        "managed_architecture": "anycpu",
+        "evidence": [
+          {
+            "code": "cli-header-observed",
+            "detail": "A file-backed PE CLI header and metadata root were admitted.",
+            "file_offset": 42486272
+          },
+          {
+            "code": "target-framework-observed",
+            "detail": "An assembly-level TargetFrameworkAttribute names .NET Framework.",
+            "file_offset": 42625772
+          },
+          {
+            "code": "managed-architecture-derived",
+            "detail": "Managed architecture anycpu is derived from PE machine and CLI flags.",
+            "file_offset": 42486288
+          }
+        ]
+      },
+      "metadata_status": "partial"
+    },
+    "managed_native_boundaries": {
+      "evidence_id": "ev_c2d246debc3612afa923c04f5e1eebe10591068df729f1993bfe08f9179d9b4e",
+      "summary": {
+        "module_ref_count": 2,
+        "pinvoke_import_count": 6,
+        "native_implementation_count": 10,
+        "ready_to_run": false,
+        "mixed_mode_or_native_header": false
+      },
+      "coverage": {
+        "state": "partial",
+        "issues": [
+          {
+            "code": "invalid-row",
+            "scope": "metadata.Module",
+            "offset": 42609916,
+            "detail": "Module table must contain exactly one row; found 2"
+          },
+          {
+            "code": "invalid-row",
+            "scope": "metadata.Assembly",
+            "offset": 42627098,
+            "detail": "Assembly table can contain at most one row; found 2"
+          }
+        ]
+      }
+    },
+    "native_decompile": {
+      "evidence_id": "ev_17bd2a275655b670eb9e4c824554fcde18386583898e86e48b8a97d8a1c4fd22",
+      "input_sha256": "8edb726f45c6b6542846f086044a25cf639e00c6e15372d07016c19f71f6f63d",
+      "provider": {
+        "id": "ghidra",
+        "name": "Ghidra",
+        "version": "12.1.4"
+      },
+      "procedure": "0x140002b10",
+      "observed_strings": [
+        "Status.plist",
+        "SnapshotState",
+        "finished"
+      ],
+      "input_unchanged_after_analysis": true
+    },
+    "symbolic_probe": {
+      "input_sha256": "ac5aa19fab4c49b84c27a572398cacff45baccd61818d7a28ddeec6cf6d1a1f2",
+      "triton_library": "1.0.0rc4",
+      "z3_solver": "5.4.1.0",
+      "instructions": [
+        {
+          "address": "0x140004751",
+          "bytes": "4183fc07",
+          "disassembly": "cmp r12d, 7"
+        },
+        {
+          "address": "0x140004755",
+          "bytes": "0f8702060000",
+          "disassembly": "ja 0x140004d5d"
+        }
+      ],
+      "assertions_passed": true
+    },
+    "setup_script_existing_installation": {
+      "exit_code": 0,
+      "downloads_repeated": false
+    }
+  },
+  "limitations": [
+    "Native sample is the previously measured analysis-only PE; it is not the packed executable.",
+    "Managed metadata coverage remains partial.",
+    "This run did not execute Windows targets, access USB, contact the vendor API, decrypt the backup, or test MDM removal.",
+    "VMProtect recovery and missing backup key material remain unresolved."
+  ]
+}

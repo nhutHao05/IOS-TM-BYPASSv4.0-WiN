@@ -21,3 +21,5 @@ Quyền tác giả đối với mã của các bên thứ ba vẫn thuộc chủ
 ## Công cụ phân tích
 
 ILSpy, Ghidra, NoVmp, Wine, Unicorn, Capstone và các gói Python là các dự án riêng. Repository ghi phiên bản/hash trong `toolchain.json`; không phân phối lại các bộ công cụ hoặc executable đã tải về.
+
+`tooling/rea/setup_re.py` tải các bộ công cụ từ nhà phát hành; repo chỉ lưu script và kết quả kiểm tra. REA thuộc dự án [morluto/rea](https://github.com/morluto/rea) (MIT); Ghidra thuộc [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) (Apache-2.0); Temurin thuộc [Eclipse Adoptium](https://github.com/adoptium/temurin21-binaries) (GPLv2 với Classpath Exception); Triton thuộc [JonathanSalwan/Triton](https://github.com/JonathanSalwan/Triton) (Apache-2.0); Z3 thuộc [Z3Prover/z3](https://github.com/Z3Prover/z3) (MIT). Các thành phần đi kèm có thể có giấy phép riêng; xem giấy phép trong bản cài của từng nhà phát hành.

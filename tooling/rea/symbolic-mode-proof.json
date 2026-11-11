@@ -1,0 +1,28 @@
+{
+  "snapshot_sha256": "ac5aa19fab4c49b84c27a572398cacff45baccd61818d7a28ddeec6cf6d1a1f2",
+  "image_base": "0x140000000",
+  "instructions": [
+    {
+      "address": "0x140004751",
+      "bytes": "4183fc07",
+      "disassembly": "cmp r12d, 7"
+    },
+    {
+      "address": "0x140004755",
+      "bytes": "0f8702060000",
+      "disassembly": "ja 0x140004d5d"
+    }
+  ],
+  "concrete_mode": 1,
+  "concrete_next_address": "0x14000475b",
+  "alternate_branch_address": "0x140004d5d",
+  "alternate_mode_model": 2147483655,
+  "z3_version": "5.4.1",
+  "mode_1_cannot_take_unsigned_above_branch": true,
+  "alternate_model_can_take_unsigned_above_branch": true,
+  "scope": "Two original x86-64 instructions, emulated by Triton; branch checked by Z3.",
+  "limitations": [
+    "No Windows process, USB connection, restore, or device was executed.",
+    "This validates analysis tooling, not MDM removal or VMProtect recovery."
+  ]
+}

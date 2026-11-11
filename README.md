@@ -13,6 +13,7 @@ Repository lưu kết quả dịch ngược TM-BYPASS v4.0 Windows: C# phục h�
 | `tm_bypass_research/recovery/dll_probes/` | Bộ thử 52 ca trên năm API MobileBackup2 |
 | `tm_bypass_research/recovery/file_sender/` | Bằng chứng truyền file và báo cáo phương pháp Restore |
 | `mdm-re-lab/` | Bản mẫu Python để inspect thiết bị/backup, thu bằng chứng và thử giao thức |
+| `tooling/rea/` | Bộ cài REA 6.8.0, Ghidra 12.1.4, JDK 21, Triton/Z3 và bằng chứng chạy trên mẫu |
 
 ## Phương pháp đã quan sát
 
@@ -46,6 +47,8 @@ Các con số, hash và giới hạn được giữ trong các file `verificatio
 - Backup nhúng chưa giải mã được vì thiếu `Manifest.plist` tương ứng có dữ liệu khóa cần thiết. Backend không nằm trong gói client.
 
 ## Chạy các script
+
+Để cài bộ REA và provider native, xem [hướng dẫn và kết quả kiểm tra REA](tooling/rea/README.md). Bộ cài giữ cấu hình trong thư mục được chọn và dùng CLI trực tiếp.
 
 Các script RE chủ yếu dùng Python 3.11/3.12. Tạo môi trường riêng:
 
