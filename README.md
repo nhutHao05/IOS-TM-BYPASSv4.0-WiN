@@ -24,6 +24,7 @@ Thông báo “IKEY MDM Successful” dựa vào kết quả Restore, chưa có 
 Đọc báo cáo:
 
 - [Phương pháp và luồng Restore](tm_bypass_research/recovery/file_sender/method-research.md)
+- [Lần ngược nguồn manifest và dữ liệu khóa](tm_bypass_research/recovery/manifest-material-findings.md)
 - [Tổng quan quá trình RE](tm_bypass_research/recovery/README_RE.md)
 - [Kiểm tra DLL và giới hạn phép thử](tm_bypass_research/recovery/dll_probes/README.md)
 - [Trạng thái nghiên cứu](tm_bypass_research/recovery/research-status.json)

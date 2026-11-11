@@ -7,7 +7,7 @@
   "full_dll_vm_source_recovered": false,
   "backup_plaintext_recovered": false,
   "critical_remaining_question": "Exact plaintext values in the embedded encrypted backup and their effect on the managed device.",
-  "critical_missing_material": "Matching vendor-supplied Manifest.plist with BackupKeyBag and ManifestKey; backend source is absent from the client package.",
+  "critical_missing_material": "Matching backup keybag and wrapped ManifestKey have not been recovered; a valid Manifest.plist is one possible carrier.",
   "device_mdm_removal_verified": false,
   "evidence": [
     "verification.json",
@@ -28,5 +28,18 @@
     "observed_transfer_changes_payload_bytes": false,
     "scope": "Original helper slices/routines with external APIs mocked, no real device.",
     "report": "file_sender/method-research.md"
+  },
+  "manifest_material_followup": {
+    "unique_blobs_scanned": 532,
+    "unique_bytes_scanned": 474806690,
+    "recognized_manifest_candidates": 0,
+    "recognized_keybag_candidates": 0,
+    "traversal_omissions": 0,
+    "negative_search_is_bounded": true,
+    "report": "manifest-material-findings.md",
+    "audit": "manifest-material-audit.json",
+    "control": "manifest-material-control.json",
+    "auxiliary_reader_trace": "irestores-static-trace.json",
+    "rea_go_evidence": "irestores-go-evidence.json"
   }
 }

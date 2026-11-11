@@ -1,0 +1,3613 @@
+{
+  "scope": "Supplied Windows ZIP, decrypted managed resources/constants and two unpacked native snapshots",
+  "network_requests": 0,
+  "target_processes_executed": 0,
+  "unique_blobs": 532,
+  "unique_bytes_scanned": 474806690,
+  "records": [
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip",
+      "bytes": 79412658,
+      "sha256": "69d417290fb1d6d759da26bded7e931158372e949f1e04ca685dc64f4d5f1b30"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/desktop.ini",
+      "bytes": 46,
+      "sha256": "27991cd3e2892702f610fd5262898f1c3dfa37e2a05082fd793bce61e99e2d98"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/ICSharpCode.SharpZipLib.dll",
+      "bytes": 204800,
+      "sha256": "c287e9b07a8251828f35914364c89a37db606b0c1d64457f9eb8fa2258f0dee3"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/iMobileDevice-net.dll",
+      "bytes": 180736,
+      "sha256": "5ffd20aafa68444d75cbab95d660c74683a59fc89e46cd8341b75acfb5369ede"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/LibUsbDotNet.LibUsbDotNet.dll",
+      "bytes": 156672,
+      "sha256": "b6de87ff6fdde6d0a245ef37fe81fac49523c35115c61bc002e4935d99875508"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/Newtonsoft.Json.dll",
+      "bytes": 700336,
+      "sha256": "7f912b28a07c226e0be3acfb2f57f050538aba0100fa1f0bf2c39f1a1f1da814"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/plist-cil.dll",
+      "bytes": 54784,
+      "sha256": "fd960910cfb39f38e135e37032305d4f1d0ddfef50a0943b636417375b6ee93e"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/Renci.SshNet.dll",
+      "bytes": 804352,
+      "sha256": "6368012435173295fab3bc2ce1e68b97bed0f01452be93b0b1499fdb60730441"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/RestSharp.dll",
+      "bytes": 168960,
+      "sha256": "0a74d75dfbf2193390969008ec0f6eceb29c8b20363e05192c959b0fac12f231"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/Siticone.UI.dll",
+      "bytes": 1719976,
+      "sha256": "c435f969a0150ec46e8f2414615e7cb1670322650fb632443ac9f0a146a98c14"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/TM-BYPASS.exe",
+      "bytes": 42609664,
+      "sha256": "ba45061d4df61c6a65a9a937fb3e13fb0b0fa4194f2a4bb6784d9c96fc68273e"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/TM-BYPASS.exe.config",
+      "bytes": 978,
+      "sha256": "21c481bd471895a0e558c7b8a6a431a09ff973ffb1235a0cc1fdb209dc4ad5e7"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/busybox.exe",
+      "bytes": 642560,
+      "sha256": "23d1bf00d07cf090abf1360eea2233195aeb5a99fcd35bf3ad1e833c76c00c6b"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/bz2.dll",
+      "bytes": 75264,
+      "sha256": "65ea387636c06133b02e3f6b9c776feb2da851c89d6796cfa172c79bc43df319"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/cecho.exe",
+      "bytes": 60979,
+      "sha256": "34554d57ff1650081f32a1e67846af4f2f5a780f98e19645cbc0f16d000b0c15"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/curl-ca-bundle.crt",
+      "bytes": 208065,
+      "sha256": "ae31ecb3c6e9ff3154cb7a55f017090448f88482f0e94ac927c0c67a1f33b9cf"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/curl.exe",
+      "bytes": 4463688,
+      "sha256": "d06a9224f2ea3eb13ae17d126be3d6248099a2c5a88c2ab141db2e54027673cd"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/getopt.dll",
+      "bytes": 19968,
+      "sha256": "77191bf2e4640204fcc363896220b2ef81bff27d15ddcce39c54b65392382fce"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/ideviceactivation.dll",
+      "bytes": 27648,
+      "sha256": "a09b7bda0ff151ee07c70aff3e982ec584bd548dfdedf03032425015736f19ae"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/ideviceactivation.exe",
+      "bytes": 20480,
+      "sha256": "7f2b6a2302f6ec1397f1db78ebddf3767b56c78096bb9971b4b5e896bf7a210a"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/ideviceactivation_backup.exe",
+      "bytes": 20480,
+      "sha256": "7f2b6a2302f6ec1397f1db78ebddf3767b56c78096bb9971b4b5e896bf7a210a",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/ideviceactivation.exe"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/idevicebackup.exe",
+      "bytes": 36864,
+      "sha256": "7957aa09b6f457f557ddcb569e54621d144f1487260036893d7ddbb8a9bcb849"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/idevicebackup2.exe",
+      "bytes": 731310,
+      "sha256": "a06126f325146a836b92ac988809e99506c6f6ffe42ca0fda353864b968677e4"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/idevicecrashreport.exe",
+      "bytes": 19968,
+      "sha256": "b573082e56f16affe6775647b21f2c431fc34b42090ac52aa43b792100d8575e"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/idevicedate.exe",
+      "bytes": 14336,
+      "sha256": "19c242efe2b750a6e97ee2f604381f649b5a520c1f2fdecbf2f4d4b06d91d514"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/idevicedebug.exe",
+      "bytes": 19456,
+      "sha256": "7843d25703da85bd6e0caedb7fbfdaefb1f606ee9584be5299a1e9049be4e39f"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/idevicedebugserverproxy.exe",
+      "bytes": 18432,
+      "sha256": "097c099b395e99663fb44d0bd4387ecb1200d7edd5fdf59164ef857e6534f0a7"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/idevicediagnostics.exe",
+      "bytes": 16384,
+      "sha256": "4860c8125eb14cb1ab1dee2a3701bc6a13ada2757b7bd1aa947a858f59cd9f38"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/ideviceenterrecovery.exe",
+      "bytes": 11776,
+      "sha256": "f6ec3e29acaf92be9179ee809b9f3e9d43f83534eca69ab561b80d1ca54a2cf0"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/ideviceimagemounter.exe",
+      "bytes": 22016,
+      "sha256": "149a2bb5c3e808b003eaf3e1d3d1ad427ea02ac1bfea6bbb9ad017fd9d95b169"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/ideviceinfo.exe",
+      "bytes": 19456,
+      "sha256": "9276a1b215d417f15e44b63b369000b67131894c1d5e5927bf386087f2fd3729"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/ideviceinstaller.exe",
+      "bytes": 34816,
+      "sha256": "b3fa0b294bb5782a7a73a04cd2bbccbb0ec90ff1607020d272b0aafc123e06a4"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/idevicename.exe",
+      "bytes": 13312,
+      "sha256": "56c4bd1bf6d8fbe797f9cbcad947c1e497c929a4b765661528b82004e8b66c08"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/idevicenotificationproxy.exe",
+      "bytes": 14336,
+      "sha256": "00cb5cc01af509a35bbfe66da21c556125edb52120bf6ed4339a7b547986f22f"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/idevicepair.exe",
+      "bytes": 19968,
+      "sha256": "1f9dadd5c69f825fb7b381756b5bed37694fccc023fc11f001ef446d9c79fb4e"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/ideviceprovision.exe",
+      "bytes": 25600,
+      "sha256": "d83146cf36a8941811c61e19a9740e01a7aa12adca77cd566106e7402d770c7f"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/idevicerestore.exe",
+      "bytes": 191488,
+      "sha256": "95c51a5770985b30c71a7b089c1de79ea112fc7a3a8be6e660fec4205c03c29e"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/idevicescreenshot.exe",
+      "bytes": 14336,
+      "sha256": "b6632165bb04712d61348e0136db8caff27992bcc132c6b955741f6de53c532c"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/idevicesyslog.exe",
+      "bytes": 14848,
+      "sha256": "319bc44095f2d22193f1e8a8accc39d299745eaab2e2884a0519078895dac15c"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/idevice_id.exe",
+      "bytes": 13312,
+      "sha256": "8c78cd8c26831a340c12935865fabb8da958e3aca6e8663a62eaa3b0e19cb8ad"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/imobiledevice-net-lighthouse.dll",
+      "bytes": 10752,
+      "sha256": "4a9bce0575c2fc46cf12dc01e3e1eb0cb27dd09e7785b5fdb7572f368c964e83"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/imobiledevice.dll",
+      "bytes": 184320,
+      "sha256": "9dc5ae93b0d24b9a3bbed0413c95a1309da62622f97f0b1ba59854f535252639"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/info.exe",
+      "bytes": 19456,
+      "sha256": "9276a1b215d417f15e44b63b369000b67131894c1d5e5927bf386087f2fd3729",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/ideviceinfo.exe"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/ios_webkit_debug_proxy.exe",
+      "bytes": 95744,
+      "sha256": "8123abb55825d492085b32c1b10fdf6aaf51545d1fa6e3011971ddd4e6d071bc"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/iproxy.exe",
+      "bytes": 16896,
+      "sha256": "6d1ccb344cc053bfcd478d2d8d65b3b1628a216aba20543d0fe17a6fa6788ec3"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/irecovery.dll",
+      "bytes": 45568,
+      "sha256": "a251fea15f838cc23e3a55e0a0cae55d6ed60825d030ee5d8f2fdc481f08ee06"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/irecovery.exe",
+      "bytes": 19456,
+      "sha256": "2bd7f443c9d48e62f7bd1c65b4ce507a92f5a0ce502dee6da28616a58b4b97be"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/irestores.exe",
+      "bytes": 13225547,
+      "sha256": "9eefa8dcb46223dd673791249f01954bf6e0976afba12e1d49d82e6c07b76b0d"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/libbrotlicommon.dll",
+      "bytes": 141824,
+      "sha256": "bafdf63376c2d62c6151f17b1e36819611320c5f10d5871e13a1fa6a36b02b64"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/libbrotlidec.dll",
+      "bytes": 61440,
+      "sha256": "471183c3a896cecce9fb5a8b3643b7a13e8dd64e8bb4913634a3c09ff4ca6a43"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/libbz2-1.dll",
+      "bytes": 74771,
+      "sha256": "c4cd3e2d2a463ebae73528c17528735e48a7a273190526c855115797836a2b25"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/libcharset-1.dll",
+      "bytes": 42682,
+      "sha256": "044bf1521e4336906081edfc31b93e003d7e3ff17ef4938d491e995af68e6413"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/libcharset.dll",
+      "bytes": 10752,
+      "sha256": "3e10c00e551143325d0116c25ca72d66b85e985a376b437a92984bc3fcc6710e"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/libcrypto-1_1-x64.dll",
+      "bytes": 2748928,
+      "sha256": "f12dc8a5c9f4445ca554f161959136065e1c6460290fa6b6ca41932cd8815c3e"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/libcrypto-1_1.dll",
+      "bytes": 2895402,
+      "sha256": "b73f0c5ecb152775fb4a9291ed3f49ec5f54962bf4ea1f5eb23c5ef976ac106a"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/libcurl-4.dll",
+      "bytes": 641318,
+      "sha256": "490a4e241048a7685d018d0384557efacca9dc5d841e8b1e434d6658f69b716f"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/libcurl.def",
+      "bytes": 2152,
+      "sha256": "acd2e54c9cbbfa5b1c82cdfba7702bb7b390e7df19a71308b4763f31df1b45bd"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/libcurl.dll",
+      "bytes": 310784,
+      "sha256": "80dc8ece4f560791207f4d0929594b08e12c5d97eb00956522751c7fc1bbd187"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/LIBEAY32.dll",
+      "bytes": 2293248,
+      "sha256": "a432730979c2639f161cc24d7f7b842fb0d3707918a306c8c87518448c47124a"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/libiconv-2.dll",
+      "bytes": 1055522,
+      "sha256": "1a821165c375b54969014f5bd9f8323792fa7ab436e8a3b1f7bfc7cd547ef475"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/libiconv.dll",
+      "bytes": 936448,
+      "sha256": "33dc712ba87f77e657a5046f9b50475937fa1b9b732c2121bb100bf88a5ddca6"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/libideviceactivation-1.0.dll",
+      "bytes": 357633,
+      "sha256": "e964f7395809fa883b48458c0625759d8e476a0b46d829d327e9bc92292b0db8"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/libideviceactivation.dll",
+      "bytes": 317152,
+      "sha256": "644d2ab4824308ea7e14664220da7866bd113a06a92fde627263946e64f5b2bb"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/libidn2-0.dll",
+      "bytes": 161792,
+      "sha256": "3e859c977f34341733557020d1f164d8cfe1eece2af4b1fa7d70a5bd77ba51fe"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/libimobiledevice-1.0.dll",
+      "bytes": 1330689,
+      "sha256": "35df9502f2a1c614f4c1b5a037c6c7443c9d0b2500d0537d983502144db037ef"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/libimobiledevice.dll",
+      "bytes": 1133912,
+      "sha256": "89749b76bb91d1f8a1a556854c4bf7432fa083059ab670f99d78d251402af0e0"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/libintl-8.dll",
+      "bytes": 133659,
+      "sha256": "fb57242379a1c68f7d52e2026f572b8043c704981587e629967ae4b96db1e9e0"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/liblzma-5.dll",
+      "bytes": 155136,
+      "sha256": "2732cad5c87c6d4706f8f49117c9c1b2a98b6c908a2bb20d5aeddc1a59c65a7d"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/libmpdec-2.dll",
+      "bytes": 195765,
+      "sha256": "b2d083c1eadfcfbc0a9dacd88476601fb3a72fc63906e8ce5e9ac388941f9b18"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/libnghttp2-14.dll",
+      "bytes": 175190,
+      "sha256": "3420f9096790033dd3d715d0747d2f206dec605e334c25a774fffb8597a610f7"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/libplist-2.0.dll",
+      "bytes": 827189,
+      "sha256": "53489e9d0d5f68aae388602c22e655b4c87745455a9a7b1799e5d678c26d8200"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/libplist.dll",
+      "bytes": 466580,
+      "sha256": "d27b1be2466adac4411d43c7db724b013c6828f1385a7fc8f820e42a0d0e22ae"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/libpsl-5.dll",
+      "bytes": 97280,
+      "sha256": "bbd06969bd65d80ab986f9e8abbcbeda1694fc467bb5d5a89f2192f76890684f"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/libquadmath-0.dll",
+      "bytes": 381742,
+      "sha256": "cf2a069c772808b8b1bfa6cd56f93a1023f775d39fdcb7adbd8cd53858d6bb64"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/libsqlite3-0.dll",
+      "bytes": 1623001,
+      "sha256": "eb9a3ca3cb42154900e242e81593b411bb870fb0a9af4330184ea3e64cc228d8"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/libssh2-1.dll",
+      "bytes": 264418,
+      "sha256": "1152f2f42a0d1104dc4d1b095fea2c2f371dcd87515229bd899141a3977b999f"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/libssl-1_1-x64.dll",
+      "bytes": 540672,
+      "sha256": "faeb492ae7efebe3e3274d45912e3841f30e51787cc4965973a27e1c45dc3d5d"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/libssl-1_1.dll",
+      "bytes": 605045,
+      "sha256": "61ee3a532b14d9096202d562408e6028b80ea88c2c2fa94d52670ce1b17d78d0"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/libstdc++-6.dll",
+      "bytes": 1752711,
+      "sha256": "82c2949a963e1f6588a63785422b09c8ddae9741c06b2d308d353f645735bbb8"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/libtasn1-6.dll",
+      "bytes": 101888,
+      "sha256": "be6fc194d5b71be3b3a3213780126548cfa4b6dc6678864cba59c476ee55721d"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/libtre-5.dll",
+      "bytes": 92313,
+      "sha256": "ced3ed477102444ca5ea7835cbc096f949aff11f7588dc1f528446691f942b7b"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/libunistring-2.dll",
+      "bytes": 1764972,
+      "sha256": "dcd2101fed4223b32e1ad71cbbbb6ffbe254043150387ee8c6e16fe4c84ed1f4"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/libusb-1.0.dll",
+      "bytes": 168960,
+      "sha256": "00d96eb17b1e23f618e3becd4e04cd1ee2b0db3823327361db13df13d9b4bd80"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/libusb0.dll",
+      "bytes": 86016,
+      "sha256": "49d1a11cc48c970f804ebd88cc0898a705d66bf7122249978597ee4ca1901c8c"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/libusbmuxd-2.0.dll",
+      "bytes": 432063,
+      "sha256": "258a21a0e062069db915a546b9d512cb530b4fea29bcdb26df2b3c3c1d306ed9"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/libusbmuxd.dll",
+      "bytes": 442307,
+      "sha256": "8caf845713b9bdd71ce6f12b678d25eb627c292d5a557301f83f5e7252615b08"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/libwinpthread-1.dll",
+      "bytes": 55296,
+      "sha256": "cfb7b90a8eda72c55ea5554ff2064d0ed04e015402cff372d4dfd8d5a56b983d"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/libxml2-2.dll",
+      "bytes": 1359534,
+      "sha256": "e32a15ebb1e50b13bec17458073b07401dc145bee02f05c61b947795ce0e44da"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/libxml2.dll",
+      "bytes": 1463808,
+      "sha256": "dee7e5fa1da8a63e0b38f42aab5d069e687cd6ce02b7f3a1d5016bb12308a1df"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/libzstd.dll",
+      "bytes": 737792,
+      "sha256": "248494f8e1158a8d9aede53dd8a1798c3acd2aebbe8cafb80db29cbaec5fe542"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/lzma.dll",
+      "bytes": 152576,
+      "sha256": "48ba1d7fb95e91046fad294456da68e42832506eb85f960c6df85e95aa7be937"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/msys-2.0.dll",
+      "bytes": 3562362,
+      "sha256": "dc2d5b2d59a18cd4e749d2cd709e4ada3751ef59d188a8bbab1bbd7562f2d609"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/msys-core.dll",
+      "bytes": 108,
+      "sha256": "5eeebfcb7202e9942914b7e0623b4d5fd2c00fbd772265df4901df2226a60db1"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/msys-crypto-1.1.dll",
+      "bytes": 2511106,
+      "sha256": "54ad68309936cd1f5b760828a6bff6f4b9b364ea7fd73193c840dc33b1c78bf7"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/msys-gcc_s-seh-1.dll",
+      "bytes": 72966,
+      "sha256": "36def86f07e02f16dd65f14d8e6ba506d269f6153e3510ffdbd9896727c60978"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/msys-gmp-10.dll",
+      "bytes": 581162,
+      "sha256": "a58454c86be535415df65ff3a6d56b68d68c17848087c6559aa71e6d698b3209"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/msys-iconv-2.dll",
+      "bytes": 1023499,
+      "sha256": "7f1115edffe53e5f02bb12e6cb63c46a6e3613490a05333556ac4f78a152d921"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/msys-intl-8.dll",
+      "bytes": 43904,
+      "sha256": "5c22f7bb94590f3cf04d3b734668374409a6504ee91ff8dc34caf62aa7e8a085"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/msys-mpfr-6.dll",
+      "bytes": 2717824,
+      "sha256": "ae6e12ef4711e69386d3fb1b3f60c0e04094a36b8336206e9ffc0628c5f07c82"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/msys-ncursesw6.dll",
+      "bytes": 310530,
+      "sha256": "4aa2127d9670d880517831ac1a8edd830af21dcd0114ced09bfe6eb722e12803"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/msys-pcre-1.dll",
+      "bytes": 286198,
+      "sha256": "62103bbcf2ed50fe3b9bc47fd27d6c6040c922e7bd5582e506ca037df10770ec"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/msys-readline8.dll",
+      "bytes": 263878,
+      "sha256": "87ee2524dd5da298136b4cb39dec976bda4d26542422619570459ec75f8531e8"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/msys-ssl-1.1.dll",
+      "bytes": 536669,
+      "sha256": "a852a56a8fb4453c6f5dc2aee5ac7e364a65dd275aca4e877cee3783c49e3034"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/msys-z.dll",
+      "bytes": 85068,
+      "sha256": "6d6d4c757c8ef7105306c658f720cc3cd04d6128e8e36a22b36f04399de39c3f"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/null",
+      "bytes": 44,
+      "sha256": "83cee69214da2175b5033379ed8853ff7990d883aa32a0acf6b28bef6f404b66"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/openssl.exe",
+      "bytes": 669361,
+      "sha256": "9b5fac3e803f2231bb6f03e3d526e5b45cb86ab9c6f01d985a1322236871f5e9"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/pcre.dll",
+      "bytes": 393728,
+      "sha256": "faa2ad98d12d6589307ba5ea665602ca3146c846e4c85a97b89d2c608cc5389e"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/pcreposix.dll",
+      "bytes": 12800,
+      "sha256": "9db5051c3062fd745f1441f35bb92f71edd12bf6369bd21933a862a65bcef9ab"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/plist.dll",
+      "bytes": 61952,
+      "sha256": "31ff5be32be5a77bfb2ba4a76c2c0b1bda58f16bb87d637406af2be2afcb02f7"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/plistutil.exe",
+      "bytes": 12800,
+      "sha256": "18ad11baad64b672e5b9eb13884f30d7ba2632c9e622dfe5920a4dc8efe8d22d"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/plist_cmp.exe",
+      "bytes": 12288,
+      "sha256": "fe654a43f664282f8dbc2c73f14d2acfc0c678f0e59bcc2849242f7b526ca7e0"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/plist_test.exe",
+      "bytes": 11776,
+      "sha256": "ff899c8dad4036915f0208163042d4828c66e94dc82787fa634e2feb8c29bdc8"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/pthreadVC3.dll",
+      "bytes": 102912,
+      "sha256": "431832c1df7fda5e8d9888c2256f29b65a8d7cce4302d35bc29ff17ce9008fff"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/readline.dll",
+      "bytes": 173056,
+      "sha256": "f30b99ec0cc2288464a8dccf25d46dcb9c561593dffa72c2a881899271e82389"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/SSLEAY32.dll",
+      "bytes": 363520,
+      "sha256": "7fd08740ea04d6a30468547026715caaa9300786b1b090660cdb0fd044c9714d"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/usbmuxd.dll",
+      "bytes": 40448,
+      "sha256": "2e7e832bbf96540e15e44f68228a94e26c1902fbd9467f70aa8702563fff2566"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/usbmuxd.exe",
+      "bytes": 69120,
+      "sha256": "89e6a5510abda0a5cc97af0a63e47c3e9e83db74eb05928adb60679571fd1569"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/12",
+      "bytes": 106096,
+      "sha256": "020f88e5bd33816dcdd234b2005f1106bf6df8ae4a93f8124c0832090be44d02"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/34",
+      "bytes": 85,
+      "sha256": "65366a3e17b53aef3225bd31e32912829a6be2f3f9e3b3a191423445930c8ebf"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/56",
+      "bytes": 106288,
+      "sha256": "e42b4e9401aa0744362102878495ead3a3b18fd757dd39862237cc042100f845"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/78",
+      "bytes": 83,
+      "sha256": "b28c08b77964fd93e53c82f334ac50eb833146ad6380a2a5ca93d9a59ea45bfd"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A",
+      "bytes": 4286843,
+      "sha256": "d047f8c1c20a0c1778e1ef054b909db0bb5e680ce55917162f7e314102549782"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!._Library",
+      "bytes": 210,
+      "sha256": "ebe716c9084e430cf2b1691e7c2d17e6f0879c6b6998bfe82aa69715e91a3127"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/._MobileSubstrate",
+      "bytes": 210,
+      "sha256": "ebe716c9084e430cf2b1691e7c2d17e6f0879c6b6998bfe82aa69715e91a3127",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!._Library"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/._.DS_Store",
+      "bytes": 120,
+      "sha256": "2f380f4a3d05a8d90c2106f50da75064e9ce57a598599dc5404f8f69a0223aa9"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/.DS_Store",
+      "bytes": 6148,
+      "sha256": "16b4ee73f41add30613400027b043f4d35ee4cf3ef9620a66075f6f60f5cfe22"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/._Frameworks",
+      "bytes": 210,
+      "sha256": "ebe716c9084e430cf2b1691e7c2d17e6f0879c6b6998bfe82aa69715e91a3127",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!._Library"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/Frameworks/CydiaSubstrate.framework/._Info.plist",
+      "bytes": 211,
+      "sha256": "29fcd53494579c48e48c5276798f7b2f17566f35c6b2054e28f6614225bbec66"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/Frameworks/CydiaSubstrate.framework/Info.plist",
+      "bytes": 351,
+      "sha256": "e873ffd1fa976e6fd58eb2ef0294cecedfcd098deff3deca6a6a4d6d56af11dc"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/MobileSubstrate/._.DS_Store",
+      "bytes": 120,
+      "sha256": "2f380f4a3d05a8d90c2106f50da75064e9ce57a598599dc5404f8f69a0223aa9",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/._.DS_Store"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/MobileSubstrate/.DS_Store",
+      "bytes": 6148,
+      "sha256": "3177ad8828ce794b0d236536955fceac743e388f98b2f5132c0e8601453edc2b"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/MobileSubstrate/DynamicLibraries/._OTABlocker.dylib",
+      "bytes": 211,
+      "sha256": "29fcd53494579c48e48c5276798f7b2f17566f35c6b2054e28f6614225bbec66",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/Frameworks/CydiaSubstrate.framework/._Info.plist"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/MobileSubstrate/DynamicLibraries/OTABlocker.dylib",
+      "bytes": 209040,
+      "sha256": "c801eb6b035823177e9acf7aca5498053fa8e07c6eab080d91ecaed44b56c3f6"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/MobileSubstrate/DynamicLibraries/._OTABlocker.plist",
+      "bytes": 211,
+      "sha256": "29fcd53494579c48e48c5276798f7b2f17566f35c6b2054e28f6614225bbec66",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/Frameworks/CydiaSubstrate.framework/._Info.plist"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/MobileSubstrate/DynamicLibraries/OTABlocker.plist",
+      "bytes": 102,
+      "sha256": "c5b2cd7f567d94ed4bc49113bcbbd6bbd9e88f85c9e64c6cda55847758421971"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!._bin",
+      "bytes": 210,
+      "sha256": "ebe716c9084e430cf2b1691e7c2d17e6f0879c6b6998bfe82aa69715e91a3127",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!._Library"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!bin/._.DS_Store",
+      "bytes": 211,
+      "sha256": "9e0a5ec4445439b969436e0c5792b54f1e02a2ea3629d69edd5724fc782da040"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!bin/.DS_Store",
+      "bytes": 6148,
+      "sha256": "d65165279105ca6773180500688df4bdc69a2c7b771752f0a46ef120b7fd8ec3"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!bin/._sed",
+      "bytes": 211,
+      "sha256": "29fcd53494579c48e48c5276798f7b2f17566f35c6b2054e28f6614225bbec66",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/Frameworks/CydiaSubstrate.framework/._Info.plist"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!bin/sed",
+      "bytes": 219216,
+      "sha256": "d5f9f3ac0b94d489aaaf42094ab434110ed1ebeeb02c64a04e77683d60855ff6"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!bin/._bash",
+      "bytes": 267,
+      "sha256": "6ee497a4b6149957deaeb6c0685d34f40a77b075088cd3d44cbad81ee6725ec1"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!bin/bash",
+      "bytes": 865712,
+      "sha256": "72daa1bf8bb4f36ee9afe5566d8a0ba233e9e714b0242acf3e26852667a47d12"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!bin/._sh",
+      "bytes": 211,
+      "sha256": "29fcd53494579c48e48c5276798f7b2f17566f35c6b2054e28f6614225bbec66",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/Frameworks/CydiaSubstrate.framework/._Info.plist"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!._usr",
+      "bytes": 210,
+      "sha256": "ebe716c9084e430cf2b1691e7c2d17e6f0879c6b6998bfe82aa69715e91a3127",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!._Library"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/._.DS_Store",
+      "bytes": 211,
+      "sha256": "9e0a5ec4445439b969436e0c5792b54f1e02a2ea3629d69edd5724fc782da040",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!bin/._.DS_Store"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/.DS_Store",
+      "bytes": 8196,
+      "sha256": "6c7d437aaa4f9f738ad1f36c35304b8922d8e5426280ea1eb17ea5b54552530c"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/._lib",
+      "bytes": 210,
+      "sha256": "ebe716c9084e430cf2b1691e7c2d17e6f0879c6b6998bfe82aa69715e91a3127",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!._Library"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/._libhistory.5.dylib",
+      "bytes": 211,
+      "sha256": "29fcd53494579c48e48c5276798f7b2f17566f35c6b2054e28f6614225bbec66",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/Frameworks/CydiaSubstrate.framework/._Info.plist"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/._libncurses.6.dylib",
+      "bytes": 211,
+      "sha256": "29fcd53494579c48e48c5276798f7b2f17566f35c6b2054e28f6614225bbec66",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/Frameworks/CydiaSubstrate.framework/._Info.plist"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/libncurses.6.dylib",
+      "bytes": 344176,
+      "sha256": "2d1061dac632a07484a11512f97e1ebf5f09e69a161481e5f23c799de275900f"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/._libreadline.8.0.dylib",
+      "bytes": 211,
+      "sha256": "29fcd53494579c48e48c5276798f7b2f17566f35c6b2054e28f6614225bbec66",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/Frameworks/CydiaSubstrate.framework/._Info.plist"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/libreadline.8.0.dylib",
+      "bytes": 337712,
+      "sha256": "8cf7c67ff0b1d0434ed1001f96e117c5a4e87e46124c5f08e0373849b910f38c"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/._libhistory.7.dylib",
+      "bytes": 211,
+      "sha256": "29fcd53494579c48e48c5276798f7b2f17566f35c6b2054e28f6614225bbec66",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/Frameworks/CydiaSubstrate.framework/._Info.plist"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/._.DS_Store",
+      "bytes": 211,
+      "sha256": "9e0a5ec4445439b969436e0c5792b54f1e02a2ea3629d69edd5724fc782da040",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!bin/._.DS_Store"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/.DS_Store",
+      "bytes": 10244,
+      "sha256": "ce9d80245042fb9247b8b3b1bf6f426d2cea383b56c00052b08128616f3731eb"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/._libhistory.5.2.dylib",
+      "bytes": 211,
+      "sha256": "29fcd53494579c48e48c5276798f7b2f17566f35c6b2054e28f6614225bbec66",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/Frameworks/CydiaSubstrate.framework/._Info.plist"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/._libcycript.dylib",
+      "bytes": 211,
+      "sha256": "29fcd53494579c48e48c5276798f7b2f17566f35c6b2054e28f6614225bbec66",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/Frameworks/CydiaSubstrate.framework/._Info.plist"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/libcycript.dylib",
+      "bytes": 2592384,
+      "sha256": "de4a1c1962c467e7cc229f05ccd4d3448cfc5fd9740415067b80549982cefd70"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/._libcycript.jar",
+      "bytes": 211,
+      "sha256": "29fcd53494579c48e48c5276798f7b2f17566f35c6b2054e28f6614225bbec66",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/Frameworks/CydiaSubstrate.framework/._Info.plist"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/libcycript.jar",
+      "bytes": 4146,
+      "sha256": "23c58a78b21b08416677500c806ad40f4ba32256a634831ff0af2a330924303c"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/libcycript.jar!META-INF/MANIFEST.MF",
+      "bytes": 68,
+      "sha256": "b36a383cc08842f0afff62af9d3d5937f6f203ee3e3ee28b6ef6e8cd4d0d1f65"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/libcycript.jar!Cycript$Wrapper.class",
+      "bytes": 1857,
+      "sha256": "0e30fcab1535acb13fa2cde88870fdffb809e34037f2e5293128186bc3c7628e"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/libcycript.jar!Cycript.class",
+      "bytes": 1767,
+      "sha256": "f3952b8362bb908750612e0ba82b07230783c3a0b76cc50948adb5fbf869c060"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/libcycript.jar!classes.dex",
+      "bytes": 3120,
+      "sha256": "2aed13bd3947493da83dcef5429ca784b5de40756d88e0559bd6e54c2b95d42a"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/._libncurses6.dylib",
+      "bytes": 211,
+      "sha256": "29fcd53494579c48e48c5276798f7b2f17566f35c6b2054e28f6614225bbec66",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/Frameworks/CydiaSubstrate.framework/._Info.plist"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/._libncursesw.dylib",
+      "bytes": 211,
+      "sha256": "29fcd53494579c48e48c5276798f7b2f17566f35c6b2054e28f6614225bbec66",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/Frameworks/CydiaSubstrate.framework/._Info.plist"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/._libncurses.5.dylib",
+      "bytes": 211,
+      "sha256": "29fcd53494579c48e48c5276798f7b2f17566f35c6b2054e28f6614225bbec66",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/Frameworks/CydiaSubstrate.framework/._Info.plist"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/libncurses.5.dylib",
+      "bytes": 301248,
+      "sha256": "fcb30e939eeb0b40e82aa022b1be0c56c98f310e4e762c73b30f0c900ee3719c"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/._libhistory.7.0.dylib",
+      "bytes": 211,
+      "sha256": "29fcd53494579c48e48c5276798f7b2f17566f35c6b2054e28f6614225bbec66",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/Frameworks/CydiaSubstrate.framework/._Info.plist"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/._libreadline.5.dylib",
+      "bytes": 211,
+      "sha256": "29fcd53494579c48e48c5276798f7b2f17566f35c6b2054e28f6614225bbec66",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/Frameworks/CydiaSubstrate.framework/._Info.plist"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/._libhistory.6.0.dylib",
+      "bytes": 211,
+      "sha256": "29fcd53494579c48e48c5276798f7b2f17566f35c6b2054e28f6614225bbec66",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/Frameworks/CydiaSubstrate.framework/._Info.plist"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/._libncurses5.dylib",
+      "bytes": 211,
+      "sha256": "29fcd53494579c48e48c5276798f7b2f17566f35c6b2054e28f6614225bbec66",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/Frameworks/CydiaSubstrate.framework/._Info.plist"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/._libreadline.7.dylib",
+      "bytes": 211,
+      "sha256": "29fcd53494579c48e48c5276798f7b2f17566f35c6b2054e28f6614225bbec66",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/Frameworks/CydiaSubstrate.framework/._Info.plist"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/._libncursesw5.dylib",
+      "bytes": 211,
+      "sha256": "29fcd53494579c48e48c5276798f7b2f17566f35c6b2054e28f6614225bbec66",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/Frameworks/CydiaSubstrate.framework/._Info.plist"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/._libreadline.6.0.dylib",
+      "bytes": 211,
+      "sha256": "29fcd53494579c48e48c5276798f7b2f17566f35c6b2054e28f6614225bbec66",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/Frameworks/CydiaSubstrate.framework/._Info.plist"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/._libhistory.8.dylib",
+      "bytes": 211,
+      "sha256": "29fcd53494579c48e48c5276798f7b2f17566f35c6b2054e28f6614225bbec66",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/Frameworks/CydiaSubstrate.framework/._Info.plist"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/._libreadline.7.0.dylib",
+      "bytes": 211,
+      "sha256": "29fcd53494579c48e48c5276798f7b2f17566f35c6b2054e28f6614225bbec66",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/Frameworks/CydiaSubstrate.framework/._Info.plist"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/._libcycript.db",
+      "bytes": 211,
+      "sha256": "29fcd53494579c48e48c5276798f7b2f17566f35c6b2054e28f6614225bbec66",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/Frameworks/CydiaSubstrate.framework/._Info.plist"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/libcycript.db",
+      "bytes": 2985984,
+      "sha256": "e421c6e85c360b3587c922289a81c680a52672f0b350efaedf7cf21ae3ed43f4"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/._libhistory.dylib",
+      "bytes": 211,
+      "sha256": "29fcd53494579c48e48c5276798f7b2f17566f35c6b2054e28f6614225bbec66",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/Frameworks/CydiaSubstrate.framework/._Info.plist"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/._libncursesw.6.dylib",
+      "bytes": 211,
+      "sha256": "29fcd53494579c48e48c5276798f7b2f17566f35c6b2054e28f6614225bbec66",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/Frameworks/CydiaSubstrate.framework/._Info.plist"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/libncursesw.6.dylib",
+      "bytes": 386256,
+      "sha256": "117d70d827cc2fcf0df461b7841fe068f4cf7237624d943e326815f3e43c404e"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/._libcycript.0.dylib",
+      "bytes": 211,
+      "sha256": "29fcd53494579c48e48c5276798f7b2f17566f35c6b2054e28f6614225bbec66",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/Frameworks/CydiaSubstrate.framework/._Info.plist"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/._libcycript.cy",
+      "bytes": 211,
+      "sha256": "29fcd53494579c48e48c5276798f7b2f17566f35c6b2054e28f6614225bbec66",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/Frameworks/CydiaSubstrate.framework/._Info.plist"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/libcycript.cy",
+      "bytes": 12222,
+      "sha256": "099e56b1f8bde89f57bbbea2916ffec5b3c01a98d2650425ec0c604954d4d99d"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/._libncursesw6.dylib",
+      "bytes": 211,
+      "sha256": "29fcd53494579c48e48c5276798f7b2f17566f35c6b2054e28f6614225bbec66",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/Frameworks/CydiaSubstrate.framework/._Info.plist"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/._libreadline.8.dylib",
+      "bytes": 211,
+      "sha256": "29fcd53494579c48e48c5276798f7b2f17566f35c6b2054e28f6614225bbec66",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/Frameworks/CydiaSubstrate.framework/._Info.plist"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/._libreadline.5.2.dylib",
+      "bytes": 211,
+      "sha256": "29fcd53494579c48e48c5276798f7b2f17566f35c6b2054e28f6614225bbec66",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/Frameworks/CydiaSubstrate.framework/._Info.plist"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/._libreadline.dylib",
+      "bytes": 211,
+      "sha256": "29fcd53494579c48e48c5276798f7b2f17566f35c6b2054e28f6614225bbec66",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/Frameworks/CydiaSubstrate.framework/._Info.plist"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/._libhistory.8.0.dylib",
+      "bytes": 211,
+      "sha256": "29fcd53494579c48e48c5276798f7b2f17566f35c6b2054e28f6614225bbec66",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/Frameworks/CydiaSubstrate.framework/._Info.plist"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/libhistory.8.0.dylib",
+      "bytes": 93648,
+      "sha256": "9645f8f4fc2f595fa10c42a980cffcaa872c61752fc811f1da0645069b5540a3"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/._libsubstrate.dylib",
+      "bytes": 211,
+      "sha256": "29fcd53494579c48e48c5276798f7b2f17566f35c6b2054e28f6614225bbec66",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/Frameworks/CydiaSubstrate.framework/._Info.plist"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/libsubstrate.dylib",
+      "bytes": 5900400,
+      "sha256": "5cca34f6d4ac6b2bf205119f2bdf3b3c76c38a1e10e10b4c332a77072c97ca2d"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/._libncursesw.5.dylib",
+      "bytes": 211,
+      "sha256": "29fcd53494579c48e48c5276798f7b2f17566f35c6b2054e28f6614225bbec66",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/Frameworks/CydiaSubstrate.framework/._Info.plist"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/libncursesw.5.dylib",
+      "bytes": 340688,
+      "sha256": "2369af507911c18b88b3d3c690413315cb0b52d045cf3f17b7e1f2021458dade"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/substrate/._SubstrateBootstrap.dylib",
+      "bytes": 211,
+      "sha256": "29fcd53494579c48e48c5276798f7b2f17566f35c6b2054e28f6614225bbec66",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/Frameworks/CydiaSubstrate.framework/._Info.plist"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/substrate/SubstrateBootstrap.dylib",
+      "bytes": 165296,
+      "sha256": "aab926d03e5ca61a7fe285f9debe8a9633d0b1abfde465b93ce1409d87ba98a3"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/substrate/._SubstrateLoader.dylib",
+      "bytes": 211,
+      "sha256": "29fcd53494579c48e48c5276798f7b2f17566f35c6b2054e28f6614225bbec66",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/Frameworks/CydiaSubstrate.framework/._Info.plist"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/substrate/SubstrateLoader.dylib",
+      "bytes": 452512,
+      "sha256": "5ab9737137d554fbd30cb51d382b3d82c3a31ae62092cfcf4dc9439b1175fd79"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/substrate/._SubstrateInserter.dylib",
+      "bytes": 211,
+      "sha256": "29fcd53494579c48e48c5276798f7b2f17566f35c6b2054e28f6614225bbec66",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/Frameworks/CydiaSubstrate.framework/._Info.plist"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/substrate/SubstrateInserter.dylib",
+      "bytes": 184336,
+      "sha256": "1ed0cedb608dca893565764c6c1835bfa83ddf6f7945581fb9eeeac20ea2de53"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/cycript0.9/._.DS_Store",
+      "bytes": 211,
+      "sha256": "9e0a5ec4445439b969436e0c5792b54f1e02a2ea3629d69edd5724fc782da040",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!bin/._.DS_Store"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/cycript0.9/.DS_Store",
+      "bytes": 6148,
+      "sha256": "9f5edca0a626a3edcfe9994b0dabd56136542d5ffbaf357053358a5407f332af"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/cycript0.9/com/._.DS_Store",
+      "bytes": 211,
+      "sha256": "9e0a5ec4445439b969436e0c5792b54f1e02a2ea3629d69edd5724fc782da040",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!bin/._.DS_Store"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/cycript0.9/com/.DS_Store",
+      "bytes": 6148,
+      "sha256": "5d6ce690477696547509cc4580b6bb16dc98873670b43648525ae780299bb32a"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/cycript0.9/com/saurik/._.DS_Store",
+      "bytes": 211,
+      "sha256": "9e0a5ec4445439b969436e0c5792b54f1e02a2ea3629d69edd5724fc782da040",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!bin/._.DS_Store"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/cycript0.9/com/saurik/.DS_Store",
+      "bytes": 6148,
+      "sha256": "351e11f4c04ac3f5df9426f2efc54bc8585995461b6e7177909c6e55dbf5d7b9"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/cycript0.9/com/saurik/substrate/._MS.cy",
+      "bytes": 211,
+      "sha256": "29fcd53494579c48e48c5276798f7b2f17566f35c6b2054e28f6614225bbec66",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/Frameworks/CydiaSubstrate.framework/._Info.plist"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/cycript0.9/com/saurik/substrate/MS.cy",
+      "bytes": 1589,
+      "sha256": "67134e67a429802396d35c3f45d0d7e7f9567e31a0e3c2099d02867a0a5c9cd8"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/cycript0.9/org/cycript/._NSLog.cy",
+      "bytes": 211,
+      "sha256": "29fcd53494579c48e48c5276798f7b2f17566f35c6b2054e28f6614225bbec66",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/Frameworks/CydiaSubstrate.framework/._Info.plist"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/cycript0.9/org/cycript/NSLog.cy",
+      "bytes": 1052,
+      "sha256": "4d9619dfbaea27825c64ae6f84eb78a79d41cc6946de6e0c6074d9d91a837d64"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/include/._substrate.h",
+      "bytes": 211,
+      "sha256": "29fcd53494579c48e48c5276798f7b2f17566f35c6b2054e28f6614225bbec66",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/Frameworks/CydiaSubstrate.framework/._Info.plist"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/include/substrate.h",
+      "bytes": 24756,
+      "sha256": "0eba27ddfb5ded59e916011d6480ba08419b8e85fb5663637b041ab97185bfb5"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/libexec/._substrated",
+      "bytes": 211,
+      "sha256": "29fcd53494579c48e48c5276798f7b2f17566f35c6b2054e28f6614225bbec66",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/Frameworks/CydiaSubstrate.framework/._Info.plist"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/libexec/substrated",
+      "bytes": 5829952,
+      "sha256": "5764599e09e94646a9db281b49c15930e0fb9fa491288e2b79a323fb66282c4e"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/libexec/._substrate",
+      "bytes": 211,
+      "sha256": "29fcd53494579c48e48c5276798f7b2f17566f35c6b2054e28f6614225bbec66",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/Frameworks/CydiaSubstrate.framework/._Info.plist"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/libexec/substrate",
+      "bytes": 3361328,
+      "sha256": "e6f8512b21e8c683a353ea84c261fb084ddbe73b3f4d951e2195b2906efec2bb"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/bin/._cycc",
+      "bytes": 211,
+      "sha256": "29fcd53494579c48e48c5276798f7b2f17566f35c6b2054e28f6614225bbec66",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/Frameworks/CydiaSubstrate.framework/._Info.plist"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/bin/cycc",
+      "bytes": 16990,
+      "sha256": "a3c95528042f5671dbaa0d2ab28fa5a2aa8b668cf2defb33b361f2ee1367e5ac"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/bin/._cynject",
+      "bytes": 211,
+      "sha256": "29fcd53494579c48e48c5276798f7b2f17566f35c6b2054e28f6614225bbec66",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/Frameworks/CydiaSubstrate.framework/._Info.plist"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/bin/cynject",
+      "bytes": 911984,
+      "sha256": "0be0d6f40f3e901abb0d7a571f4c8ad1b40f4ebf2d6ca19dbe7e6dbbcf429a3a"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/bin/._cycript",
+      "bytes": 211,
+      "sha256": "29fcd53494579c48e48c5276798f7b2f17566f35c6b2054e28f6614225bbec66",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/Frameworks/CydiaSubstrate.framework/._Info.plist"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/bin/cycript",
+      "bytes": 484432,
+      "sha256": "6e104e4eab38ba2c1da06823e17851b6aab5adfbc1860eebbf9ab965a26f27ff"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/activation_record.plist",
+      "bytes": 6634,
+      "sha256": "e80a2fe4de6dd51bf83e4e0054d6b5f7879477f9dfdfa0fda4c6e211b89d8e17"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/BC",
+      "bytes": 157312,
+      "sha256": "629b0189c42cb8875724206658896818699fefbf8364be1aab3a9ff9369f74db"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/chflags",
+      "bytes": 51792,
+      "sha256": "9c825ad383741fe3515ef358ba1177f10ae47186c072e0a0470825e1791c6b57"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/com.apple.commcenter.device_specific_nobackup.plist",
+      "bytes": 7250,
+      "sha256": "c5083673ea81daa7fd87f7b5f522458a4676163b12824f9e80eb2840ff165173"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/E.bin",
+      "bytes": 1811968,
+      "sha256": "e2fdc7696d2a15e3c64f8b4ed15ee22dd0591aafd021ed932bd67b4cd5318a2f"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/E.bin!./usr/.DS_Store",
+      "bytes": 6148,
+      "sha256": "ac4732358e8bf91770ff8472f9904e0ab5c7139f194d6256ca851e3e594603b7"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/E.bin!./usr/._.DS_Store",
+      "bytes": 120,
+      "sha256": "2f380f4a3d05a8d90c2106f50da75064e9ce57a598599dc5404f8f69a0223aa9",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/._.DS_Store"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/E.bin!./usr/lib/.DS_Store",
+      "bytes": 6148,
+      "sha256": "a5b97d4b986f94cc4ac2f38a6cf53a147aa2c3fa472a4ef1f0abde7cecb3425d"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/E.bin!./usr/lib/._.DS_Store",
+      "bytes": 120,
+      "sha256": "2f380f4a3d05a8d90c2106f50da75064e9ce57a598599dc5404f8f69a0223aa9",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/._.DS_Store"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/E.bin!./usr/lib/._libhistory.8.dylib",
+      "bytes": 187,
+      "sha256": "640066bd5f5eb5b8c336f003a06a4341a709386db3518367e344c3067c5c92b2"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/E.bin!./usr/lib/._libncurses.6.dylib",
+      "bytes": 187,
+      "sha256": "640066bd5f5eb5b8c336f003a06a4341a709386db3518367e344c3067c5c92b2",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/E.bin!./usr/lib/._libhistory.8.dylib"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/E.bin!./usr/lib/._libreadline.8.dylib",
+      "bytes": 187,
+      "sha256": "640066bd5f5eb5b8c336f003a06a4341a709386db3518367e344c3067c5c92b2",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/E.bin!./usr/lib/._libhistory.8.dylib"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/E.bin!./usr/lib/libhistory.8.dylib",
+      "bytes": 93648,
+      "sha256": "9645f8f4fc2f595fa10c42a980cffcaa872c61752fc811f1da0645069b5540a3",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/libhistory.8.0.dylib"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/E.bin!./usr/lib/libncurses.6.dylib",
+      "bytes": 344176,
+      "sha256": "2d1061dac632a07484a11512f97e1ebf5f09e69a161481e5f23c799de275900f",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/libncurses.6.dylib"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/E.bin!./usr/lib/libreadline.8.dylib",
+      "bytes": 337712,
+      "sha256": "8cf7c67ff0b1d0434ed1001f96e117c5a4e87e46124c5f08e0373849b910f38c",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/libreadline.8.0.dylib"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/E.bin!./usr/lib/PaxHeader/.DS_Store",
+      "bytes": 30,
+      "sha256": "be8edd2f58216868d6d7585a24415ea5c9f7415bcb70695ddb345a0c0866ec92"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/E.bin!./usr/PaxHeader/.DS_Store",
+      "bytes": 30,
+      "sha256": "d2c6048316f317bed06d61b9718f19bdcdef624e19258efef26673a3cb026753"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/E.bin!./sbin/launchctl",
+      "bytes": 130368,
+      "sha256": "14edd538fe03e773659abf6a5999c65d08319d41900e1aa4938b970b0ff084d9"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/E.bin!./bin/.DS_Store",
+      "bytes": 6148,
+      "sha256": "ae0bf4dca98692a3d5a6e0e1d6a7092418cb08a1d26e5609a8206a44d5bf1e52"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/E.bin!./bin/._.DS_Store",
+      "bytes": 120,
+      "sha256": "2f380f4a3d05a8d90c2106f50da75064e9ce57a598599dc5404f8f69a0223aa9",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/._.DS_Store"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/E.bin!./bin/._bash",
+      "bytes": 187,
+      "sha256": "83db65b16f7cfd99803576a9c8a20cfb71c24a5c394f7e4ab861e3520da50ace"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/E.bin!./bin/bash",
+      "bytes": 865712,
+      "sha256": "72daa1bf8bb4f36ee9afe5566d8a0ba233e9e714b0242acf3e26852667a47d12",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!bin/bash"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/E.bin!./bin/PaxHeader/.DS_Store",
+      "bytes": 30,
+      "sha256": "26c37a1955d546b3a14eca54d833d8e2d5a6d9848dc83b3b711faedb222ce1c7"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/gsm_raptor",
+      "bytes": 1241,
+      "sha256": "f26ff19de5519b02ae5f6d26221b80db743adfed24817c1bf60a45784d96dded"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/hash.cmd",
+      "bytes": 370,
+      "sha256": "d18fb91ff3254194b2cade1bfd39e263646718cd08b55287772f5d2c2f2c65f5"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/hash.dll",
+      "bytes": 108,
+      "sha256": "5eeebfcb7202e9942914b7e0623b4d5fd2c00fbd772265df4901df2226a60db1",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/msys-core.dll"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/include/cpap.h",
+      "bytes": 527,
+      "sha256": "1a6a4d73a335bb037d1a03fb38b26449057f46d5c7dc070fece4de345fbab932"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/include/libals.cpp",
+      "bytes": 460752,
+      "sha256": "86a85630fc42626b9de6f8b0245bc6998ae304a1374ce83ef1fc96896438080e"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/include/libap.c",
+      "bytes": 92336,
+      "sha256": "7c16de79c6b1fcf9356c355f8ed3c789c77fef2bcfc0049e0ce5aee691ac9af4"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/include/peus.h",
+      "bytes": 21122,
+      "sha256": "e4934830dfd0151a714d371db535e5b5c4e95a0458bf3b8e02cdc13fbd3a694e"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/include/settings.h",
+      "bytes": 21358,
+      "sha256": "6c225d2a1ba9dc565691aab151b3db50c8007071b99b179182239885a208040a"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/iuntethered.dylib",
+      "bytes": 106128,
+      "sha256": "5536c50c164c6f7ff485ee9a181a3a0dfe677037a9080bf32e2a0663f9b801c4"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/iuntethered.plist",
+      "bytes": 85,
+      "sha256": "65366a3e17b53aef3225bd31e32912829a6be2f3f9e3b3a191423445930c8ebf",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/34"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/jlutil",
+      "bytes": 69568,
+      "sha256": "389a467c104394f83d9b5936a68081bdaa5872330833122375b7932119eba307"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/lib.tar.gz",
+      "bytes": 43397,
+      "sha256": "062897bd0cfe80f59b0d3ce4ef946c2c4fece2207b495ef2837a65f89f471d0c"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/lib.tar.gz!._just4fun",
+      "bytes": 176,
+      "sha256": "90ab2839383a2c80128546e373ab22dc46f4959e66cf1c48b1ec0cd7faf058da"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/lib.tar.gz!just4fun",
+      "bytes": 65200,
+      "sha256": "e78cb7a7ff9cc079cf25aab5a52492efe51a70663437083b0af82189e94fafb4"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/lib.tar.gz!kawabonza",
+      "bytes": 139872,
+      "sha256": "84b20b78d70c44f2e584b524b05b0d1e69f37071fa6f6120a34fbe7f103fdbf9"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/lib.tar.gz!libswiftCore.dylib",
+      "bytes": 7,
+      "sha256": "852d704264f1078107bd593e261b79c7f5f3b53243be2f3b26f9189c7b8cbf75"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/lib.tar.gz!libswiftCoreFoundation.dylib",
+      "bytes": 7,
+      "sha256": "852d704264f1078107bd593e261b79c7f5f3b53243be2f3b26f9189c7b8cbf75",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/lib.tar.gz!libswiftCore.dylib"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/lib.tar.gz!libswiftCoreGraphics.dylib",
+      "bytes": 7,
+      "sha256": "852d704264f1078107bd593e261b79c7f5f3b53243be2f3b26f9189c7b8cbf75",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/lib.tar.gz!libswiftCore.dylib"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/lib.tar.gz!libswiftDarwin.dylib",
+      "bytes": 7,
+      "sha256": "852d704264f1078107bd593e261b79c7f5f3b53243be2f3b26f9189c7b8cbf75",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/lib.tar.gz!libswiftCore.dylib"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/lib.tar.gz!libswiftDispatch.dylib",
+      "bytes": 7,
+      "sha256": "852d704264f1078107bd593e261b79c7f5f3b53243be2f3b26f9189c7b8cbf75",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/lib.tar.gz!libswiftCore.dylib"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/lib.tar.gz!libswiftFoundation.dylib",
+      "bytes": 7,
+      "sha256": "852d704264f1078107bd593e261b79c7f5f3b53243be2f3b26f9189c7b8cbf75",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/lib.tar.gz!libswiftCore.dylib"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/lib.tar.gz!libswiftObjectiveC.dylib",
+      "bytes": 7,
+      "sha256": "852d704264f1078107bd593e261b79c7f5f3b53243be2f3b26f9189c7b8cbf75",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/lib.tar.gz!libswiftCore.dylib"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/lib.tar.gz!libswiftSwiftOnoneSupport.dylib",
+      "bytes": 7,
+      "sha256": "852d704264f1078107bd593e261b79c7f5f3b53243be2f3b26f9189c7b8cbf75",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/lib.tar.gz!libswiftCore.dylib"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/mv",
+      "bytes": 135872,
+      "sha256": "4b7695afbedc2e00e4e9afdc051867b039018e53d5f0bd41468a7a0258cbad2b"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/numb.dll",
+      "bytes": 1542,
+      "sha256": "ad979f256dad5b1d03346b6fe502669d5af8bdadf058833adcf32f5652990861"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/plutil",
+      "bytes": 144816,
+      "sha256": "06a34463a82c9444df7c4cae46174bb9a34d2fa7d92cc807928e544c4cd02efb"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/raptor",
+      "bytes": 3960,
+      "sha256": "8a68102e403a759264aa138ea7d6471d78c94cb9b835e38c6683af8305163911"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/s.bin",
+      "bytes": 729180,
+      "sha256": "143a22e84a72ba7ef8b208b2b69a1baa8646203fd33a3a6bfc70e83ec62dd9d1"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/s.bin!bin/._.DS_Store",
+      "bytes": 120,
+      "sha256": "2f380f4a3d05a8d90c2106f50da75064e9ce57a598599dc5404f8f69a0223aa9",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/._.DS_Store"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/s.bin!bin/.DS_Store",
+      "bytes": 6148,
+      "sha256": "ae0bf4dca98692a3d5a6e0e1d6a7092418cb08a1d26e5609a8206a44d5bf1e52",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/E.bin!./bin/.DS_Store"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/s.bin!bin/._bash",
+      "bytes": 187,
+      "sha256": "83db65b16f7cfd99803576a9c8a20cfb71c24a5c394f7e4ab861e3520da50ace",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/E.bin!./bin/._bash"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/s.bin!bin/bash",
+      "bytes": 865712,
+      "sha256": "72daa1bf8bb4f36ee9afe5566d8a0ba233e9e714b0242acf3e26852667a47d12",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!bin/bash"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/s.bin!sbin/launchctl",
+      "bytes": 130368,
+      "sha256": "14edd538fe03e773659abf6a5999c65d08319d41900e1aa4938b970b0ff084d9",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/E.bin!./sbin/launchctl"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/s.bin!usr/._.DS_Store",
+      "bytes": 120,
+      "sha256": "2f380f4a3d05a8d90c2106f50da75064e9ce57a598599dc5404f8f69a0223aa9",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/._.DS_Store"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/s.bin!usr/.DS_Store",
+      "bytes": 6148,
+      "sha256": "ac4732358e8bf91770ff8472f9904e0ab5c7139f194d6256ca851e3e594603b7",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/E.bin!./usr/.DS_Store"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/s.bin!usr/lib/._libncurses.6.dylib",
+      "bytes": 187,
+      "sha256": "640066bd5f5eb5b8c336f003a06a4341a709386db3518367e344c3067c5c92b2",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/E.bin!./usr/lib/._libhistory.8.dylib"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/s.bin!usr/lib/libncurses.6.dylib",
+      "bytes": 344176,
+      "sha256": "2d1061dac632a07484a11512f97e1ebf5f09e69a161481e5f23c799de275900f",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/libncurses.6.dylib"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/s.bin!usr/lib/._.DS_Store",
+      "bytes": 120,
+      "sha256": "2f380f4a3d05a8d90c2106f50da75064e9ce57a598599dc5404f8f69a0223aa9",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/._.DS_Store"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/s.bin!usr/lib/.DS_Store",
+      "bytes": 6148,
+      "sha256": "a5b97d4b986f94cc4ac2f38a6cf53a147aa2c3fa472a4ef1f0abde7cecb3425d",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/E.bin!./usr/lib/.DS_Store"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/s.bin!usr/lib/._libhistory.8.dylib",
+      "bytes": 187,
+      "sha256": "640066bd5f5eb5b8c336f003a06a4341a709386db3518367e344c3067c5c92b2",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/E.bin!./usr/lib/._libhistory.8.dylib"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/s.bin!usr/lib/libhistory.8.dylib",
+      "bytes": 93648,
+      "sha256": "9645f8f4fc2f595fa10c42a980cffcaa872c61752fc811f1da0645069b5540a3",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/libhistory.8.0.dylib"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/s.bin!usr/lib/._libreadline.8.dylib",
+      "bytes": 187,
+      "sha256": "640066bd5f5eb5b8c336f003a06a4341a709386db3518367e344c3067c5c92b2",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/E.bin!./usr/lib/._libhistory.8.dylib"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/s.bin!usr/lib/libreadline.8.dylib",
+      "bytes": 337712,
+      "sha256": "8cf7c67ff0b1d0434ed1001f96e117c5a4e87e46124c5f08e0373849b910f38c",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/libreadline.8.0.dylib"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/u.bin",
+      "bytes": 740490,
+      "sha256": "bf136defefbf621309c226b21827f691deb5b32fca57e2a2a97d9f75155b7728"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/u.bin!bin/._shx",
+      "bytes": 276,
+      "sha256": "bdff1e8855c6d9f174042ea557282821a4824fa072626c5537ca72a53cdd084e"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/u.bin!bin/shx",
+      "bytes": 97984,
+      "sha256": "059c472e997d5ac7d83020bb3b5bf0c60bac986dcca5b8b15793c149d4930b2a"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/u.bin!bin/._.DS_Store",
+      "bytes": 120,
+      "sha256": "2f380f4a3d05a8d90c2106f50da75064e9ce57a598599dc5404f8f69a0223aa9",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/._.DS_Store"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/u.bin!bin/.DS_Store",
+      "bytes": 6148,
+      "sha256": "4a9d0aa818c51487acc15f1d5222fecb153460b3bc8f509696e5d85e2dd655d8"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/u.bin!bin/._bash",
+      "bytes": 187,
+      "sha256": "83db65b16f7cfd99803576a9c8a20cfb71c24a5c394f7e4ab861e3520da50ace",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/E.bin!./bin/._bash"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/u.bin!bin/bash",
+      "bytes": 865712,
+      "sha256": "72daa1bf8bb4f36ee9afe5566d8a0ba233e9e714b0242acf3e26852667a47d12",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!bin/bash"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/u.bin!sbin/launchctl",
+      "bytes": 130368,
+      "sha256": "14edd538fe03e773659abf6a5999c65d08319d41900e1aa4938b970b0ff084d9",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/E.bin!./sbin/launchctl"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/u.bin!._usr",
+      "bytes": 220,
+      "sha256": "61d4ece5eb8468172530e43ad324769187667cb190b5c9cc8d8ed19c3abae2f4"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/u.bin!usr/._.DS_Store",
+      "bytes": 120,
+      "sha256": "2f380f4a3d05a8d90c2106f50da75064e9ce57a598599dc5404f8f69a0223aa9",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/._.DS_Store"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/u.bin!usr/.DS_Store",
+      "bytes": 6148,
+      "sha256": "ac4732358e8bf91770ff8472f9904e0ab5c7139f194d6256ca851e3e594603b7",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/E.bin!./usr/.DS_Store"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/u.bin!usr/lib/._libncurses.6.dylib",
+      "bytes": 187,
+      "sha256": "640066bd5f5eb5b8c336f003a06a4341a709386db3518367e344c3067c5c92b2",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/E.bin!./usr/lib/._libhistory.8.dylib"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/u.bin!usr/lib/libncurses.6.dylib",
+      "bytes": 344176,
+      "sha256": "2d1061dac632a07484a11512f97e1ebf5f09e69a161481e5f23c799de275900f",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/libncurses.6.dylib"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/u.bin!usr/lib/._.DS_Store",
+      "bytes": 120,
+      "sha256": "2f380f4a3d05a8d90c2106f50da75064e9ce57a598599dc5404f8f69a0223aa9",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!Library/._.DS_Store"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/u.bin!usr/lib/.DS_Store",
+      "bytes": 6148,
+      "sha256": "a5b97d4b986f94cc4ac2f38a6cf53a147aa2c3fa472a4ef1f0abde7cecb3425d",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/E.bin!./usr/lib/.DS_Store"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/u.bin!usr/lib/._libhistory.8.dylib",
+      "bytes": 187,
+      "sha256": "640066bd5f5eb5b8c336f003a06a4341a709386db3518367e344c3067c5c92b2",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/E.bin!./usr/lib/._libhistory.8.dylib"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/u.bin!usr/lib/libhistory.8.dylib",
+      "bytes": 93648,
+      "sha256": "9645f8f4fc2f595fa10c42a980cffcaa872c61752fc811f1da0645069b5540a3",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/libhistory.8.0.dylib"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/u.bin!usr/lib/._libreadline.8.dylib",
+      "bytes": 187,
+      "sha256": "640066bd5f5eb5b8c336f003a06a4341a709386db3518367e344c3067c5c92b2",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/E.bin!./usr/lib/._libhistory.8.dylib"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/u.bin!usr/lib/libreadline.8.dylib",
+      "bytes": 337712,
+      "sha256": "8cf7c67ff0b1d0434ed1001f96e117c5a4e87e46124c5f08e0373849b910f38c",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A!usr/lib/libreadline.8.0.dylib"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/uikit.tar",
+      "bytes": 588288,
+      "sha256": "f944c13c508ad7b63cbada40051fff657f1e9a345e8da547bc4e2400fdaea54c"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/uikit.tar!./usr/bin/cfversion",
+      "bytes": 51072,
+      "sha256": "f1ca24ad444034c1b073998586f245bc42dfdc08606d8bbc5f5bf18a4b898b8c"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/uikit.tar!./usr/bin/ecidecid",
+      "bytes": 51312,
+      "sha256": "060150f88338225791f2739ae21fe61dd833c7746a0e1577c178e58cdde76781"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/uikit.tar!./usr/bin/gssc",
+      "bytes": 85648,
+      "sha256": "26df873ff26c136ffe2d6a2cfba4f375a3c56401fc2f92ce4911519934c6635b"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/uikit.tar!./usr/bin/iomfsetgamma",
+      "bytes": 52080,
+      "sha256": "44f60089ec27c90ba1365f732c587f7ed592f4f2e7df92d24935f070d03e0d4d"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/uikit.tar!./usr/bin/ldrestart",
+      "bytes": 52736,
+      "sha256": "abb37cdd47abd9983faf2450f880804e4b552f5daab05bb9be12cd710b6a0aa5"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/uikit.tar!./usr/bin/sbdidlaunch",
+      "bytes": 51712,
+      "sha256": "5aa5d45d75ff6e1c04e0d3a674f70a043ac338fec5259aa860ecf0a01a34ed30"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/uikit.tar!./usr/bin/sbreload",
+      "bytes": 55696,
+      "sha256": "3523ba6e7a6bd3bd2f9783b936493c46ba1dc0ee28413b11def68ec3a60c7736"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/uikit.tar!./usr/bin/uicache",
+      "bytes": 75664,
+      "sha256": "f52f26339437342b1e00026d07a1471e4987231ba849b7fcb7429e08df480a38"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/uikit.tar!./usr/bin/uiduid",
+      "bytes": 51472,
+      "sha256": "bf6cef0e95c08e23d80fb913bc5d0f55bb950c22f24de2cb211d714a8753d81f"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/uikit.tar!./usr/bin/uiopen",
+      "bytes": 51424,
+      "sha256": "02b068182bb1a498f7d706da4df32b328deab20dfb2d2727168acf7602bf5540"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/untethered.dylib",
+      "bytes": 55792,
+      "sha256": "bafb841ff1af687b7da4575ffbfb6d2252ad902c6c3ebf7fd851fb4f5c5e777d"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/untethered.plist",
+      "bytes": 112,
+      "sha256": "4bf86a0ef74a87c6a6b32c6b6dfed65a4a325cdc22cf0be28503facf328d0f28"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/vcruntime140.dll",
+      "bytes": 87736,
+      "sha256": "b989172491bcf631322d87d7b812fb5598b8fcdd1e2a30c119f5265080cd13b8"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/win-plutil.exe",
+      "bytes": 50688,
+      "sha256": "d50aa815df039b0ae10ca73f2deee4223c8f85a6941129ac2b2b2e9a232ac332"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/zip.dll",
+      "bytes": 97280,
+      "sha256": "1af1e9bcb5df7ff796eda1e7874c70ee3ad63fa15e0fff69dbc53df691c266a6"
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/zlib1.dll",
+      "bytes": 85504,
+      "sha256": "1f20fedaad110a4b558131e63c1227fa2c7ab09692eb57b63df5e841347b708c"
+    },
+    {
+      "path": "TM-BYPASS.section_decrypted.exe",
+      "bytes": 42609664,
+      "sha256": "3fdbf19ed08feb7ff13013dc1112b0be153b7bc2613a3cb5b817c0baf3d6f203"
+    },
+    {
+      "path": "resource_assembly.dll",
+      "bytes": 43852800,
+      "sha256": "4ba9a6b774ac32314db3000af287b9fb987efd66845c60b9708a7c5b8e32368c"
+    },
+    {
+      "path": "constants.bin",
+      "bytes": 36240,
+      "sha256": "04f4a442eb3146703f72d6b5a2ef512857e13106d7c90ec21ac242ee880c1b0b"
+    },
+    {
+      "path": "native_runtime/wine/MDM_SETUP.exe.memory_ready.bin",
+      "bytes": 9101312,
+      "sha256": "ac5aa19fab4c49b84c27a572398cacff45baccd61818d7a28ddeec6cf6d1a1f2"
+    },
+    {
+      "path": "native_runtime/wine/imobiledevice.dll.memory_ready.bin",
+      "bytes": 31301632,
+      "sha256": "563d3829e723ec5be9c7974b28642c61e132d159017b71ab159e3c91b5e47333"
+    },
+    {
+      "path": "managed-resource:2:ldrestart",
+      "bytes": 52740,
+      "sha256": "dde6829cdee7347b1d9f5dc3cdc5efa44fbe627210f1205b34c462da8d8110d3"
+    },
+    {
+      "path": "managed-resource:2:ldrestart!dotnet-bytearray",
+      "bytes": 52736,
+      "sha256": "abb37cdd47abd9983faf2450f880804e4b552f5daab05bb9be12cd710b6a0aa5",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/uikit.tar!./usr/bin/ldrestart"
+    },
+    {
+      "path": "managed-resource:2:substrate_gsm_frr",
+      "bytes": 4286847,
+      "sha256": "793e0845e5663d7b4b3f0b0f0d3dd6cb5eef6c0c7e32b35ee965cd0c0c45f6d4"
+    },
+    {
+      "path": "managed-resource:2:substrate_gsm_frr!dotnet-bytearray",
+      "bytes": 4286843,
+      "sha256": "d047f8c1c20a0c1778e1ef054b909db0bb5e680ce55917162f7e314102549782",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/9A"
+    },
+    {
+      "path": "managed-resource:2:fix_iuntethered_plist",
+      "bytes": 90,
+      "sha256": "f1a935b76c1bc876c0384ea0bc6bb01828e78209c20016117258fe67291f63d7"
+    },
+    {
+      "path": "managed-resource:2:fix_iuntethered_plist!dotnet-bytearray",
+      "bytes": 86,
+      "sha256": "36853724af6802a8dde96c6c443a0ac7a31aa8612fc2700732e81013f6d584c1"
+    },
+    {
+      "path": "managed-resource:2:fix_iuntethered_dylib",
+      "bytes": 106292,
+      "sha256": "26c43ab5c628dfe0accecd379ced40190ee66558386a05a975b807221280ad7d"
+    },
+    {
+      "path": "managed-resource:2:fix_iuntethered_dylib!dotnet-bytearray",
+      "bytes": 106288,
+      "sha256": "b93719be03a8a8af0407334d8d703fcc7f30ce11429007e8e9bd3152e46d157a"
+    },
+    {
+      "path": "managed-resource:2:SystemStatusServer",
+      "bytes": 494,
+      "sha256": "a30b7129e9e9f3c10815ff7f08421793e46406e50314d9fa39239640618c4387"
+    },
+    {
+      "path": "managed-resource:2:SystemStatusServer!dotnet-bytearray",
+      "bytes": 490,
+      "sha256": "ce736a80fa0c88eb6fb95fccd71733c51034dd37a450f7903e19ac436aacbe2d"
+    },
+    {
+      "path": "managed-resource:2:getserial",
+      "bytes": 65204,
+      "sha256": "99e3b7e145f9aca97cd0c9c3c3bfb4c7950b5df2aa862a0e35f4391ad34e92c4"
+    },
+    {
+      "path": "managed-resource:2:getserial!dotnet-bytearray",
+      "bytes": 65200,
+      "sha256": "e78cb7a7ff9cc079cf25aab5a52492efe51a70663437083b0af82189e94fafb4",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/lib.tar.gz!just4fun"
+    },
+    {
+      "path": "managed-resource:2:mdm",
+      "bytes": 1586,
+      "sha256": "0d5a94aa0be26d143c0f31fff1cee41130582510d1d594f11ac0e6b4e0946686"
+    },
+    {
+      "path": "managed-resource:2:mdm!dotnet-bytearray",
+      "bytes": 1582,
+      "sha256": "366d76c2a1fb1613609f20d32e42d9e62455354e77115568f521f0bdfbc966ed"
+    },
+    {
+      "path": "managed-resource:2:i13eraser",
+      "bytes": 158676,
+      "sha256": "ad1a2d3919e130962431f8f712ba21b3bfa2f68ba333ecc253b40ecc569068c6"
+    },
+    {
+      "path": "managed-resource:2:i13eraser!dotnet-bytearray",
+      "bytes": 158672,
+      "sha256": "edd498043f90b544126ae925e7835660e5c3ffdf236973ff6e7709d7d900c50e"
+    },
+    {
+      "path": "managed-resource:2:i12eraser",
+      "bytes": 142036,
+      "sha256": "95e9728e2b99ae5672390a2d5737f197e79bc2b44605fd48f965476899e2af01"
+    },
+    {
+      "path": "managed-resource:2:i12eraser!dotnet-bytearray",
+      "bytes": 142032,
+      "sha256": "7900b24d80fbdc23fb5bc2cdfb30ecce2ec8404e59834208dd2c3be2af939955"
+    },
+    {
+      "path": "managed-resource:2:gsm_raptor",
+      "bytes": 1245,
+      "sha256": "83a777c64933e1241fdcc5ce45727495518283d90f5f2fd508280973544f0552"
+    },
+    {
+      "path": "managed-resource:2:gsm_raptor!dotnet-bytearray",
+      "bytes": 1241,
+      "sha256": "f26ff19de5519b02ae5f6d26221b80db743adfed24817c1bf60a45784d96dded",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/gsm_raptor"
+    },
+    {
+      "path": "managed-resource:2:simunlockD",
+      "bytes": 83780,
+      "sha256": "fb4eff7cf4d1065e4d60a5585600ade26e2faadc1134096cbe72dfe3c575e5e9"
+    },
+    {
+      "path": "managed-resource:2:simunlockD!dotnet-bytearray",
+      "bytes": 83776,
+      "sha256": "46e821d36f11de6ff93bdd083ba500b030807c12b6829a42b4a0b0c4a75c6a9e"
+    },
+    {
+      "path": "managed-resource:2:simunlockP",
+      "bytes": 66,
+      "sha256": "3c015461db9feec322a8c6c5322b916670239942f7b88d694df5c18d104a89cd"
+    },
+    {
+      "path": "managed-resource:2:simunlockP!dotnet-bytearray",
+      "bytes": 62,
+      "sha256": "a66d196aa809228266d3932de4b2f16dde6b8f36ac6ce0d93fbf6bc9a4e4a41e"
+    },
+    {
+      "path": "managed-resource:2:Library_tar",
+      "bytes": 934404,
+      "sha256": "e59b29ad9a56c7dd27c8294455c69f96e1b4175245301d64b6f55c4f7f040352"
+    },
+    {
+      "path": "managed-resource:2:Library_tar!dotnet-bytearray",
+      "bytes": 934400,
+      "sha256": "71ac9a57c62234500b63e8657720a44aa0927655c84c2589b4f1869e9c1cc948"
+    },
+    {
+      "path": "managed-resource:2:Library_tar!dotnet-bytearray!Library/MobileSubstrate/DynamicLibraries/MobileSafety.dylib",
+      "bytes": 167696,
+      "sha256": "9f986102d7244df04e9fcd41d75092640fa8c4c2cb283346c09b08f36e0fef2b"
+    },
+    {
+      "path": "managed-resource:2:Library_tar!dotnet-bytearray!Library/MobileSubstrate/DynamicLibraries/MobileSafety.plist",
+      "bytes": 118,
+      "sha256": "c7061f3a3ff7a36af5bf7ed6b47daf1bf5adc029df350e0d02c1841141210aaa"
+    },
+    {
+      "path": "managed-resource:2:Library_tar!dotnet-bytearray!Library/MobileSubstrate/DynamicLibraries/OTADisabler.dylib",
+      "bytes": 200496,
+      "sha256": "f83043e542c1d531efd55ee0cfe875814544013d4bfaa7a5ebb96865facae63c"
+    },
+    {
+      "path": "managed-resource:2:Library_tar!dotnet-bytearray!Library/MobileSubstrate/DynamicLibraries/OTADisabler.plist",
+      "bytes": 56,
+      "sha256": "efdcfcdd263ed8df243be968f3e39dfd9b97acbf1cda43b3c25b21c9adc39ee1"
+    },
+    {
+      "path": "managed-resource:2:Library_tar!dotnet-bytearray!Library/MobileSubstrate/DynamicLibraries/simple.dylib",
+      "bytes": 101888,
+      "sha256": "f694772803f6584bc29b18a2f70be6fbc2288d9715bd6455e2cfbf980526f03b"
+    },
+    {
+      "path": "managed-resource:2:Library_tar!dotnet-bytearray!Library/MobileSubstrate/DynamicLibraries/simple.plist",
+      "bytes": 63,
+      "sha256": "9b490a4d432d40253e84a2a5813f68a526c21e766bb46b906a0b9ac25b7bf919"
+    },
+    {
+      "path": "managed-resource:2:Library_tar!dotnet-bytearray!Library/MobileSubstrate/DynamicLibraries/untethered.dylib",
+      "bytes": 55792,
+      "sha256": "bafb841ff1af687b7da4575ffbfb6d2252ad902c6c3ebf7fd851fb4f5c5e777d",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/untethered.dylib"
+    },
+    {
+      "path": "managed-resource:2:Library_tar!dotnet-bytearray!Library/MobileSubstrate/DynamicLibraries/untethered.plist",
+      "bytes": 112,
+      "sha256": "4bf86a0ef74a87c6a6b32c6b6dfed65a4a325cdc22cf0be28503facf328d0f28",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/untethered.plist"
+    },
+    {
+      "path": "managed-resource:2:Library_tar!dotnet-bytearray!Library/OTADisabler/preinst",
+      "bytes": 198848,
+      "sha256": "5a2555b08c37b1e8700f90efd5fbd70ea956b5e72c3fa8ace38baa1d7ab3f6d4"
+    },
+    {
+      "path": "managed-resource:2:Library_tar!dotnet-bytearray!Library/OTADisabler/prerm",
+      "bytes": 198496,
+      "sha256": "d218f828f31580b416d80097931cb9970ca49d5eccc19be679250eeb0a3cfc08"
+    },
+    {
+      "path": "managed-resource:2:i13update",
+      "bytes": 2000,
+      "sha256": "3b9dbe387566627fc1ca35f5cdf677e9227e82c8a6166a88c774aed12bff373e"
+    },
+    {
+      "path": "managed-resource:2:i13update!dotnet-bytearray",
+      "bytes": 1996,
+      "sha256": "eb54f7e8d65444cc8c29526697a8b28d4d3d412aa9c3f3eae4ad35112e522c3e"
+    },
+    {
+      "path": "managed-resource:2:i12update",
+      "bytes": 2283,
+      "sha256": "1732e6b08f86aa247e09cfe506a309b1954cec56aaa66e0b96a89ec7d13a7d56"
+    },
+    {
+      "path": "managed-resource:2:i12update!dotnet-bytearray",
+      "bytes": 2279,
+      "sha256": "7e1b8f29df0b0aa4474af501e243e784d64b9cb30a8f3e3237c54f75519845b9"
+    },
+    {
+      "path": "managed-resource:2:i13reset",
+      "bytes": 1362,
+      "sha256": "6cb741fa23d030e4be21d6ca3b4c44bf334195b89e6a3406cb7d5b6328c7ccff"
+    },
+    {
+      "path": "managed-resource:2:i13reset!dotnet-bytearray",
+      "bytes": 1358,
+      "sha256": "ea7c1f789a4fe5bfe6dd396513822090c1413f4f14f4bfd78a6b26788dedaad4"
+    },
+    {
+      "path": "managed-resource:2:i12reset",
+      "bytes": 1362,
+      "sha256": "6cb741fa23d030e4be21d6ca3b4c44bf334195b89e6a3406cb7d5b6328c7ccff",
+      "same_content_as": "managed-resource:2:i13reset"
+    },
+    {
+      "path": "managed-resource:2:purple",
+      "bytes": 1104,
+      "sha256": "211f40431572901a771f712eb7980db2d143c816648420b04a0eec4e5509c2b4"
+    },
+    {
+      "path": "managed-resource:2:purple!dotnet-bytearray",
+      "bytes": 1100,
+      "sha256": "c43157470b15963125473a5f2a3f17972332320a7912ebf6c0664eb732e4b8ad"
+    },
+    {
+      "path": "managed-resource:2:lzma",
+      "bytes": 157316,
+      "sha256": "8d52e80b8137b14e9511c862c9224ffcc6172ce292538ab90ff6c682cf0db3ae"
+    },
+    {
+      "path": "managed-resource:2:lzma!dotnet-bytearray",
+      "bytes": 157312,
+      "sha256": "629b0189c42cb8875724206658896818699fefbf8364be1aab3a9ff9369f74db",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/BC"
+    },
+    {
+      "path": "managed-resource:2:ikey",
+      "bytes": 25067683,
+      "sha256": "c4080f20c02c033ef4c66432d5335a51d89d669adbe7815e1f733f38179aae88"
+    },
+    {
+      "path": "managed-resource:2:ikey!dotnet-bytearray",
+      "bytes": 25067679,
+      "sha256": "7cd020708814fd039d7b10b2cb07b77aa962bc0304f589d47a94bf75f583e915"
+    },
+    {
+      "path": "managed-resource:2:ikey!dotnet-bytearray!bz2.dll",
+      "bytes": 75264,
+      "sha256": "6dcd8aed34e6c72ca275af6d00f15badcba6c8e6bfa090522373a1b605c43810"
+    },
+    {
+      "path": "managed-resource:2:ikey!dotnet-bytearray!getopt.dll",
+      "bytes": 19968,
+      "sha256": "1ed466a803e282dd689ed381b37603e11da0481e86abe98ec41447ba6423ad10"
+    },
+    {
+      "path": "managed-resource:2:ikey!dotnet-bytearray!imobiledevice.dll",
+      "bytes": 16541696,
+      "sha256": "93937d1910e6a59c9f6533e92a1f59d6d7bf9ab2706a40ac903dbe695682e1e6"
+    },
+    {
+      "path": "managed-resource:2:ikey!dotnet-bytearray!irecovery.dll",
+      "bytes": 47104,
+      "sha256": "9daf0c26ea553959e22fceba4652575780290576fee9b2cc7cff2152a2b2c9c7"
+    },
+    {
+      "path": "managed-resource:2:ikey!dotnet-bytearray!libcharset.dll",
+      "bytes": 10752,
+      "sha256": "63740601ddce536811b3b6cee8f57ddfdb777d7b75f40def1e79511b10af66e2"
+    },
+    {
+      "path": "managed-resource:2:ikey!dotnet-bytearray!libcrypto-1_1-x64.dll",
+      "bytes": 3458048,
+      "sha256": "55828e70714c6962e828d3f802f86c47ee3877f190289cac015eb1e9ad7e3c54"
+    },
+    {
+      "path": "managed-resource:2:ikey!dotnet-bytearray!libcurl.dll",
+      "bytes": 464384,
+      "sha256": "0e2e5c025de2592e420250841bf0d69429c24a5a655123af74a4b379839bc0f0"
+    },
+    {
+      "path": "managed-resource:2:ikey!dotnet-bytearray!libiconv.dll",
+      "bytes": 936960,
+      "sha256": "7a0fc596a211c344157142af5a6819cd71a08aa3ceef43190566b44156486027"
+    },
+    {
+      "path": "managed-resource:2:ikey!dotnet-bytearray!libssl-1_1-x64.dll",
+      "bytes": 686592,
+      "sha256": "375c1ba5d9aee5f3f9a7091346b0508bdac17a03414cc0a7f3a9b03c6917a09e"
+    },
+    {
+      "path": "managed-resource:2:ikey!dotnet-bytearray!libusb-1.0.dll",
+      "bytes": 168960,
+      "sha256": "d3f1cdc88f5efcb625a9e1e512660291e9ddef0760734e7a7746677f6e092486"
+    },
+    {
+      "path": "managed-resource:2:ikey!dotnet-bytearray!libusb0.dll",
+      "bytes": 85504,
+      "sha256": "b98b2b341a8f292ff4d5f0f2e0500de19af027b8b682e989b32e3a1e85de3f1a"
+    },
+    {
+      "path": "managed-resource:2:ikey!dotnet-bytearray!libxml2.dll",
+      "bytes": 1464320,
+      "sha256": "0a64e89139991e2bf5040e69bfaca381f36fa466398adf39c687642d83c7f06c"
+    },
+    {
+      "path": "managed-resource:2:ikey!dotnet-bytearray!lzma.dll",
+      "bytes": 152576,
+      "sha256": "8b463b2a05264b857429e663602dbdd06de353a00e6dc7326cab3cf64b4cb61a"
+    },
+    {
+      "path": "managed-resource:2:ikey!dotnet-bytearray!MDM_SETUP.exe",
+      "bytes": 5494784,
+      "sha256": "6df298d8ce0de16fa8d776490bdb67b1e7913a8b3e226e22e0807decdebec650"
+    },
+    {
+      "path": "managed-resource:2:ikey!dotnet-bytearray!pcre.dll",
+      "bytes": 395776,
+      "sha256": "472a46075f1586c5ba93f831378f80655111e32205631e2d633e5fc8919fea0b"
+    },
+    {
+      "path": "managed-resource:2:ikey!dotnet-bytearray!pcreposix.dll",
+      "bytes": 12800,
+      "sha256": "ab6b206c748b6504007be65ddf81329e6d6dca4f6c6e4a1ecb1e9d47525c4cf6"
+    },
+    {
+      "path": "managed-resource:2:ikey!dotnet-bytearray!plist.dll",
+      "bytes": 64000,
+      "sha256": "261f7f4e5abf36f03779957e4d637b87170d7795d94aa0be412fbacae6b6cc0f"
+    },
+    {
+      "path": "managed-resource:2:ikey!dotnet-bytearray!pthreadVC3.dll",
+      "bytes": 102912,
+      "sha256": "7721811b2715780022df0bfd8a5b1731c3bf2f987308b0ec578c58b6bd80a65a"
+    },
+    {
+      "path": "managed-resource:2:ikey!dotnet-bytearray!readline.dll",
+      "bytes": 174080,
+      "sha256": "0985d3eb07713437995f554a03f9ec02bd54ec41b8fafeafb45b5e6bd055de67"
+    },
+    {
+      "path": "managed-resource:2:ikey!dotnet-bytearray!usbmuxd.dll",
+      "bytes": 35328,
+      "sha256": "8709f3642719215ea2da04195634efb3c258514810840b9f8e6f973f882e243d"
+    },
+    {
+      "path": "managed-resource:2:ikey!dotnet-bytearray!zip.dll",
+      "bytes": 103424,
+      "sha256": "970ef9da551ff5e6c2cdf30eec0b079ce9a34d1f59f36bbcfa3e02c496c8a8bc"
+    },
+    {
+      "path": "managed-resource:2:ikey!dotnet-bytearray!zlib1.dll",
+      "bytes": 85504,
+      "sha256": "1c5a0b22f683e73631cf23e2287b6c120aad06435050b792f84c4d75c8a06c19"
+    },
+    {
+      "path": "managed-resource:2:nego",
+      "bytes": 10955876,
+      "sha256": "1ba00c80b0084ba64e943a391325ec41a70e8b22e31f5440cb5d8b3e2ec256ff"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray",
+      "bytes": 10955872,
+      "sha256": "e2409606a3b9a3ce2517f256196ff4db4a151baabf62c2050d636464142768b0"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!00/005cc965864ad5e6a4da3b1296509c0fbf7e5f37",
+      "bytes": 464,
+      "sha256": "1a1bbc28f960ec05c98fb8108187cb124c8072a0025390996a7e46a9d6f60cef"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!01/012707a2ae34d77a28b16a9e443b780ea4e6b0aa",
+      "bytes": 496,
+      "sha256": "3022398dd08ecfd14a487f8462616ee20f4a87a882824e35c4aff2ba38a62303"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!01/01a14737bf725839e60201704f5e0447e23800a6",
+      "bytes": 17072,
+      "sha256": "00bcc4b402f7e0f5ce52a62d5e45606504ab4fffd8e4835fc81c5ac710a9c461"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!02/02dcc29d169dda989f3402fe07d8b6526d6fb1ac",
+      "bytes": 576,
+      "sha256": "2b499f786ded571a7900b6d2bb41e25cbe32f3455b04db55602c68a5aa1153eb"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!04/0468d26ad5dc28df372736abb757ed6457c7eed1",
+      "bytes": 272,
+      "sha256": "c4a5c36496eceea1e717d65e6550e18fd9d1cd89cc30f7a9c448bb3a9e0edf0b"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!05/05fc8de89f9a5c214ca28aedfc4e669f92f91ab1",
+      "bytes": 736,
+      "sha256": "450c6bdde5cd9280a280b9fb4215e0a09840f46ad6cf726ef8e66779f184179a"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!06/06c643094e1111ec02fdb76f6303dff57836f475",
+      "bytes": 448,
+      "sha256": "fa5b80cf32d8209a4c3cd98d873bbee9e188ac64518e88c44091f3cebf57ab40"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!07/0779e618785c54b9bda0f8b1c5d4ff23a55e3c25",
+      "bytes": 80,
+      "sha256": "79cc84beca7c934ca682a2998cb2f50181f996f12e8c5fb195d63d520ac6a2da"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!0b/0b8377be6f4c8ac1540e07ed01fb1195e3d16532",
+      "bytes": 9408,
+      "sha256": "537d81080eb3b2dd35b21e7a8f176e1696e4d8b72b8835ffc41e3b7f6708dd4c"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!0c/0cce8dffaf0c108d17d791a193f39ad9da971083",
+      "bytes": 112,
+      "sha256": "90c51e237af1091640c42c75a3982eb3a3049a06b8396ac830535e2c797cc2ed"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!0d/0d3d823672ed2daede9c8a4e480eec57f6635e5a",
+      "bytes": 16400,
+      "sha256": "d1f00ee087795d6e51d3f8dfaf18e950a699f619d9b292a4c3ac301680050261"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!0d/0d609c54856a9bb2d56729df1d68f2958a88426b",
+      "bytes": 94224,
+      "sha256": "0ade788e3497ba3659b224135825db8fa5f55666e0136fc2a3aa81efaa122666"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!0d/0dc926a1810f7aee4e8f38793ed788701f93bf9d",
+      "bytes": 528,
+      "sha256": "f987ff156c069c769e702c8bec77d2e42060a4dc19406f5dbef0174470628431"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!0e/0e63db7790cc396059497c07ae7464743b73246b",
+      "bytes": 800,
+      "sha256": "199b9b180098e7203f7f51903944c47a7258df21074c8304ace878a57b05d7aa"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!0f/0fb54654b97099d34461570fab859a2b0570ed1f",
+      "bytes": 112,
+      "sha256": "2c85fca0d9ad858d6c945b7ce69a8538930ece94fffbd82ea3afd6212986a274"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!0f/0fc3ec4d96a074e0d6c4be6fb9ede6a822480cb8",
+      "bytes": 128,
+      "sha256": "7500cfac2d6d89cd3671253ea3e062facea4f320389eb03d0165b26f83521b2c"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!10/10d00bb4c9eddd89f462d1d19a1e0b352870d738",
+      "bytes": 217104,
+      "sha256": "03dbd37fafb8d498f9aea0c71f8ef7d25b97f48fb37aa87915bf2ee4f0f0b9c8"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!11/11d4e04644fe2b7240d23c8b20241b89d87672be",
+      "bytes": 160,
+      "sha256": "93119e1e35da7d2e54565d33545b0a5dfb8acb4e364a0a5917aa154954312fe6"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!12/12b144c0bd44f2b3dffd9186d3f9c05b917cee25",
+      "bytes": 1060880,
+      "sha256": "44019968ed192c225381a05e330c993734c9e7266bfdd3f18d7447e1e4afd50a"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!13/133bd433062c35f83e4ca74369359cbf1ece4aee",
+      "bytes": 176,
+      "sha256": "10214e537199017c71d3be52922769939476d4e93f6f6114603fbda5f913351b"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!16/160600e9c2e408c69e4193d325813a2a885bce2a",
+      "bytes": 80,
+      "sha256": "d3d8c11d8aee0635613e9b0b8b1929be70a8b49a0d0780efbac7436935fe9719"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!17/177681416e16bbdeb770a5d660dec884822a6fdf",
+      "bytes": 80,
+      "sha256": "e4d28a2e8645df69b3c1692dda77d564557a4335425ccfcad3693da3ec02612d"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!17/17b5f2d3e0cc89e2cbf1cf4de3cbb7407a549497",
+      "bytes": 96,
+      "sha256": "66bccfec46884f232335675c0c210c3b8d0604105f9a1d84e84dc788acf108c7"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!17/17e2176738ede95d1f5051c25b5de49b6fb70ac8",
+      "bytes": 400,
+      "sha256": "2a50d639fd85db02f264a96053b854527e7c8ac1930d5d3052a05246d3a6c08b"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!1a/1a300d26e5c2e033afdee82564c980fd161c17e8",
+      "bytes": 192,
+      "sha256": "e05f10fe9ca4e25b45640a13828940385a25977db7f0dafdcf66dcbb98cde67c"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!1a/1a826a578215c165cd5cf65e1018351831b2f217",
+      "bytes": 336,
+      "sha256": "ddede3c83e1c4ea85cd95cd116bd322633ac33dfe3234869fa25723091d2aeff"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!1b/1bf7e6c2a19edc40fd02c14e91bf3c83ec0fcaeb",
+      "bytes": 3984,
+      "sha256": "e71460dc131b4649b1bbc7a686499ee922ebc8efe09f71230b9eb567650660f7"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!1d/1dd68f1722b3b909800df3c64c3524604dbd37b1",
+      "bytes": 256,
+      "sha256": "333fc68741d6d0f30f6d78171f4a9e8102bee04c21bafa51f1f4fabf805bf270"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!1e/1e6c0783f9b33d00b152067a0661c8fc8841073f",
+      "bytes": 416,
+      "sha256": "2e258afa683747aef76ea8743d08a2bc6ba0e90481d1e3bab69d0437014cbd59"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!1e/1eb01aeda8d27551fb108d07883cb1da3507d011",
+      "bytes": 80,
+      "sha256": "4a709d2d4e646a2775d5fd2542c13b7b4a601e46fbc526bea3bb5cba2d8b3f08"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!1f/1f7df6d4313f2c8f41c0917ebe8ccf4c9fd0ec93",
+      "bytes": 96,
+      "sha256": "9e42f5a8caeb3982b1d91cd0cb3a225ba5a7c7a7fe04f563146f1e4af67b3052"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!20/2041457d5fe04d39d0ab481178355df6781e6858",
+      "bytes": 471056,
+      "sha256": "863c486a6055d6dbe412f40623b3aecdb192c4bca6c711973572668f1eef3f38"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!20/204c53771f8ec5c681a2f24f3e6887232f48ca6f",
+      "bytes": 48,
+      "sha256": "5ed52de138a76d6a7174028334664b9093ba7102fe81a6aa37082b772683f525"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!21/21ce38fca335b0f12bcef301ef13262b93ca4985",
+      "bytes": 112,
+      "sha256": "e111c8cba2ca61637bfe035040fb76007307051b391f308f039241c022006a81"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!22/22b5fb3c3890cfc5cee685c923922e8ebe8ee9fd",
+      "bytes": 32784,
+      "sha256": "db0190e78ddb0ab41bbaae6fcc7eb26633296d94d4501cf021bdc0ee0148abfe"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!22/22e3b6f23409a50b22b33df1881b50265ea10da3",
+      "bytes": 48,
+      "sha256": "25df104d228c036033aa9e2bf82289ff51b5d9eb5126969c2deafbbab3f29698"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!28/282d9ed59a4adc40fee83f0c96b5568855361d51",
+      "bytes": 80,
+      "sha256": "e049d6770c6f58baa5ab0cd4c4544cf0a49f57ce89c541fd752ff6e4b5972b64"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!2a/2a8f0c55f71e60f8d1c420f2a4aa89ad431c24b8",
+      "bytes": 864,
+      "sha256": "81b11e37881c445cbc2f56be41f8a57d8ef8b4903eaea580b1488442b3e49814"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!2b/2bde6c81fc593b9bafad8908286c17489b428bff",
+      "bytes": 16,
+      "sha256": "94ad77368b8afc945e9a5d523eb908636c7a8139d7a00bf981496ff1c457b1ea"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!2d/2d7e06ba7194fdfcd2dd45548b39b1e477c9fd8d",
+      "bytes": 960,
+      "sha256": "20480c831277c241907a30e30cfb0b52233e3b5d143060e605b7d2c4d7b9834d"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!2e/2e266186828b161420dc03f2c507e202227c58e6",
+      "bytes": 32784,
+      "sha256": "c407b1b545554bdc62e07b916c8cb7fe0ab3394fa5a8ad63df34037d74c27543"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!2f/2f771621fd3c627d0db75fe173f3dae8ce50e98b",
+      "bytes": 192,
+      "sha256": "a29bdf4c1ebf60331645ad7febce4976644f69f0bee0cd7be4590481a9f92786"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!30/303e04f2a5b473c5ca2127d65365db4c3e055c05",
+      "bytes": 36880,
+      "sha256": "8da6762f977b2572b8e6e6a2dbb50c139d12fd29af1832f4a62e974415b22932"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!31/31bb7ba8914766d4ba40d6dfb6113c8b614be442",
+      "bytes": 303120,
+      "sha256": "c9996fac570167ebda0017474b128bbc437bc2303e6bb8e7a54d1685c9f22c65"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!31/31d0213710559efd6181d4f3ec65a409d4e2fbef",
+      "bytes": 48,
+      "sha256": "498165b6b351a10232a3f199db19a3a1c095228ce74637287f7b5b9d9dc1086c"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!32/329f7b35aaad4b27f692ac931af3ae0670a22b11",
+      "bytes": 80,
+      "sha256": "0928ff141db6972e866b1ec2770109e9d469372b8edcfc693b3e994debd1d625"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!34/3418406efa0258f8db103dc909cfe1e9a35ede36",
+      "bytes": 1664,
+      "sha256": "994f44fb62dcf522b2b89a5082fb45889d882a10c6c7331c8b64d6d510ef8bc3"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!35/350a83ba4b583ff042421de4613f0ac6184a0f2f",
+      "bytes": 128,
+      "sha256": "8716e4f337c737e2e2b29d782ecea27c91b7641f78ced75cf5dcf30a4f4b8320"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!35/352ba18754cfdac83bb29cab727e15da8fc13147",
+      "bytes": 48,
+      "sha256": "5f299f0e1ff9bcbd701c9d362ea01f0906f4fe91e969ba3f24b665149de9e3dd"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!36/365bbbdbbcf7c93cd4437c7965aa6d1e3092109a",
+      "bytes": 22544,
+      "sha256": "de8f2cb19db14b439dbc1d4a3f1d1c7c53c8b4e16b10c8df53e29105cb92ffdb"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!36/36eb88809db6179b2fda77099cefce12792f0889",
+      "bytes": 928,
+      "sha256": "e950910a9de433f07c7a6c7cd45d407aaa017be74a5171f76a8211571ae59b5b"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!37/37630d9f318e052b362c7e381f817965b4059f6d",
+      "bytes": 9152,
+      "sha256": "dbb7489d6e055087d925703419155037149e583b1c263ff2474bbeba12b4f2bd"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!37/37f5f2cb0563afa31011b7da26a041a246ab44ad",
+      "bytes": 192,
+      "sha256": "52b522cce03e5bc72f687d68b5c1aef50fab7f67b78f78efed68ac9848d6c2d1"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!38/38a1f85499fa5da83a9603ab060cee41bedd2d69",
+      "bytes": 4240,
+      "sha256": "abc44dd646e6ad739227dd4b27b4d04c6e6cb6df33f49c9be700b43c54a0e2e9"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!39/3981ff957624f664ccf08145370fc20af534d831",
+      "bytes": 48,
+      "sha256": "f0ade1587a22ad7344b4b02a2145d8d5754d6d7ba147bbbbe78138325e51cc2d"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!3a/3a73558678a31bd57a5ada0f3dafaa0d3b33570d",
+      "bytes": 1760,
+      "sha256": "a633c435c0c0c438bac89dc2f40b0c1efab055e657d56d100e469377594a0ee5"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!3a/3aef6f188cf22d663030b159b271f1f2591cf56a",
+      "bytes": 16192,
+      "sha256": "450f5a629003a0bb87b59c71f6db5adc9d6cfec294f57d4d1f14d9b4de233669"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!3a/3afe56e2c5aa8c090ded49445d95e8769ef34899",
+      "bytes": 16400,
+      "sha256": "c5d45a77bc66d2dd5a03306527a60a96e9d5694262687f8db20c567810dd7ec9"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!3b/3b08c7e36ecd1ec0ac7d1c2782426aabc5addeb1",
+      "bytes": 80,
+      "sha256": "0ff8238fd31af434ec8950360eb3c7d6c53d09eb601edc0fbb4e32db5968b0d4"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!3c/3c3b08edb593b2b4ec66ae993792462cc1d7ba92",
+      "bytes": 192,
+      "sha256": "f131939662e625cf0d7df8650cdf0f30b3bfcc4b922a7faeba6af8191d3b92d9"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!3c/3c54cb1e89c54d3c09664c5b8311c0a00f9ea06e",
+      "bytes": 80,
+      "sha256": "23cc1495954b5367dc940b40ec218934361be45060e9ecf0d041ce0cfd59b1f7"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!3c/3cd6fce85623f689126ee032a86438e2cb48d88d",
+      "bytes": 160,
+      "sha256": "d6ad37c235c1f61fd3f3bf0d2892fc31b4ee6a6ff059520c49024163d5834f4c"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!3d/3d0d7e5fb2ce288813306e4d4636395e047a3d28",
+      "bytes": 180240,
+      "sha256": "7ebc01c04c0c249bb0370ce5e69c9a2eca35c66ad81f4148b7c9774187779b2e"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!3d/3d8a6630ca29c3f835470e1c45a747e245ff8584",
+      "bytes": 18080,
+      "sha256": "9a91dd421fe5eb7771c53a48b0468e01c68fefb1528ec5b568c4a769f8397b9e"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!3d/3dec38ca46c9e37ffebacf2611463eb47a65eb09",
+      "bytes": 80,
+      "sha256": "9ed2b815bc1f4bfb3865332475d128440fee24a05e8d6665486a4714494f32cf"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!3d/3df804f2a5df1630a2e5ea53354f6ccc23a807f2",
+      "bytes": 128,
+      "sha256": "9b2059218c7520bfb140dedd9f91be123478bcf90064215e43798fde6b673096"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!3f/3fd9f141eddc3e39ab3a70755c90798a468cf3e6",
+      "bytes": 192,
+      "sha256": "c23a64b0b9ea819f69d5f893eda653ba0d0fee2f9a055b537ab036324500132a"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!40/4003654e0b99fca239478606cdc0830a244d60a4",
+      "bytes": 80,
+      "sha256": "bd07aa12ea66e5ebcd34818e6cad4ec23a26353a8c8904d1009177a2b108d541"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!40/40089fc173c712367a5266b59ab1c1f5e1dad734",
+      "bytes": 16,
+      "sha256": "2254c6beb6c7fe78506617d62827a63558c4e2ea8da6b548ef772e48edb8fc01"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!40/4096c9ec676f2847dc283405900e284a7c815836",
+      "bytes": 49168,
+      "sha256": "7561d9ee648e665e85eddb34c73694e6b97f59de070ec8a51ae766200d87411f"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!41/41efccad121630df0dd1c8b7448a01bb3788b808",
+      "bytes": 96,
+      "sha256": "fb81753a766d98ebceae3c60b581b6a09e2639d067c4e0dd4842480cae17dc74"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!42/4281a464d99207335c3f8ce5e5733c70e749b5d7",
+      "bytes": 112,
+      "sha256": "3eab1fcd88bcde053361f6efcf4b7b6dd0d90986931b446fbd6c0ea480eacad4"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!45/45873380d5dd41223b6716dd27bfaa7e9fbba5fa",
+      "bytes": 64,
+      "sha256": "8a1cd9b0135e3fec229fe9c51e2672a12a51269062e1aca3b5388fd7ba6bb159"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!45/458912dab03c912aa953a14b0c5ded4bb72f031a",
+      "bytes": 96,
+      "sha256": "055deac7bd96d8fa4a866882846e17da3b3ab44804aea131bdee9ab035cb070e"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!46/462db712aa8d833ff164035c1244726c477891bd",
+      "bytes": 12304,
+      "sha256": "2c0ab2fb9ee8393f9c7433b7e601facaa54734e16d3ed6320686dc3b28feaaf9"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!47/479c170f25e811607f8bfd4bad1931e4dacee370",
+      "bytes": 144,
+      "sha256": "2889d84d145e458686621d020fb42f97b3db4fee454cdbdd921a5a20cd1129e2"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!48/4800b8726fbd1a324c181bd735d6457f3eced7cc",
+      "bytes": 80,
+      "sha256": "326d123bb3cbbb9c6d7ceeedab34431c5697e464549a6c9c03e6a4fb049921ca"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!4a/4a9df39e2b3997cc4dc535131fe3eead30ba4d7a",
+      "bytes": 144,
+      "sha256": "18337c181a354cc416fa6bd45428d5c4144746c2b5dc4da0404b0da4296b1efa"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!4b/4bf2c57686ace66ebb9a7edafc27a5f59631b5f4",
+      "bytes": 192,
+      "sha256": "ecfb62d742719f3d3d31ee6886f0f840db7d5a243c38be37627b6513c32be85b"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!4d/4d6bb652961e1b6cefcf502caa08caea179e2b64",
+      "bytes": 5280,
+      "sha256": "e5bf428b418a1f261645ea112ea8d0d4296845a5f1aff57344156c122de6644b"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!4f/4f98687d8ab0d6d1a371110e6b7300f6e465bef2",
+      "bytes": 188432,
+      "sha256": "728949ff69b5c75e4e407a067fc4552ca6b1c9d80673559137cdd73d9b2f4534"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!50/50b12e76d2ca98b79a1c5891572eed4d0913b96d",
+      "bytes": 112,
+      "sha256": "516fff37b6d110f99dc8e31cceb422ed7ee8d1f6f5f470dbf747224f236679fa"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!51/516d7e19a4a0c9475c0015fae195626377b1b810",
+      "bytes": 172048,
+      "sha256": "f700494c6d7693f3b2ae76bc97fb364cc953ab9e2db3113834fafac374e0ede1"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!51/51a4616e576dd33cd2abadfea874eb8ff246bf0e",
+      "bytes": 28880,
+      "sha256": "ba0fe8efb5d9ebc043226ecff3a9f36a7e78f5a10eef94b50fbbda62aa482415"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!52/52c03edfc4da9eba398684afb69ba503a2709667",
+      "bytes": 128,
+      "sha256": "ee704fefb98e18e01229a118f18f4ca93ac1b29a8e0eccd774d480858aadf8db"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!55/550a09c4f8c4d89df203ab615ffc979d3c56f613",
+      "bytes": 2032,
+      "sha256": "e9691b7604d7078e853e109f6dafcc9eced346f9741bd67e89a42a72a0bd45da"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!57/576f5e32a01b05bf1a0c00633109453086b28fae",
+      "bytes": 240,
+      "sha256": "d909ddd1c269ad081bdd0250579482b0092a7416d6ebb374ed383cb833632f8e"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!57/57abe97189047a814cc335cde2d720f619672c74",
+      "bytes": 192,
+      "sha256": "c851573fdbff48aea3474b7c5a483b4b998b790dc8262e2cf6d79ca897368190"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!59/59445c4fae86445d6326f08d3c3bcf7b60ac54d3",
+      "bytes": 224,
+      "sha256": "3fb42c33cb0eb139f0497893c258277d5840bf92acb6406e4b5390c89c3822f6"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!5a/5a4935c78a5255723f707230a451d79c540d2741",
+      "bytes": 36880,
+      "sha256": "f5feec3411397ca6159f6d5df638c17cf6223873520933ab9b084331392731cb"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!5b/5bf4291fc2382f692c9708c07a78325e685a04ec",
+      "bytes": 416,
+      "sha256": "7616a02bd29e3a7910be1b1144ea06e262cdc5fd55452bd38f7e9fb0e9c094d6"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!5c/5c00d54c39e7cdfe6419d9583dd973a9223f545a",
+      "bytes": 48,
+      "sha256": "59f785b3ca032cba2cfd1290ed307067de5785b5776bb4f6a98f4622c25614c7"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!5c/5c8e9c1b467c560ecae4f5c64374bc67fbd5819b",
+      "bytes": 1232,
+      "sha256": "ad954d4894e4f6f811e40a6fb17f3f8f0fbdfd3cefe4c8b9ab5eb7298f4f34e7"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!5c/5cfa9db121949c3bf3b889caefc8d5ba766dbd09",
+      "bytes": 1424,
+      "sha256": "3b2aa0b8ffc24396e1772e9ede3509f39dca33e6de410b6e7d222cfcd06c9bd9"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!5e/5ec04c20b48ebc283e0dd1a40c30d88ed69e2d59",
+      "bytes": 880,
+      "sha256": "46038f6fdb3bd206b9d6653e1cc14758d236a361f61b23e14bf03e62ef792dae"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!5f/5f6165d4b21efe1b9b4b5eca6133c619225fff4b",
+      "bytes": 784,
+      "sha256": "9f68af45abd542284cd69e70ac7167e60389fa22ecb41801067af4d24e3ed94c"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!5f/5fe47b24af1681316db428b3b4e8108211665830",
+      "bytes": 192,
+      "sha256": "3e0b7c3362ef853d7024ee9a3ac10913e584ebc1cf98ca7afc39223e7aae2139"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!60/60676dc938a4213796caffcb1b488a4ab84a1cc9",
+      "bytes": 16400,
+      "sha256": "cdf416f7eaafbc16579f7226d3d62dbf81509485002f207b27b5b9adb9804390"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!60/60a812d8a963c4f1854eb91631961bcd40f15ac5",
+      "bytes": 176,
+      "sha256": "b846ac83edfb503f92a29071938c095a9f8e9a5d240956644e43a86f6bf63562"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!61/61c8b15a0110ab17d1b7467c3a042eb1458426c6",
+      "bytes": 16400,
+      "sha256": "fbd15ac77961b979fb39833da4a3211f8faabe94b5f73dc91b61730e29572bb3"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!61/61e1e4600e3997adbadda920ade1321e753b2b17",
+      "bytes": 208,
+      "sha256": "96b19e29e7210355084233f8ed767a04fb62e8cf003f19d76d50aa210450516e"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!61/61f75e3567fed804f6dd0bb4e78030c6e00d710e",
+      "bytes": 32784,
+      "sha256": "77ec77cfb40acf8de0b696242f6833fcd875a54d0dda4c0230552def87982382"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!62/6241b2b9da35bc7ac51266cce64774fc975ccf00",
+      "bytes": 16192,
+      "sha256": "f59d5711b2e0f0a1974f2111ebe88dba061c8931f06049aa1ad1c4c9789c9768"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!63/631d114b532bb217fd993b77b543c8ce79e969cb",
+      "bytes": 64,
+      "sha256": "d8f8902961839d34c10b3fb8f6077ca4516ada90043b784dbbee4d0cfb8fc87e"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!63/63e928471d296cb47a6ffb5343b40b90a0e5d92b",
+      "bytes": 128,
+      "sha256": "f9cbd43751dd85db1713433b598c7ae252d0acff3c353eedc44649781f4bb535"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!64/64d0019cb3d46bfc8cce545a8ba54b93e7ea9347",
+      "bytes": 57360,
+      "sha256": "57ba0fd771a6752817862034a68caab232e9e8b2dcba91bc94f7212d80e37048"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!66/662bc19b13aecef58a7e855d0316e4cf61e2642b",
+      "bytes": 1456,
+      "sha256": "a1a435e75fc232ccbe774cdc89eed2ca9467b2913034641700f06721dc4b0ba9"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!67/6767f73a4efbd71c9ee4635119f9bf2f530a6ddc",
+      "bytes": 96,
+      "sha256": "efcdad623f83eb2b47b50cb45ab65430bcb88fe2bf8447203a765b14e86068f2"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!68/6859eb8cb63f05c678daac81bb674087c884151a",
+      "bytes": 64,
+      "sha256": "0074aa28e998831e2395a267e39adf73221006a56d7776fecb568f96de80b729"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!68/68747f03f22517b96275ce405bfa80fe6333b5db",
+      "bytes": 16,
+      "sha256": "764c66bbc3303ff21e462760446d3e68bd21f448e3ea9055130cec91914e22fa"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!69/692ebff078a31016cc3fcc45e4208a75cd844207",
+      "bytes": 112,
+      "sha256": "6a774ad5ad7157c0ffb9da62613d948acf51d6707d8a8741d06b5609e69815c6"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!69/6955d4b9f8b282ef865a68e0fbea0ca1a15c018c",
+      "bytes": 48,
+      "sha256": "b1093098e3bf6cc9af4c2ec2dabe2b78c2010dad0accd2800b95e7c5467bf41c"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!69/69a2779c0de95b5fb93aeceecc36db61b7746ae3",
+      "bytes": 32784,
+      "sha256": "16b1c72312d87b842fa690b1c1c6f033c86b63faee93766123410354e42b7646"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!74/7486732fead4d641a3369739a8ae03654626825f",
+      "bytes": 160,
+      "sha256": "2bd4c90f22f18b12b79f2161141ac73acaf184a79d1eb496164445eaac9d49a2"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!75/75b12106910f0b106f64d72eb75397427884fd5a",
+      "bytes": 57360,
+      "sha256": "63e2937bea89061899c4bb502aefc3bf0c228868500a01e8ac5e9ca79831c256"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!76/76fb3c685d422334fd25d9777d64db74af7cb25a",
+      "bytes": 8592,
+      "sha256": "6f802296596333c0c7c540d3eff32e0e14e64b51d21f447b20125ef5ae9c0a38"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!77/7786c7fb0355fc6684fc4d8745e1bd67fdca3197",
+      "bytes": 864,
+      "sha256": "cf8a947580e1979a9b67198eacc5c17b7bfebb6dad605f9d460f418d9364597d"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!77/77e6b5a266733afee2b161f9ec40f2164639ab21",
+      "bytes": 304,
+      "sha256": "f657eb6fefa242f745df7cdcafa59b3b796d5b473ae12eac7f95ff7d9c456b9d"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!79/79104363cd2ea25173d257e5fe8a2e4e3339a184",
+      "bytes": 1488,
+      "sha256": "d1bc0add81f9f2c38d390f4bf4e03af6d7344fba1110d1a89cbae39992eebe4a"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!7a/7a73edb45c9b018bc5a26c0710d8679a573eebad",
+      "bytes": 112,
+      "sha256": "a596adb7fd746bbf40978d100618f76024a72fb2ae36d0a1ad556a1371cefd82"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!7d/7d01c88595369be97f7fc73b6d071ea09bb1d9fd",
+      "bytes": 96,
+      "sha256": "a789a9e8f96a518320c3915c0ce063223b1af7f1056c44f29fbe629e8ad6014a"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!7d/7ddb1ea8c09e5baae5e2d2ecac604a4e4e3087de",
+      "bytes": 25584,
+      "sha256": "2c196a9903b7130625e41c14dc06908883cfa8bb38bf2ce5b6bf54ed111b6aa0"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!7e/7e5f642f6da5e2345c0893bdf944da9c53902756",
+      "bytes": 144,
+      "sha256": "2fc219533b756a712d802fd5ddba35f115af72bd5150281cc50b0887abaf0a81"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!7e/7e9faeaa271021ac54a4f90cbaf047601854a20c",
+      "bytes": 192,
+      "sha256": "3cd85b40358ff193a3fb8f391adf139f13c768f11d0415dab920967dbc92ca45"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!7f/7f1a0ad01b8bc0045adfccf2d6c52fdc8a4fc7e6",
+      "bytes": 192,
+      "sha256": "d11b328dcb14bea3c4859f33a67f716a359c2b7b484613ad9be4059e7fe9a1e7"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!7f/7ff7fe545440ab72b1570232d0ed81b84a5334dd",
+      "bytes": 208,
+      "sha256": "0cc1d11431f6b35b2fb88066d6b55df514ee69c1fc6df637ed033f17f96c4835"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!80/8059d41620e0b064ec216d456c7fb5a02b701058",
+      "bytes": 176,
+      "sha256": "796b5777ba6e9f64dabbdbd0a38fda940d24f30f42fb5a15808f8254865e601c"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!80/80c42a429a2e9877c4972b1e1ae246efc55f9c3c",
+      "bytes": 61456,
+      "sha256": "f057427b9b18cea07fb30759d66004f287b4a797dbf356af60b1934f03b5ecb0"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!80/80fa782261261e54bb73c0253e5b6beefb6a2f39",
+      "bytes": 896,
+      "sha256": "67be92eb01b33362eedb84f504f7efe79e1449eca24ce467cbbd745796fcc7fe"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!81/815ab78cab21a85cc9ee91940d27641469b957e1",
+      "bytes": 80,
+      "sha256": "67cdae06e451e9f93473a0fa7b6287a946336945c98756748798b74dc67bf0ab"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!82/8218978e4ab0a48035bb92653145a6be872ea858",
+      "bytes": 4144,
+      "sha256": "741fcd4372f57135f63f313214207bc731a8534478e1d39b6d91399783de2ca0"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!85/85cbb36a0a73dabd9e37d3d443bd186fa467e90f",
+      "bytes": 192,
+      "sha256": "32251dd869d44cf28157c9221e7ff248b1bebf8c5a9999c75bd1e1e0956b96ff"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!86/86736007d0166a18c646c567279b75093fc066fe",
+      "bytes": 5751824,
+      "sha256": "5bd73ba351137ff08ebc6ea7c5ed9653f7ad5479c8cfe3a88306a5cf6997b0c4"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!87/876a63abe36aefe5888afe97a3d3fa5ff4786031",
+      "bytes": 336,
+      "sha256": "193e49c1f25f55350c73b393b01f6e9e25e70ad3aed20d19f90f1a386d09d836"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!87/879cd013041ae9442a59dce4bf02da7de58b79be",
+      "bytes": 96,
+      "sha256": "516458394fa9ed99b7de6ce402ff0a4cbf83f99910f6156f9ce9e0dc2f699a4f"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!88/8896671f94fe1f6dc638d66154c4799ebd07f7d3",
+      "bytes": 40976,
+      "sha256": "e54c8c55d1fd8a2838b316805c389b2c9f6b2d3f4a51db39848d14c2f7b615dc"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!89/8908ce6368177c2b50dea21b2f780cf6f3978345",
+      "bytes": 80,
+      "sha256": "7fce1f9423e53d1c1a3b274d7ca261f2883a93c30be03811e1292a974893e1f5"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!8c/8ce112b727e1e99e59209e0ff9dde89831f171cf",
+      "bytes": 96,
+      "sha256": "a6790be3f0610469ab79b8789935629c5a9e7250bb0a3cce0eafc544cd55b7ff"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!8d/8d0167b67f664a3816b4c00115c2dfa6a8f81388",
+      "bytes": 192,
+      "sha256": "43a11bf2e21b4280fdfe1093e91d090668ae0d14d4938e111341538158dab77b"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!8d/8d12d5c0ac27fc05078e2a97e9d355b48b4def1c",
+      "bytes": 336,
+      "sha256": "07627daf7a5e174a9875b1f8dd1b8c2f733b38ac8bfddc6313993366dda72d4f"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!8e/8e2d7cdeb041eb6ed0ab6e9227f4380f84169aa8",
+      "bytes": 112,
+      "sha256": "1b56a10024b85851235283b88dbe93fcbdaa7a52cc3ecd26fc2b6bf93f566a22"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!8e/8e7f26685d92296da2100cfaf98173f45da1ce88",
+      "bytes": 272,
+      "sha256": "690cc4f33d44da93e9ad2fbde21881349d5419522e5a6c752fa5a6c238678e38"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!8e/8e8247ac6b56b9e446994efc2be4cecb4750fe60",
+      "bytes": 80,
+      "sha256": "9c2acd73235203f743da8400c2210b5b66512992b80be67ed57631a46dda3d8c"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!90/90176e3195a72da547f605a375757e0351a9a4b2",
+      "bytes": 144,
+      "sha256": "7c244c9a7717342b1f0182d1a75d76f233ad0651bfcad4dbd1ad49e7822b98ce"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!91/910e28e5a7bce77740ac6d91546c68ad5ffa9491",
+      "bytes": 720,
+      "sha256": "a3aab86957152f2ae96d095c59ace628a202644a3952c322508b1a21495bd607"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!91/9143d986a77ab8cf5878e4e9ac80627477eb6674",
+      "bytes": 61456,
+      "sha256": "f968a4db1de23c45562560a81927c123798ad1a844a3704de72e3e0f55841042"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!92/92084127b44bd82b8ccbfe259bfaadf60ae8b98a",
+      "bytes": 80,
+      "sha256": "98ec40a95356388615f707b2f2e9c43063100fc5b8a87d47dc346ec43dcf7c77"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!93/9329979c8298f9cd3fb110fa387570a8b957e912",
+      "bytes": 576,
+      "sha256": "7ddb6aa74fc41f5e04f33e4f8943af814da11a5f431a2e0004b1bfe3159ebe34"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!93/93434a9c228ac04012af11e81478ff1f3fc5d928",
+      "bytes": 288,
+      "sha256": "94c34832b536d43b553685742474d513fcb0dddfd378659af92efaf7b47443d7"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!94/943624fd13e27b800cc6d9ce1100c22356ee365c",
+      "bytes": 147472,
+      "sha256": "bbeb61c81cceca80424fbd31a599d1539c55860b14225479eec6a86fe6ed8cf9"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!95/95636e7caa6431d3ecd55869e4ab1a79c3885ff7",
+      "bytes": 128,
+      "sha256": "cdc1b96c8ac4da0bc7441e39f4d978816d5af5a38f34a626b09379ebf20a3c83"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!96/9644acf6883137525ecf5d3f1fad6e7048ed50c5",
+      "bytes": 160,
+      "sha256": "0e47a95122721b48b5734239f1f375c159fba903dc18edd0200028719400e176"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!99/992df473bbb9e132f4b3b6e4d33f72171e97bc7a",
+      "bytes": 28688,
+      "sha256": "8eddaa6d65bfa64aabf454b6bc70b9a301e66af2dba6e550d41eae4e66174b6c"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!99/9949a47f42b3816899d85cd0722804010ff92953",
+      "bytes": 288,
+      "sha256": "16831fec53337d59b91f059c3e00b6065951a8f111359f612da20d6bec2fb821"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!99/9982eed4b82d8a6a496188d3a68c8360e6ee1e83",
+      "bytes": 160,
+      "sha256": "afdd5b1bfc48d95b998bcafd1cd1fb81236ef37427af1a6007c2d8dcbf30f843"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!99/99d3387146335be6c7a02931fea9c405e7802c10",
+      "bytes": 5920,
+      "sha256": "75ddd6ede2a8700ca367dee709a3abb19481f74c78ffc02730cdda64017cdf7f"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!9b/9b38460e6a0a59da85829598a94054399f98644d",
+      "bytes": 2480,
+      "sha256": "c491da11e2903fb5dd8a58cb6ccade3d91b2b3656c3b9d1266541e09b0b11262"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!9c/9c2390b6a6db7028ca5b61aef42d90cb6065bfc5",
+      "bytes": 16400,
+      "sha256": "5b71f77312f43cf92e2d0c42e5dc3bd411a54604a39484d93745ecca7ef1e810"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!9c/9ca7522202fa0807198f403cc2133fb956d3c144",
+      "bytes": 48,
+      "sha256": "4536f49ec9bf742467eb03ed66e6d85d1489634348f18b2ebbc43ae056b5ea83"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!9d/9d9cb8cfe3b68a9e5cabc5300688cfdeba80e61b",
+      "bytes": 1312,
+      "sha256": "5d615022bcf3492469893994d530cf70b995fb55c43541aab70b2f4ef929bc4a"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!9e/9e0c53fdfc31ce243771e0739e3536f45d969835",
+      "bytes": 272,
+      "sha256": "5d0b1a4ba8130a496ee32419987f40b396b722a37d956201230227968918e696"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!9e/9e1b3356b10ac38436206af45e16ee1e33469647",
+      "bytes": 416,
+      "sha256": "4ad765eadd2a5e3050cec33a6a197890c733f25579280e35ff11f1480f62a1e6"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!9e/9e589bea48c0cd3b1c324b5d88eb070d23ed805b",
+      "bytes": 112,
+      "sha256": "e8b7bd52997ff4e07e9193d6d2debac66371291e5730f4908d72be9112fabcee"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!a2/a28a06c0cc64c4b8e9d50b7a1832eac8b1b4a7d2",
+      "bytes": 176,
+      "sha256": "f8822ef4450399fb946164f6dce669d4ddf8efbd71fe3b1bf379ebf490d89088"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!a3/a3388bc3048d99c38f0f6c485177ebcc64de0514",
+      "bytes": 256,
+      "sha256": "54a751cdef3b95e00ff89be516fec59f25f4a0e922159a81e53c16dc8701c32f"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!a4/a458732fbad86b9f854f2ae3e2cfe595e5c39beb",
+      "bytes": 16,
+      "sha256": "6e7c353cecbab2a5e4d18a14cb7cfc9e548876f4730c9c462f3a388db1ae5008"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!a5/a521a570058bcb5a55e1f2a81ff9f9a729e4c791",
+      "bytes": 112,
+      "sha256": "5c7db2ad32e449207c7c9316a124aa05132add3f859c3eafbe698bbb78eb43a5"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!a6/a63aedeba3fa356fb3db0f11349684be350be866",
+      "bytes": 96,
+      "sha256": "652f0b7b1cc2127f5827fd695e014dbb96abe1d170de7732347e4839aa38ebe4"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!a6/a690d7769cce8904ca2b67320b107c8fe5f79412",
+      "bytes": 4384,
+      "sha256": "6697bcdbbd3b7f3ceafb5a3de7c04ab3a4440d5f0760ac6ae8e578a71c009129"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!a7/a7abbed99e22a470b39601df542916a486fa9011",
+      "bytes": 80,
+      "sha256": "e9cddd729fc3e0e662443e2ba3a96c1c263114055fd2dadf673f42bf11965437"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!a9/a99bac2cd4c77bf371d68456638fc94418302892",
+      "bytes": 16,
+      "sha256": "9ecd8edae9ac657608a3987fe6d32fc9c9464392cda4994bb82b1037be19073c"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!aa/aa4bcc99697f859cbd3d9d35d46db9bbe00114de",
+      "bytes": 192,
+      "sha256": "1764a5ac1ccaad2be75b0a15c0c91bbfe25cdcdb19876ae720e3a8f9aa92c01e"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!ad/ad23c12d94cfbb01b49813750575a57082668774",
+      "bytes": 240,
+      "sha256": "db48d4c28d1e0a274cab0fc805d04009c025b37505fe1cc862c2718be50a4b06"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!ad/ade0340f576ee14793c607073bd7e8e409af07a8",
+      "bytes": 1552,
+      "sha256": "fd5a718e8155ec1bedb029c607f08e079d1ccd357006625d97ae0eb18879dd80"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!ae/ae8a255e85008c0fb31f9d1882ddf392e1aa213f",
+      "bytes": 96,
+      "sha256": "a3bbd6dc86623fa0682de8a0f2fabadebf8b10906bf45d50d319f8b0c4ecf3e8"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!ae/aeacdfd9fadbbe56548a40e02b7685d324050e54",
+      "bytes": 976,
+      "sha256": "2f3404097accbf1add65e7ae27081a9de40ffeac21ff4855d0982d1cf2deda05"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!af/af0a461cff85322d0c029fedc42e7841ecbd5b9f",
+      "bytes": 16400,
+      "sha256": "81d6e4a049bbbe61ce718aa3b17aeaa95fb8d9d5e6a619326d5efbb2a476fa40"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!af/af6012f88d37190a113625dbf57f3792c593f25b",
+      "bytes": 512,
+      "sha256": "785ff1fdaca853ac2b18fe65a6399f18d7a1b4c040273d33864c734e0bd3686e"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!b2/b2998988ede72dc5ec6d24d258f060d2b2e961b1",
+      "bytes": 192,
+      "sha256": "7aff64408c039acdab713bae12203e08c2de24c7e0802521f1e874126995acc7"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!b5/b5b73da26a6d2e9b8d702a31478ce35802e8985d",
+      "bytes": 288,
+      "sha256": "9712249829d17b343ae3ad26e821d01b252d1e3ae338df6818abc1ad6fe36ef7"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!b9/b9bbf00a7585f7118bb06be0ce521fe3be3d7a76",
+      "bytes": 144,
+      "sha256": "2933b0d31de2ccbe65755d150bebe5903cb4e7b1b8b7256ad1403e3fcc8f457d"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!bd/bda5aacd300cfbf31836c6ddcb1f5806f192430d",
+      "bytes": 240,
+      "sha256": "4c19d45ad8c9d228cecedeb3f02e0af2f28f0b7d86f32547f6f8a8d876525872"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!bd/bdae50d56426c359a24916e5d78e5b3282fd82d1",
+      "bytes": 80,
+      "sha256": "48edb97e249373b57918de190ade136cdc6c6cd7b7f87e8651874b95e921eba2"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!be/bee9ea849cece62d43d2588ad8ba38d35012fe4b",
+      "bytes": 1152,
+      "sha256": "96d880cb54ec589c0a7124e52422018299e78dd66ad296837aee72832a400b6d"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!bf/bf01197b61bd101045f3421ec28b29e8cc0d3930",
+      "bytes": 448,
+      "sha256": "a5d9e3c0735451c1c40ca3358eb8a746397b874c31ce547bd77e63f3528bcfac"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!bf/bfecaa9c467e3acb085a5b312bd27bdd5cd7579a",
+      "bytes": 544,
+      "sha256": "cd1cc187ff1e4e486d14b35511ab8b6fe7ec6138ce1bd4509ff00aeb4662abb8"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!c2/c239b2d95665554f985418f13379bec0327fe47f",
+      "bytes": 1728,
+      "sha256": "27d6f88345a547c76499a63b385d458e33d7818d4473d92b6034527d7b7a796f"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!c2/c2983c837cfd247bbacc8df325f866e098c9dfd4",
+      "bytes": 144,
+      "sha256": "d0316718bdcd171cf3964e6d578e02054440e7128e9ef7922da1c05d0f0fd629"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!c2/c2a565c483bacc1f9aedd4f5ac49923091f51d8c",
+      "bytes": 64,
+      "sha256": "380d804e11043165ceee7b55a36b599844eed270ff1109f364d23599eb0f0392"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!c3/c351e3034ca117560d7c5731c2a8d6841dc8e034",
+      "bytes": 8992,
+      "sha256": "8ad741eec945cf7c381add535b8a0410c846f3fa8167b2d435bced8ec9bf079a"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!c5/c58045292621673cabe64aa6050921a2f4807851",
+      "bytes": 48,
+      "sha256": "c3d97cc2e4b24f2196b4f2dd0f9244b8ac4d19fd7b59cedf1249da1161deaf30"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!c6/c6fa9e5eda5f97348ced36086f02fcb078649f3f",
+      "bytes": 112,
+      "sha256": "7a5f8a123c1a3e2c745b08e05c35a579b98ca2e5c12ffe855a936181fabefe2b"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!c8/c857040ce4ce8654af495a2f04da92a0a5111fac",
+      "bytes": 14544,
+      "sha256": "1eeb98b7017165e48b1d12d4ef8304aba556503bcb0598e57b067af6840cd7d7"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!c8/c8bccbf93f3a88036f187119d98d28249c0f28dc",
+      "bytes": 48,
+      "sha256": "89c63528bfc9f3d7d46262cb4deb828129487727c151bd0119366cc10e74f9fc"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!ca/ca3bc056d4da0bbf88b5fb3be254f3b7147e639c",
+      "bytes": 90128,
+      "sha256": "39d5d22513d8ec3db914b542abb3f921e66f8bb12276b024d07bc02185e4ae43"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!ca/ca5806ee855e6ef59e9d103a9898ae5b395684a2",
+      "bytes": 528,
+      "sha256": "9c20a8612f53546e7c09d572c5666640be1ce76ad509f71e5e280c56755de782"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!cb/cbea31c2494e7f8d37a299c733a4ceebb0957595",
+      "bytes": 16,
+      "sha256": "32011d8785892b3f1147ede8ee12059fe8e4c056e3d85beb38df0186778af389"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!cd/cd504ad2e70c260ab8ca7228a650cf576aff8383",
+      "bytes": 96,
+      "sha256": "b2da754d716e507a84ecec23f46c2ba638461645a378e1e064880382570fff5f"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!cd/cd6702cea29fe89cf280a76794405adb17f9a0ee",
+      "bytes": 65552,
+      "sha256": "ddae4a1373771d8ac857319b023fdbe1f07e7d7875ecf5a5a166b907a3c32f9d"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!ce/ce554a09e3ce75fad6002461ea30bfacab9b35e5",
+      "bytes": 160,
+      "sha256": "e775cd7bfc7f9def692570981ed22bd50723951189be351deb0f5db507cfb0ea"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!cf/cfa63c2cb0fd80843034e75395ea3be8d1ba6529",
+      "bytes": 1344,
+      "sha256": "39085d6a5176feda19bef37bce06ccd9e7904a943556242cbec23be1af826387"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!d1/d1f062e2da26192a6625d968274bfda8d07821e4",
+      "bytes": 73744,
+      "sha256": "a8e2700e045cd831eb2a48ff21ecba7a8cc2f4629f7cb460a66981ecb4034a24"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!d3/d351344f01cbe4900c9e981d1fb7ea5614e7c2e5",
+      "bytes": 160,
+      "sha256": "4ab55a7092be0efd818118262ede836fe8b9336e0bb4fd19bb7be5a224b4acdd"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!d7/d79ef1238ebf1ba85c980522b41290af21cc8727",
+      "bytes": 256,
+      "sha256": "e3b5f64944208fc8f144deeef7b1b7711520986b2a359bf34f2afdd96dd44bac"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!d8/d8d390596b601de29f5f9902f3e048e70799b73b",
+      "bytes": 112,
+      "sha256": "1de2c8a9d6109f7fbca37da52127bc4b874348843792fc3762ab4c03c23b7f57"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!d9/d9ef417ee553b15d0c203d2a72fa30c6befeb50e",
+      "bytes": 96,
+      "sha256": "22d9d4ee41ac93a693ea6c89f1544ac8b00103a7937e72bb01bbf7a7eedc8777"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!dc/dc4790bc4251d9ec54fab18e399b5347c7ded620",
+      "bytes": 96,
+      "sha256": "9d756756184396b35d27e519e8f514cd85bf1fe1bf90225067a09b18c2dd21b3"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!dd/dd4b52c3d7f4ed39a7d8ca8baa79651ad5c2b71d",
+      "bytes": 48,
+      "sha256": "e1730ea40476ab5b3c67ed06175dfb108aa04b773fe98329bf6a0acd05225d5a"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!e0/e0ed1d8a8846d65d7e8f95d4d8e010af0c1ea3e2",
+      "bytes": 144,
+      "sha256": "efa6153c24f6c26494385b774eff4f22e2dd4ad46b560a6ed0227b381f6e0de8"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!e1/e125a248dc104c3178f93283f423845999b52e01",
+      "bytes": 704,
+      "sha256": "aec9d99850e60733199f82b3cea9a93e3dce6586f00f0e9467f8ac3fce9037b1"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!e1/e1a4752f9ea8f229ef275518a997b738bc0e6a03",
+      "bytes": 80,
+      "sha256": "c7bc63eb945456f5bb83a0a25dcedd031da52903faf90b13c233818d0c1bd105"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!e2/e2a336060a14ca44d20848331a0ae143b8a98f0f",
+      "bytes": 48,
+      "sha256": "511bebf207ab720efe8acf45d9a0fc12c0fca4b6f8ae0a65a700988108d36a90"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!e2/e2c39781fd476f248120f510b1c69915b870e222",
+      "bytes": 48,
+      "sha256": "90996e4cc413c4d1284a6131d73cdb445cbcffceff6933c756ed88fa8c22ff47"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!e3/e3722676133184621303a00be5f4ce1714c57695",
+      "bytes": 48,
+      "sha256": "ebe950095cbc8c18e6dc4270790fbec767880056ae41472b9bda8ef72ad8e55c"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!e4/e4bab6ab82ddae5e071cb16749b1032733fda36d",
+      "bytes": 45072,
+      "sha256": "9a64507e0603db6cc9c5c9b6f46a8d9120362aebd6f0522b8c2c4c06f1ec5a17"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!e6/e693e40f8bb21b170f16e6273caafc90589e9a2f",
+      "bytes": 16,
+      "sha256": "2e9a80078ee5feb0cece53b55611f2d2d6cfa1cf3615aea85e99d8866af852f6"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!e7/e7116118dbd9153149fb22ce316f2bd6371937eb",
+      "bytes": 112,
+      "sha256": "14ebcab28630ba22f59cda72da20524a91739a7f50152189b3f461e8895e9ad8"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!e7/e74113c185fd8297e140cfcf9c99436c5cc06b57",
+      "bytes": 65552,
+      "sha256": "0305d953bbce75176c8558a34b66a0d38441c251357be0743734ae3a5015d739"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!e9/e999feed282a124992b327889794b74eaf6adb56",
+      "bytes": 96,
+      "sha256": "601301941dad33734148af6c5d0e57000e61ea6ad789c3c72717770c314cc09e"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!eb/eb1ba7159a010a0cfb4bb6f53e68ab5108cf84d3",
+      "bytes": 80,
+      "sha256": "3f97d4740473d69c94f40690e686f21880a706bc99d6a532c31c4effb45c7d87"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!eb/ebfc744c91e2ec03da57ddc7cd3c9922ea2e1629",
+      "bytes": 80,
+      "sha256": "0be541b35a8be65067a579ed5ffbe96f1cd773d72503e97c8ffd747c26edbafe"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!ec/ec94c8ad4047b66e7b17083140f9d83d8b47f345",
+      "bytes": 96,
+      "sha256": "60a6e5dde20e836645d0e4ec139f1a49dd4dc9dda519401185febd75527191b7"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!ec/ecb5489ac8284e6a5fd307eaff829497eeaf500b",
+      "bytes": 272,
+      "sha256": "5078d8c6db48d42002cf1384746792bcd6c17212657a384249c8b33cbe5b5f32"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!ec/ecc5af7be0258d73c549afd70805fc56f8c4bebb",
+      "bytes": 160,
+      "sha256": "0f6013b2582e4908ee15fefa123423e4899dad81065378349bb7092c53539458"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!ec/eccd18b2307d742f53f5dab08376e475650b84da",
+      "bytes": 48,
+      "sha256": "b25dde4d3f99d13e67ba27b311292973c9cd100e039ac16070e1bffe1622077b"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!ed/ed1f8fb5a948b40504c19580a458c384659a605e",
+      "bytes": 45072,
+      "sha256": "1e967261fc1e59b3e69ed9e7787d10df5aa9cc52ac0beabf88ac5ac5179fc397"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!ed/ed248cf557df575f57718b98dc5008628bd47f65",
+      "bytes": 432,
+      "sha256": "ceee8a9ce1620b2f81c54c3474f92ddb9d071e49d37cd1b089bf47a2e2c5ae36"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!ed/edc077100b5d5caa335ccfb13634677fae81826a",
+      "bytes": 16,
+      "sha256": "aff0409ffedc2fd91fb8f7397cf613c420d97865111a7b12bfc7f5ab28e3e866"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!ed/edcbc482cd751c402f4ca5162b2347b80b43b173",
+      "bytes": 288,
+      "sha256": "146d5a2d50bd9f5ccb8c4ff60ad2e34ad5cfab20cccd20aed314ad28afb33ef5"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!ee/ee77759a5f936cb2e4b030694ee739f111552b46",
+      "bytes": 496,
+      "sha256": "f5c9638ae0e42072afb016b5a54f1e2ccd7daf7149c4e304cf9b8f28cf380699"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!f1/f1467a1ebb5eb465b514a761c0a1932cd39b44ce",
+      "bytes": 272,
+      "sha256": "b208e95e5e8d8d515f7ffdadb3677de1e73c93d56e1178310a5a80325bd084b5"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!f1/f1f0076c51009841cc2597973e8354bbb5d3b954",
+      "bytes": 176,
+      "sha256": "110902753b730dd5bddc905929a2df4d330a3d7844f568fc596c1b0e9e35ca5c"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!f4/f44dd3f74ac3e2fd247447cad8feafc54b7489d8",
+      "bytes": 144,
+      "sha256": "cb364743f02cbc0b81a473099b94fbddefc6a51665da0f7515c7b39e082d3e80"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!f6/f65b5fafc69bbd3c60be019c6e938e146825fa83",
+      "bytes": 80,
+      "sha256": "483b54b58adede8bcf014126e794a5975e59a3bbe247c8f11b93b6c2c918b589"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!f6/f6dc7201d77127256ac58b9ee73ca43975696e35",
+      "bytes": 80,
+      "sha256": "ae00b0523b81d748e7c6da196dbbac713d3bbe5dd36995d4e5888da07a0d60bf"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!fa/fa2e5ac3b7a62c8b7cb21e440c79eedd218550ea",
+      "bytes": 110608,
+      "sha256": "91d2718a38622b27b646b3a9dff5adda59a9c1ba28fac45786adea5035e15274"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!fd/fd19d4ea1449198c75be879296bf1cb547f9f00c",
+      "bytes": 112,
+      "sha256": "aa63480e1a4c0604e74edbc364fd5861a38e5602062674b2f0ca5e40cdf59e77"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!fe/fe46d99748689532ddb550146a62b6395be5ca17",
+      "bytes": 48,
+      "sha256": "57f3d69e034be8c9a0b01ff8fb27b577a4c79c1eaac1bdcae5a8e70c286edbad"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!fe/fe987f9baac32e5744aa4e8238bdd5f21f283653",
+      "bytes": 112,
+      "sha256": "ba6cdf39a070ae97e5ba6927e35dd48d09ebd08ae85fe7dd44749d30898acd7e"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!Manifest.db",
+      "bytes": 843792,
+      "sha256": "47554d1339205e89ab34e96ddafa8f2b0acf484e81b42a20df93bf09c04f4e83"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!Status.plist",
+      "bytes": 151,
+      "sha256": "49a471bf2bce2372d247d4181c3a9e935ceb19b8b477df9ddb0ee94357f6571c"
+    },
+    {
+      "path": "managed-resource:2:nego!dotnet-bytearray!version.txt",
+      "bytes": 14,
+      "sha256": "3464c8979ca5e554999fa68e60550ae7052d7d96fcc2655491d905c6434b758c"
+    },
+    {
+      "path": "managed-resource:2:raptor",
+      "bytes": 3964,
+      "sha256": "089893621a948a9077157d22d28aa4a81d63ba6ec6b93d30db6913ee5de8d86a"
+    },
+    {
+      "path": "managed-resource:2:raptor!dotnet-bytearray",
+      "bytes": 3960,
+      "sha256": "8a68102e403a759264aa138ea7d6471d78c94cb9b835e38c6683af8305163911",
+      "same_content_as": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/utils/raptor"
+    }
+  ],
+  "hits": [
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip",
+      "kind": "marker",
+      "marker": "DPIC",
+      "encoding": "ascii",
+      "count": 1,
+      "offsets": [
+        42522570
+      ]
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/TM-BYPASS.exe",
+      "kind": "marker",
+      "marker": "DPIC",
+      "encoding": "ascii",
+      "count": 1,
+      "offsets": [
+        40890662
+      ]
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/idevicebackup.exe",
+      "kind": "marker",
+      "marker": "ManifestKey",
+      "encoding": "ascii",
+      "count": 1,
+      "offsets": [
+        25726
+      ]
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/idevicebackup.exe",
+      "kind": "marker",
+      "marker": "BackupManifestKey",
+      "encoding": "ascii",
+      "count": 1,
+      "offsets": [
+        25720
+      ]
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/idevicebackup.exe",
+      "kind": "marker",
+      "marker": "Manifest.plist",
+      "encoding": "ascii",
+      "count": 5,
+      "offsets": [
+        25063,
+        26072,
+        26231,
+        26349,
+        26586
+      ]
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/idevicebackup2.exe",
+      "kind": "marker",
+      "marker": "Manifest.plist",
+      "encoding": "ascii",
+      "count": 2,
+      "offsets": [
+        95939,
+        96004
+      ]
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/idevicerestore.exe",
+      "kind": "marker",
+      "marker": "ManifestKey",
+      "encoding": "ascii",
+      "count": 8,
+      "offsets": [
+        160606,
+        160659,
+        160700,
+        160753,
+        160789,
+        160842,
+        160883,
+        160944
+      ]
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/idevicerestore.exe",
+      "kind": "marker",
+      "marker": "Manifest.plist",
+      "encoding": "ascii",
+      "count": 1,
+      "offsets": [
+        141877
+      ]
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/imobiledevice.dll",
+      "kind": "marker",
+      "marker": "ManifestKey",
+      "encoding": "ascii",
+      "count": 1,
+      "offsets": [
+        134374
+      ]
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/imobiledevice.dll",
+      "kind": "marker",
+      "marker": "BackupManifestKey",
+      "encoding": "ascii",
+      "count": 1,
+      "offsets": [
+        134368
+      ]
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/irestores.exe",
+      "kind": "marker",
+      "marker": "BackupKeyBag",
+      "encoding": "ascii",
+      "count": 2,
+      "offsets": [
+        2471757,
+        4759429
+      ]
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/irestores.exe",
+      "kind": "marker",
+      "marker": "ManifestKey",
+      "encoding": "ascii",
+      "count": 2,
+      "offsets": [
+        2469871,
+        4759504
+      ]
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/irestores.exe",
+      "kind": "marker",
+      "marker": "Manifest.plist",
+      "encoding": "ascii",
+      "count": 1,
+      "offsets": [
+        2708714
+      ]
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/irestores.exe",
+      "kind": "marker",
+      "marker": "DPSL",
+      "encoding": "ascii",
+      "count": 1,
+      "offsets": [
+        1120327
+      ]
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/irestores.exe",
+      "kind": "marker",
+      "marker": "DPIC",
+      "encoding": "ascii",
+      "count": 1,
+      "offsets": [
+        1120296
+      ]
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/libimobiledevice-1.0.dll",
+      "kind": "marker",
+      "marker": "ManifestKey",
+      "encoding": "ascii",
+      "count": 1,
+      "offsets": [
+        155448
+      ]
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/libimobiledevice-1.0.dll",
+      "kind": "marker",
+      "marker": "BackupManifestKey",
+      "encoding": "ascii",
+      "count": 1,
+      "offsets": [
+        155442
+      ]
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/libimobiledevice.dll",
+      "kind": "marker",
+      "marker": "ManifestKey",
+      "encoding": "ascii",
+      "count": 1,
+      "offsets": [
+        99368
+      ]
+    },
+    {
+      "path": "TM-BYPASSv4.0 WiN.zip!TM-BYPASSv4.0/vendor/libimobiledevice.dll",
+      "kind": "marker",
+      "marker": "BackupManifestKey",
+      "encoding": "ascii",
+      "count": 1,
+      "offsets": [
+        99362
+      ]
+    },
+    {
+      "path": "constants.bin",
+      "kind": "marker",
+      "marker": "Manifest.plist",
+      "encoding": "ascii",
+      "count": 1,
+      "offsets": [
+        3073
+      ]
+    },
+    {
+      "path": "native_runtime/wine/MDM_SETUP.exe.memory_ready.bin",
+      "kind": "marker",
+      "marker": "Manifest.plist",
+      "encoding": "ascii",
+      "count": 1,
+      "offsets": [
+        33448
+      ]
+    },
+    {
+      "path": "native_runtime/wine/imobiledevice.dll.memory_ready.bin",
+      "kind": "marker",
+      "marker": "ManifestKey",
+      "encoding": "ascii",
+      "count": 1,
+      "offsets": [
+        141502
+      ]
+    },
+    {
+      "path": "native_runtime/wine/imobiledevice.dll.memory_ready.bin",
+      "kind": "marker",
+      "marker": "BackupManifestKey",
+      "encoding": "ascii",
+      "count": 1,
+      "offsets": [
+        141496
+      ]
+    }
+  ],
+  "omissions": [],
+  "limitations": [
+    "Marker absence does not rule out encrypted, encoded, split or runtime-generated material.",
+    "Generic resource payloads with no byte representation in dnfile are not traversed separately.",
+    "TLV recognition does not prove a candidate matches the embedded encrypted backup.",
+    "The external manifest candidate from a different backup is excluded from the target search.",
+    "Only inputs and archive/resource forms described in this report were searched."
+  ]
+}

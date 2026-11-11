@@ -47,6 +47,26 @@ tooling/rea/installed/symbolic-venv/bin/python tooling/rea/symbolic_mode_probe.p
 
 Probe đọc hai lệnh gốc tại `0x140004751` và `0x140004755`: `cmp r12d, 7; ja ...`. Với mode 1, nhánh unsigned-above không được lấy. Triton tìm một mode cho nhánh còn lại; Z3 kiểm tra lại cả hai điều kiện. Không có tiến trình Windows hay kết nối thiết bị nào được khởi động bởi probe.
 
+## Giữ lại manifest trong phiên lab
+
+[Báo cáo lần ngược dữ liệu khóa](../../tm_bypass_research/recovery/manifest-material-findings.md) mô tả đợt rà tài nguyên và dấu vết mới trong irestores.exe. Luồng MDM xóa thư mục làm việc sau khi chạy helper; vì vậy có thêm script giữ lại manifest trước bước dọn dẹp.
+
+Trên máy Windows lab có Python, chạy watcher trước phiên thử nghiệm được phép:
+
+```powershell
+py tooling/rea/capture_manifest.py --watch-root "$env:TEMP\ikey" --out C:\Lab\TM-private-captures --seconds 600
+```
+
+Script không khởi chạy tool hay gửi yêu cầu mạng. Chỉ lưu Manifest.plist đọc được có hai trường byte BackupKeyBag/ManifestKey. Bản thu chứa dữ liệu khóa và có thể có thông tin thiết bị; giữ cục bộ ngoài repo.
+
+Có thể dùng `--index C:\Lab\embedded-backup\Manifest.db` để kiểm tra khóa có giải mã được header SQLite của đúng ciphertext hay không. Tùy chọn này cần `cryptography` từ môi trường `mdm-re-lab`; mật khẩu lấy từ `MDMLAB_BACKUP_PASSWORD`, mặc định `mdm`. Header đúng chưa xác thực toàn bộ database hoặc tác động đến MDM. Sau khi có bản thu đúng, dùng `mdmlab.py decrypt-backup` để kiểm tra database và đọc các file theo hướng dẫn của bản mẫu.
+
+Watcher đã qua phép thử ghi dở → ghi xong → xóa thư mục với dữ liệu tổng hợp trên Linux. Chưa thử trên Windows/TM-BYPASS thật; cơ chế polling có thể bỏ lỡ file tồn tại quá ngắn.
+
+```bash
+python -m unittest discover -s tooling/rea -p test_capture_manifest.py -v
+```
+
 ## Bằng chứng và phần còn thiếu
 
 - [Tổng hợp kiểm tra](verification.json): doctor, metadata, provider và kiểm tra tượng trưng.

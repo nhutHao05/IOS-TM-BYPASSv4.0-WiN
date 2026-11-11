@@ -195,5 +195,9 @@
     "Managed metadata coverage remains partial.",
     "This run did not execute Windows targets, access USB, contact the vendor API, decrypt the backup, or test MDM removal.",
     "VMProtect recovery and missing backup key material remain unresolved."
-  ]
+  ],
+  "followups": {
+    "manifest_material_audit": "../../tm_bypass_research/recovery/manifest-material-findings.md",
+    "capture_utility_tests": "capture-verification.json"
+  }
 }

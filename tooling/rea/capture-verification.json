@@ -1,0 +1,18 @@
+{
+  "host": "Linux x86-64",
+  "python": "3.12.14",
+  "test_cases_passed": 2,
+  "integration_case": "partial write -> complete manifest -> source directory deleted -> capture retained",
+  "crypto_controls": {
+    "correct_password_and_index": true,
+    "wrong_password_rejected": true,
+    "corrupted_wrapped_key_rejected": true,
+    "unrelated_ciphertext_rejected": true
+  },
+  "target_executed": false,
+  "network_requests": 0,
+  "real_manifest_recovered": false,
+  "windows_tm_bypass_tested": false,
+  "script_sha256": "97331946fa5b33bee5eaa9e02f7b1d7ddbae791aa20676d1daa0e47738af0659",
+  "test_sha256": "0c32797d53ad1fb8b2c05af6efdd2b3822ecffbc38449bc757d040ea170ca53b"
+}

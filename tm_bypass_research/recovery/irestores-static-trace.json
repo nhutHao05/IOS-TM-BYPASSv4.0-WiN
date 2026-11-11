@@ -1,0 +1,77 @@
+{
+  "input_sha256": "9eefa8dcb46223dd673791249f01954bf6e0976afba12e1d49d82e6c07b76b0d",
+  "rea_go_evidence_id": "ev_baadcfea71972370b2ba133bcdb37b0b460f5f9d45bb2eb514fd55683e09c7f2",
+  "go_version": "go1.22.2",
+  "module": "github.com/dnicolson/irestore/cmd/irestore",
+  "source_reference": "https://github.com/dnicolson/irestore/blob/4c56b5fdaf622d20ffd38e7a0118f54afbf88d3a/backup/backup.go",
+  "reference_source_is_not_claimed_as_exact_binary_source": true,
+  "functions": {
+    "backup.Open": "0x140134000",
+    "backup.decryptDatabase": "0x140134400"
+  },
+  "manifest_filename_load": {
+    "address": "0x1401340d4",
+    "bytes": "488d150f2e1600",
+    "string_address": "0x140296eea",
+    "string": "Manifest.plist"
+  },
+  "direct_calls_verified_against_machine_bytes": [
+    {
+      "address": "0x1401340f3",
+      "bytes": "e8a800f9ff",
+      "target": "0x1400c41a0",
+      "coff_symbol": "path.Join"
+    },
+    {
+      "address": "0x140134100",
+      "bytes": "e8fb64f9ff",
+      "target": "0x1400ca600",
+      "coff_symbol": "os.OpenFile"
+    },
+    {
+      "address": "0x140134166",
+      "bytes": "e8b50dfeff",
+      "target": "0x140114f20",
+      "coff_symbol": "plist.Unmarshal"
+    },
+    {
+      "address": "0x140134188",
+      "bytes": "e893defdff",
+      "target": "0x140112020",
+      "coff_symbol": "keybag.Read"
+    },
+    {
+      "address": "0x1401344ac",
+      "bytes": "e8cf7efdff",
+      "target": "0x14010c380",
+      "coff_symbol": "aeswrap.Unwrap"
+    },
+    {
+      "address": "0x140134536",
+      "bytes": "e8a563f9ff",
+      "target": "0x1400ca8e0",
+      "coff_symbol": "os.ReadFile"
+    },
+    {
+      "address": "0x140134567",
+      "bytes": "e83453fcff",
+      "target": "0x1400f98a0",
+      "coff_symbol": "aes.NewCipher"
+    },
+    {
+      "address": "0x14013458a",
+      "bytes": "e8313cfcff",
+      "target": "0x1400f81c0",
+      "coff_symbol": "cipher.NewCBCDecrypter"
+    }
+  ],
+  "observations": [
+    "backup.Open builds a path to Manifest.plist, opens a file, unmarshals plist, then invokes keybag.Read.",
+    "decryptDatabase invokes AES key unwrap and AES-CBC using arguments and keybag-derived state.",
+    "C# invokes this executable from the separate Recovered_06_005f_Name branch, not RunMdmBackupRestore."
+  ],
+  "limitations": [
+    "Static observations do not establish all runtime behavior or eliminate encoded constants elsewhere.",
+    "No credential extraction branch or device process was executed."
+  ]
+}

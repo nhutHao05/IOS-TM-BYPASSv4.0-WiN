@@ -1,0 +1,9 @@
+{
+  "scope": "Known external manifest used only to check detector; not a matching backup",
+  "input_sha256": "fc647af84dc9c332e6ee4ff77b3ee37ab064705df3f594917aa7a387106fdfcf",
+  "is_encrypted": false,
+  "manifest_candidates": 2,
+  "keybag_candidates": 1,
+  "backup_keybag_bytes": 1336,
+  "manifest_key_present": false
+}
