@@ -1,0 +1,6 @@
+FROM debian:bookworm-slim
+RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends wine64 wine64-tools python3 binutils procps && rm -rf /var/lib/apt/lists/*
+ENV WINEDEBUG=-all
+ENV WINEARCH=win64
+ENV WINEPREFIX=/tmp/wineprefix
+WORKDIR /analysis

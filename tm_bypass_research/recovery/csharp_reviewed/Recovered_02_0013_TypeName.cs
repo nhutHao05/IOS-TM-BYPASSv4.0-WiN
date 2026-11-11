@@ -1,0 +1,109 @@
+using System;
+using System.ComponentModel;
+using System.Drawing;
+using System.Runtime.CompilerServices;
+using System.Windows.Forms;
+using Siticone.UI.WinForms;
+
+public class Recovered_02_0013_TypeName : Form
+{
+	private IContainer Recovered_04_003d_Name = null;
+
+	private RichTextBox Recovered_04_003e_Name;
+
+	private RichTextBox Recovered_04_003f_Name;
+
+	private RichTextBox Recovered_04_0040_Name;
+
+	private SiticoneGradientButton Recovered_04_0041_Name;
+
+	public Recovered_02_0013_TypeName()
+	{
+		Recovered_06_005a_Name();
+	}
+
+	private void Recovered_06_0058_Name(object P_0, EventArgs P_1)
+	{
+		Close();
+	}
+
+	protected virtual void Recovered_06_0059_Name(bool P_0)
+	{
+		if (P_0 && Recovered_04_003d_Name != null)
+		{
+			Recovered_04_003d_Name.Dispose();
+		}
+		Dispose(P_0);
+	}
+
+	[MethodImpl(MethodImplOptions.NoInlining)]
+	private void Recovered_06_005a_Name()
+	{
+		Recovered_04_003e_Name = new RichTextBox();
+		Recovered_04_003f_Name = new RichTextBox();
+		Recovered_04_0040_Name = new RichTextBox();
+		Recovered_04_0041_Name = new SiticoneGradientButton();
+		SuspendLayout();
+		Recovered_04_003e_Name.BackColor = Color.Black;
+		Recovered_04_003e_Name.BorderStyle = BorderStyle.None;
+		Recovered_04_003e_Name.Font = new Font("Segoe UI Semibold", 11f, FontStyle.Bold, GraphicsUnit.Point, 0);
+		Recovered_04_003e_Name.ForeColor = Color.White;
+		Recovered_04_003e_Name.Location = new Point(1, 1);
+		Recovered_04_003e_Name.Name = "richTextBox1";
+		Recovered_04_003e_Name.ReadOnly = true;
+		Recovered_04_003e_Name.Size = new Size(298, 90);
+		Recovered_04_003e_Name.TabIndex = 19;
+		Recovered_04_003e_Name.Text = "";
+		Recovered_04_003f_Name.BackColor = Color.Black;
+		Recovered_04_003f_Name.BorderStyle = BorderStyle.None;
+		Recovered_04_003f_Name.Font = new Font("Arial", 11.25f, FontStyle.Bold, GraphicsUnit.Point, 0);
+		Recovered_04_003f_Name.ForeColor = Color.White;
+		Recovered_04_003f_Name.Location = new Point(7, 12);
+		Recovered_04_003f_Name.Name = "richTextBox2";
+		Recovered_04_003f_Name.ReadOnly = true;
+		Recovered_04_003f_Name.Size = new Size(286, 21);
+		Recovered_04_003f_Name.TabIndex = 20;
+		Recovered_04_003f_Name.Text = "SERVER Temporary Under Maintenance";
+		Recovered_04_0040_Name.BackColor = Color.Black;
+		Recovered_04_0040_Name.BorderStyle = BorderStyle.None;
+		Recovered_04_0040_Name.Font = new Font("Arial", 11.25f, FontStyle.Bold, GraphicsUnit.Point, 0);
+		Recovered_04_0040_Name.ForeColor = Color.White;
+		Recovered_04_0040_Name.Location = new Point(45, 35);
+		Recovered_04_0040_Name.Name = "richTextBox3";
+		Recovered_04_0040_Name.ReadOnly = true;
+		Recovered_04_0040_Name.Size = new Size(218, 18);
+		Recovered_04_0040_Name.TabIndex = 21;
+		Recovered_04_0040_Name.Text = "or iDevice Hardware Problem";
+		Recovered_04_0041_Name.BorderColor = Color.Lime;
+		Recovered_04_0041_Name.BorderThickness = 1;
+		Recovered_04_0041_Name.CheckedState.Parent = Recovered_04_0041_Name;
+		Recovered_04_0041_Name.CustomImages.Parent = Recovered_04_0041_Name;
+		Recovered_04_0041_Name.FillColor = Color.Red;
+		Recovered_04_0041_Name.FillColor2 = Color.Red;
+		Recovered_04_0041_Name.Font = new Font("Segoe UI", 9f);
+		Recovered_04_0041_Name.ForeColor = Color.White;
+		Recovered_04_0041_Name.HoveredState.Parent = Recovered_04_0041_Name;
+		Recovered_04_0041_Name.Location = new Point(120, 61);
+		Recovered_04_0041_Name.Margin = new Padding(2);
+		Recovered_04_0041_Name.Name = "siticoneGradientButton1";
+		Recovered_04_0041_Name.ShadowDecoration.Parent = Recovered_04_0041_Name;
+		Recovered_04_0041_Name.Size = new Size(55, 17);
+		Recovered_04_0041_Name.TabIndex = 22;
+		Recovered_04_0041_Name.Text = "CLOSE";
+		Recovered_04_0041_Name.Click += Recovered_06_0058_Name;
+		base.AutoScaleDimensions = new SizeF(6f, 13f);
+		base.AutoScaleMode = AutoScaleMode.Font;
+		BackColor = Color.Lime;
+		base.ClientSize = new Size(300, 92);
+		base.Controls.Add(Recovered_04_0041_Name);
+		base.Controls.Add(Recovered_04_0040_Name);
+		base.Controls.Add(Recovered_04_003f_Name);
+		base.Controls.Add(Recovered_04_003e_Name);
+		ForeColor = Color.White;
+		base.FormBorderStyle = FormBorderStyle.None;
+		base.Name = "ServerMaintenance";
+		base.StartPosition = FormStartPosition.CenterScreen;
+		Text = "Server";
+		ResumeLayout(performLayout: false);
+	}
+}

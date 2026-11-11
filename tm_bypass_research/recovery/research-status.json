@@ -1,0 +1,32 @@
+{
+  "managed_methods_exported": 362,
+  "helper_native_functions_exported": 64,
+  "dll_import_call_sites_verified": 480,
+  "dll_contract_cases_passed": 52,
+  "fresh_offline_container_replay_passed": true,
+  "full_dll_vm_source_recovered": false,
+  "backup_plaintext_recovered": false,
+  "critical_remaining_question": "Exact plaintext values in the embedded encrypted backup and their effect on the managed device.",
+  "critical_missing_material": "Matching vendor-supplied Manifest.plist with BackupKeyBag and ManifestKey; backend source is absent from the client package.",
+  "device_mdm_removal_verified": false,
+  "evidence": [
+    "verification.json",
+    "native-verification.json",
+    "dll_calls/verification.json",
+    "dll_probes/differential-results.json",
+    "dll_probes/replay.log"
+  ],
+  "no_vendor_endpoint_called": true,
+  "no_vendor_credential_used": true,
+  "method_followup": {
+    "actual_mode_initialization_verified": "Restore",
+    "dispatch_cases_verified": 9,
+    "file_sender_payload_cases_passed": 14,
+    "file_sender_error_controls_passed": 3,
+    "status_gate_cases_passed": 8,
+    "data_chunk_limit": 32768,
+    "observed_transfer_changes_payload_bytes": false,
+    "scope": "Original helper slices/routines with external APIs mocked, no real device.",
+    "report": "file_sender/method-research.md"
+  }
+}

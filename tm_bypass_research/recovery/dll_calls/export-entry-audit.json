@@ -1,0 +1,1724 @@
+[
+  {
+    "name": "afc_client_free",
+    "address": "0x180002720",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180103de5"
+  },
+  {
+    "name": "afc_client_new",
+    "address": "0x180002510",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18014f267"
+  },
+  {
+    "name": "afc_client_new_from_house_arrest_client",
+    "address": "0x180009500",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18078bd38"
+  },
+  {
+    "name": "afc_client_new_with_service_client",
+    "address": "0x180002450",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18017aa30"
+  },
+  {
+    "name": "afc_client_start_service",
+    "address": "0x1800025f0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18061557f"
+  },
+  {
+    "name": "afc_dictionary_free",
+    "address": "0x180005280",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180a7e5e7"
+  },
+  {
+    "name": "afc_file_close",
+    "address": "0x180004370",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1809a55b3"
+  },
+  {
+    "name": "afc_file_lock",
+    "address": "0x1800044c0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180143dca"
+  },
+  {
+    "name": "afc_file_open",
+    "address": "0x180003ce0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18008821d"
+  },
+  {
+    "name": "afc_file_read",
+    "address": "0x180003f80",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18009c1aa"
+  },
+  {
+    "name": "afc_file_seek",
+    "address": "0x180004640",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18096be9d"
+  },
+  {
+    "name": "afc_file_tell",
+    "address": "0x180004770",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18047603d"
+  },
+  {
+    "name": "afc_file_truncate",
+    "address": "0x1800048c0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1801199db"
+  },
+  {
+    "name": "afc_file_write",
+    "address": "0x1800041d0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18034de7e"
+  },
+  {
+    "name": "afc_get_device_info",
+    "address": "0x180003250",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1808e9cd0"
+  },
+  {
+    "name": "afc_get_device_info_key",
+    "address": "0x1800033d0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1801d6eb9"
+  },
+  {
+    "name": "afc_get_file_info",
+    "address": "0x180003aa0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18010fbcc"
+  },
+  {
+    "name": "afc_make_directory",
+    "address": "0x1800038e0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180bffd6e"
+  },
+  {
+    "name": "afc_make_link",
+    "address": "0x180004be0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180a7b7a0"
+  },
+  {
+    "name": "afc_read_directory",
+    "address": "0x180002ff0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1807f6e1f"
+  },
+  {
+    "name": "afc_remove_path",
+    "address": "0x1800034b0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1806f40a9"
+  },
+  {
+    "name": "afc_remove_path_and_contents",
+    "address": "0x180005090",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1801e19a5"
+  },
+  {
+    "name": "afc_rename_path",
+    "address": "0x1800036a0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18092a54e"
+  },
+  {
+    "name": "afc_set_file_time",
+    "address": "0x180004ea0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1806abc94"
+  },
+  {
+    "name": "afc_truncate",
+    "address": "0x1800049f0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1804618e4"
+  },
+  {
+    "name": "debug_info_real",
+    "address": "0x1800011c0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18050031c"
+  },
+  {
+    "name": "debugserver_client_free",
+    "address": "0x180005670",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1807fbcab"
+  },
+  {
+    "name": "debugserver_client_new",
+    "address": "0x1800053c0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18048d8c5"
+  },
+  {
+    "name": "debugserver_client_receive",
+    "address": "0x1800059d0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18092f81a"
+  },
+  {
+    "name": "debugserver_client_receive_response",
+    "address": "0x180005e60",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18023e5cf"
+  },
+  {
+    "name": "debugserver_client_receive_with_timeout",
+    "address": "0x180005880",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180411bd0"
+  },
+  {
+    "name": "debugserver_client_send",
+    "address": "0x1800056f0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18075d990"
+  },
+  {
+    "name": "debugserver_client_send_command",
+    "address": "0x180006480",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18067b7b5"
+  },
+  {
+    "name": "debugserver_client_set_ack_mode",
+    "address": "0x180005e00",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1801232a8"
+  },
+  {
+    "name": "debugserver_client_set_argv",
+    "address": "0x1800068f0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180073b61"
+  },
+  {
+    "name": "debugserver_client_set_environment_hex_encoded",
+    "address": "0x180006820",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1807ff7ed"
+  },
+  {
+    "name": "debugserver_client_start_service",
+    "address": "0x180005540",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1800d9f5c"
+  },
+  {
+    "name": "debugserver_command_free",
+    "address": "0x180005ad0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1800d9f6d"
+  },
+  {
+    "name": "debugserver_command_new",
+    "address": "0x1800059f0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1808dd5fe"
+  },
+  {
+    "name": "debugserver_decode_string",
+    "address": "0x180005d30",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1804f8bec"
+  },
+  {
+    "name": "debugserver_encode_string",
+    "address": "0x180005c70",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1803a5719"
+  },
+  {
+    "name": "diagnostics_relay_client_free",
+    "address": "0x180007a90",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1808b3889"
+  },
+  {
+    "name": "diagnostics_relay_client_new",
+    "address": "0x180007880",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180a253ad"
+  },
+  {
+    "name": "diagnostics_relay_client_start_service",
+    "address": "0x180007960",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180746560"
+  },
+  {
+    "name": "diagnostics_relay_goodbye",
+    "address": "0x180007ad0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180c13ae1"
+  },
+  {
+    "name": "diagnostics_relay_query_ioregistry_entry",
+    "address": "0x1800080d0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1807723d7"
+  },
+  {
+    "name": "diagnostics_relay_query_ioregistry_plane",
+    "address": "0x180008250",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180ab16c2"
+  },
+  {
+    "name": "diagnostics_relay_query_mobilegestalt",
+    "address": "0x180007f70",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18090dda6"
+  },
+  {
+    "name": "diagnostics_relay_request_diagnostics",
+    "address": "0x180007e50",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180939486"
+  },
+  {
+    "name": "diagnostics_relay_restart",
+    "address": "0x180007e30",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180b9c936"
+  },
+  {
+    "name": "diagnostics_relay_shutdown",
+    "address": "0x180007e40",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180615e0b"
+  },
+  {
+    "name": "diagnostics_relay_sleep",
+    "address": "0x180007be0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180c3b6c3"
+  },
+  {
+    "name": "file_relay_client_free",
+    "address": "0x180007a90",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1808b3889"
+  },
+  {
+    "name": "file_relay_client_new",
+    "address": "0x180007880",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180a253ad"
+  },
+  {
+    "name": "file_relay_client_start_service",
+    "address": "0x1800083a0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1806d84c3"
+  },
+  {
+    "name": "file_relay_request_sources",
+    "address": "0x180008930",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1800d97d2"
+  },
+  {
+    "name": "file_relay_request_sources_timeout",
+    "address": "0x1800084d0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18055e8d8"
+  },
+  {
+    "name": "heartbeat_client_free",
+    "address": "0x180008bf0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180b27ef3"
+  },
+  {
+    "name": "heartbeat_client_new",
+    "address": "0x180008940",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180936e73"
+  },
+  {
+    "name": "heartbeat_client_start_service",
+    "address": "0x180008ac0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18077fe91"
+  },
+  {
+    "name": "heartbeat_receive",
+    "address": "0x180008e50",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180aeeaa7"
+  },
+  {
+    "name": "heartbeat_receive_with_timeout",
+    "address": "0x180008e60",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180442644"
+  },
+  {
+    "name": "heartbeat_send",
+    "address": "0x180008ca0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180615e56"
+  },
+  {
+    "name": "house_arrest_client_free",
+    "address": "0x180009200",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18055fb4e"
+  },
+  {
+    "name": "house_arrest_client_new",
+    "address": "0x180009000",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1800d515d"
+  },
+  {
+    "name": "house_arrest_client_start_service",
+    "address": "0x1800090d0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1805542eb"
+  },
+  {
+    "name": "house_arrest_get_result",
+    "address": "0x180009420",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1809132fb"
+  },
+  {
+    "name": "house_arrest_send_command",
+    "address": "0x180009340",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18023f2b9"
+  },
+  {
+    "name": "house_arrest_send_request",
+    "address": "0x180009250",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1804799f8"
+  },
+  {
+    "name": "idevice_connect",
+    "address": "0x180009d50",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18066822e"
+  },
+  {
+    "name": "idevice_connection_disable_bypass_ssl",
+    "address": "0x18000ab90",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180230ab2"
+  },
+  {
+    "name": "idevice_connection_disable_ssl",
+    "address": "0x18000ab80",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1800aa516"
+  },
+  {
+    "name": "idevice_connection_enable_ssl",
+    "address": "0x18000a610",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1807e5e3f"
+  },
+  {
+    "name": "idevice_connection_get_fd",
+    "address": "0x18000a520",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180aaa32f"
+  },
+  {
+    "name": "idevice_connection_receive",
+    "address": "0x18000a3d0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180246419"
+  },
+  {
+    "name": "idevice_connection_receive_timeout",
+    "address": "0x18000a1a0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1801be8aa"
+  },
+  {
+    "name": "idevice_connection_send",
+    "address": "0x180009ee0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18006d64c"
+  },
+  {
+    "name": "idevice_device_list_extended_free",
+    "address": "0x180009950",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180b1cb6e"
+  },
+  {
+    "name": "idevice_device_list_free",
+    "address": "0x180009b50",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1801d2ef2"
+  },
+  {
+    "name": "idevice_disconnect",
+    "address": "0x180009e50",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18075f986"
+  },
+  {
+    "name": "idevice_event_subscribe",
+    "address": "0x180009690",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180815b8e"
+  },
+  {
+    "name": "idevice_event_unsubscribe",
+    "address": "0x1800096f0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180892e41"
+  },
+  {
+    "name": "idevice_free",
+    "address": "0x180009d10",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180303612"
+  },
+  {
+    "name": "idevice_get_device_list",
+    "address": "0x1800099c0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18009d5d9"
+  },
+  {
+    "name": "idevice_get_device_list_extended",
+    "address": "0x180009740",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1800cd3c5"
+  },
+  {
+    "name": "idevice_get_handle",
+    "address": "0x18000a5a0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180bf9d3b"
+  },
+  {
+    "name": "idevice_get_socket_type",
+    "address": "0x18000aca0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180bcd6fd"
+  },
+  {
+    "name": "idevice_get_tcp_endpoint",
+    "address": "0x18000ace0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180ab71bf"
+  },
+  {
+    "name": "idevice_get_udid",
+    "address": "0x18000a5c0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180982156"
+  },
+  {
+    "name": "idevice_new",
+    "address": "0x180009d00",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1809e86ab"
+  },
+  {
+    "name": "idevice_new_with_options",
+    "address": "0x180009bc0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180225d3c"
+  },
+  {
+    "name": "idevice_set_debug_callback",
+    "address": "0x180009ba0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1806a6c32"
+  },
+  {
+    "name": "idevice_set_debug_level",
+    "address": "0x180009bb0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180a0faa8"
+  },
+  {
+    "name": "idevice_set_socket_type",
+    "address": "0x18000ac80",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180bb9b8c"
+  },
+  {
+    "name": "idevice_set_tcp_endpoint",
+    "address": "0x18000acc0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1809ae587"
+  },
+  {
+    "name": "instproxy_archive",
+    "address": "0x18000c750",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18021bdf8"
+  },
+  {
+    "name": "instproxy_browse",
+    "address": "0x18000c190",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180a4baf0"
+  },
+  {
+    "name": "instproxy_browse_with_callback",
+    "address": "0x18000bf80",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18066990f"
+  },
+  {
+    "name": "instproxy_check_capabilities_match",
+    "address": "0x18000c9c0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180615e15"
+  },
+  {
+    "name": "instproxy_client_free",
+    "address": "0x18000b790",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180890427"
+  },
+  {
+    "name": "instproxy_client_get_path_for_bundle_identifier",
+    "address": "0x18000cfe0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1800dfbff"
+  },
+  {
+    "name": "instproxy_client_new",
+    "address": "0x18000b580",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180573216"
+  },
+  {
+    "name": "instproxy_client_options_add",
+    "address": "0x18000ce00",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1803e4655"
+  },
+  {
+    "name": "instproxy_client_options_free",
+    "address": "0x18000cfd0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18033e33b"
+  },
+  {
+    "name": "instproxy_client_options_new",
+    "address": "0x18000cdf0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180acf4b2"
+  },
+  {
+    "name": "instproxy_client_options_set_return_attributes",
+    "address": "0x18000cf20",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18047fa42"
+  },
+  {
+    "name": "instproxy_client_start_service",
+    "address": "0x18000b660",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18038b5d7"
+  },
+  {
+    "name": "instproxy_command_get_name",
+    "address": "0x18000cdb0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180b85837"
+  },
+  {
+    "name": "instproxy_install",
+    "address": "0x18000c430",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1801063d0"
+  },
+  {
+    "name": "instproxy_lookup",
+    "address": "0x18000c2c0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1806e16d4"
+  },
+  {
+    "name": "instproxy_lookup_archives",
+    "address": "0x18000c6a0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180271bb5"
+  },
+  {
+    "name": "instproxy_remove_archive",
+    "address": "0x18000c8f0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180b3e387"
+  },
+  {
+    "name": "instproxy_restore",
+    "address": "0x18000c820",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180114a11"
+  },
+  {
+    "name": "instproxy_status_get_current_list",
+    "address": "0x18000cca0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180c336f4"
+  },
+  {
+    "name": "instproxy_status_get_error",
+    "address": "0x18000cb10",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180182578"
+  },
+  {
+    "name": "instproxy_status_get_name",
+    "address": "0x18000cc00",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1807e71aa"
+  },
+  {
+    "name": "instproxy_status_get_percent_complete",
+    "address": "0x18000cc40",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180c861a5"
+  },
+  {
+    "name": "instproxy_uninstall",
+    "address": "0x18000c5d0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180c855d2"
+  },
+  {
+    "name": "instproxy_upgrade",
+    "address": "0x18000c500",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1800ee709"
+  },
+  {
+    "name": "lockdownd_activate",
+    "address": "0x180010080",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180107c60"
+  },
+  {
+    "name": "lockdownd_client_free",
+    "address": "0x18000d7c0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1808fd44c"
+  },
+  {
+    "name": "lockdownd_client_new",
+    "address": "0x18000e420",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180909ac5"
+  },
+  {
+    "name": "lockdownd_client_new_with_handshake",
+    "address": "0x18000e5b0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180b54410"
+  },
+  {
+    "name": "lockdownd_client_set_label",
+    "address": "0x18000d860",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1809d2e24"
+  },
+  {
+    "name": "lockdownd_data_classes_free",
+    "address": "0x1800105e0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18069a899"
+  },
+  {
+    "name": "lockdownd_deactivate",
+    "address": "0x180010220",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180b69898"
+  },
+  {
+    "name": "lockdownd_enter_recovery",
+    "address": "0x18000f4f0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18062f238"
+  },
+  {
+    "name": "lockdownd_get_device_name",
+    "address": "0x18000e3d0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180a05fbc"
+  },
+  {
+    "name": "lockdownd_get_device_udid",
+    "address": "0x18000e380",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18064e7bd"
+  },
+  {
+    "name": "lockdownd_get_sync_data_classes",
+    "address": "0x1800103c0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1807c633a"
+  },
+  {
+    "name": "lockdownd_get_value",
+    "address": "0x18000dcf0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1807b89e8"
+  },
+  {
+    "name": "lockdownd_goodbye",
+    "address": "0x18000f650",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1801904d5"
+  },
+  {
+    "name": "lockdownd_pair",
+    "address": "0x18000f3f0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180b5142d"
+  },
+  {
+    "name": "lockdownd_pair_with_options",
+    "address": "0x18000f470",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18063972c"
+  },
+  {
+    "name": "lockdownd_query_type",
+    "address": "0x18000da00",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18095050b"
+  },
+  {
+    "name": "lockdownd_receive",
+    "address": "0x18000d8c0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180b19010"
+  },
+  {
+    "name": "lockdownd_remove_value",
+    "address": "0x18000e180",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1806e9df8"
+  },
+  {
+    "name": "lockdownd_send",
+    "address": "0x18000d960",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18078d9ff"
+  },
+  {
+    "name": "lockdownd_service_descriptor_free",
+    "address": "0x180010630",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180b5f6ab"
+  },
+  {
+    "name": "lockdownd_set_value",
+    "address": "0x18000df50",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1808c4406"
+  },
+  {
+    "name": "lockdownd_start_service",
+    "address": "0x180010060",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18042e058"
+  },
+  {
+    "name": "lockdownd_start_service_with_escrow_bag",
+    "address": "0x180010070",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180ae14ad"
+  },
+  {
+    "name": "lockdownd_start_session",
+    "address": "0x18000f7e0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1807bd038"
+  },
+  {
+    "name": "lockdownd_stop_session",
+    "address": "0x18000d5d0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180ad03fc"
+  },
+  {
+    "name": "lockdownd_strerror",
+    "address": "0x180010650",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1808fb0a9"
+  },
+  {
+    "name": "lockdownd_unpair",
+    "address": "0x18000f4c0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180824a21"
+  },
+  {
+    "name": "lockdownd_validate_pair",
+    "address": "0x18000f490",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1806300c4"
+  },
+  {
+    "name": "misagent_client_free",
+    "address": "0x180010930",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180b794fc"
+  },
+  {
+    "name": "misagent_client_new",
+    "address": "0x180009000",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1800d515d"
+  },
+  {
+    "name": "misagent_client_start_service",
+    "address": "0x180010800",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18043b422"
+  },
+  {
+    "name": "misagent_copy",
+    "address": "0x180010bb0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1807f1a7b"
+  },
+  {
+    "name": "misagent_copy_all",
+    "address": "0x180010dd0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180a27ec8"
+  },
+  {
+    "name": "misagent_get_status_code",
+    "address": "0x180011210",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180442627"
+  },
+  {
+    "name": "misagent_install",
+    "address": "0x180010980",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180795cdb"
+  },
+  {
+    "name": "misagent_remove",
+    "address": "0x180010ff0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180662cba"
+  },
+  {
+    "name": "mobile_image_mounter_free",
+    "address": "0x1800158c0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1808394d4"
+  },
+  {
+    "name": "mobile_image_mounter_hangup",
+    "address": "0x1800163b0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1803e04f0"
+  },
+  {
+    "name": "mobile_image_mounter_lookup_image",
+    "address": "0x180015910",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180b36a79"
+  },
+  {
+    "name": "mobile_image_mounter_mount_image",
+    "address": "0x180016190",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180867ee7"
+  },
+  {
+    "name": "mobile_image_mounter_new",
+    "address": "0x1800156b0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1800b63d9"
+  },
+  {
+    "name": "mobile_image_mounter_start_service",
+    "address": "0x180015790",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180a8a8ec"
+  },
+  {
+    "name": "mobile_image_mounter_upload_image",
+    "address": "0x180015c90",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180287a26"
+  },
+  {
+    "name": "mobileactivation_activate",
+    "address": "0x1800119a0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18095e520"
+  },
+  {
+    "name": "mobileactivation_activate_with_session",
+    "address": "0x180011a60",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1808e8af6"
+  },
+  {
+    "name": "mobileactivation_client_free",
+    "address": "0x180007a90",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1808b3889"
+  },
+  {
+    "name": "mobileactivation_client_new",
+    "address": "0x180007880",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180a253ad"
+  },
+  {
+    "name": "mobileactivation_client_start_service",
+    "address": "0x180011220",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18084c54b"
+  },
+  {
+    "name": "mobileactivation_create_activation_info",
+    "address": "0x180011780",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18073c575"
+  },
+  {
+    "name": "mobileactivation_create_activation_info_with_session",
+    "address": "0x180011870",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18014c987"
+  },
+  {
+    "name": "mobileactivation_create_activation_session_info",
+    "address": "0x180011690",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18033317d"
+  },
+  {
+    "name": "mobileactivation_deactivate",
+    "address": "0x180011b50",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1807a4b0f"
+  },
+  {
+    "name": "mobileactivation_get_activation_state",
+    "address": "0x1800115a0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180730941"
+  },
+  {
+    "name": "mobilebackup2_client_free",
+    "address": "0x180011ec0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18037a758"
+  },
+  {
+    "name": "mobilebackup2_client_new",
+    "address": "0x180012f40",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1805e6384"
+  },
+  {
+    "name": "mobilebackup2_client_start_service",
+    "address": "0x1800130f0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18018eab0"
+  },
+  {
+    "name": "mobilebackup2_receive_message",
+    "address": "0x180013410",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180211e54"
+  },
+  {
+    "name": "mobilebackup2_receive_raw",
+    "address": "0x1800136e0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1802ca349"
+  },
+  {
+    "name": "mobilebackup2_send_message",
+    "address": "0x180013220",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180549710"
+  },
+  {
+    "name": "mobilebackup2_send_raw",
+    "address": "0x180013590",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180b496f7"
+  },
+  {
+    "name": "mobilebackup2_send_request",
+    "address": "0x180013ab0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180716d2f"
+  },
+  {
+    "name": "mobilebackup2_send_status_response",
+    "address": "0x180013c40",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180a58d1b"
+  },
+  {
+    "name": "mobilebackup2_version_exchange",
+    "address": "0x1800137a0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1808e2fb0"
+  },
+  {
+    "name": "mobilebackup_client_free",
+    "address": "0x180011ec0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18037a758"
+  },
+  {
+    "name": "mobilebackup_client_new",
+    "address": "0x180011be0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180c6fa41"
+  },
+  {
+    "name": "mobilebackup_client_start_service",
+    "address": "0x180011d90",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1807df4e0"
+  },
+  {
+    "name": "mobilebackup_receive",
+    "address": "0x180011f80",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180ba24c8"
+  },
+  {
+    "name": "mobilebackup_receive_restore_application_received",
+    "address": "0x180012a90",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180451440"
+  },
+  {
+    "name": "mobilebackup_receive_restore_file_received",
+    "address": "0x180012a80",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1800cfb1f"
+  },
+  {
+    "name": "mobilebackup_request_backup",
+    "address": "0x180012490",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180179042"
+  },
+  {
+    "name": "mobilebackup_request_restore",
+    "address": "0x180012820",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180a9a70e"
+  },
+  {
+    "name": "mobilebackup_send",
+    "address": "0x180012020",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18062db21"
+  },
+  {
+    "name": "mobilebackup_send_backup_file_received",
+    "address": "0x1800126e0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180140282"
+  },
+  {
+    "name": "mobilebackup_send_error",
+    "address": "0x180012eb0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1807c6d7c"
+  },
+  {
+    "name": "mobilebackup_send_restore_complete",
+    "address": "0x180012aa0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180736e24"
+  },
+  {
+    "name": "mobilesync_acknowledge_changes_from_device",
+    "address": "0x180014ca0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18070818c"
+  },
+  {
+    "name": "mobilesync_actions_add",
+    "address": "0x180015580",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180c6998c"
+  },
+  {
+    "name": "mobilesync_actions_free",
+    "address": "0x18000cfd0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18033e33b"
+  },
+  {
+    "name": "mobilesync_actions_new",
+    "address": "0x18000cdf0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180acf4b2"
+  },
+  {
+    "name": "mobilesync_anchors_free",
+    "address": "0x180015530",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1802ac524"
+  },
+  {
+    "name": "mobilesync_anchors_new",
+    "address": "0x1800154b0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180821f15"
+  },
+  {
+    "name": "mobilesync_cancel",
+    "address": "0x1800153e0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1807f3c38"
+  },
+  {
+    "name": "mobilesync_clear_all_records_on_device",
+    "address": "0x180014a50",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18055e2ac"
+  },
+  {
+    "name": "mobilesync_client_free",
+    "address": "0x180014090",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180bbbcc8"
+  },
+  {
+    "name": "mobilesync_client_new",
+    "address": "0x180013da0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18073cca6"
+  },
+  {
+    "name": "mobilesync_client_start_service",
+    "address": "0x180013f60",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1809d7ecc"
+  },
+  {
+    "name": "mobilesync_finish",
+    "address": "0x180014520",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180ae7842"
+  },
+  {
+    "name": "mobilesync_get_all_records_from_device",
+    "address": "0x1800146f0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18071dbd2"
+  },
+  {
+    "name": "mobilesync_get_changes_from_device",
+    "address": "0x180014780",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180534c11"
+  },
+  {
+    "name": "mobilesync_ready_to_send_changes_from_computer",
+    "address": "0x180014d20",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1805bcfaa"
+  },
+  {
+    "name": "mobilesync_receive",
+    "address": "0x180011f80",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180ba24c8"
+  },
+  {
+    "name": "mobilesync_receive_changes",
+    "address": "0x180014810",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180993382"
+  },
+  {
+    "name": "mobilesync_remap_identifiers",
+    "address": "0x180015190",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18045f389"
+  },
+  {
+    "name": "mobilesync_send",
+    "address": "0x180012020",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18062db21"
+  },
+  {
+    "name": "mobilesync_send_changes",
+    "address": "0x180015040",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1803a555b"
+  },
+  {
+    "name": "mobilesync_start",
+    "address": "0x180014150",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180a1aae9"
+  },
+  {
+    "name": "np_client_free",
+    "address": "0x180016730",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180804961"
+  },
+  {
+    "name": "np_client_new",
+    "address": "0x18000b580",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180573216"
+  },
+  {
+    "name": "np_client_start_service",
+    "address": "0x180016600",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1803db5e2"
+  },
+  {
+    "name": "np_observe_notification",
+    "address": "0x180016bf0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18066a8d5"
+  },
+  {
+    "name": "np_observe_notifications",
+    "address": "0x180016ca0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18048c473"
+  },
+  {
+    "name": "np_post_notification",
+    "address": "0x1800169b0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18040477f"
+  },
+  {
+    "name": "np_set_notify_callback",
+    "address": "0x1800170f0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180970075"
+  },
+  {
+    "name": "pinvoke_free_string",
+    "address": "0x180017260",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18015484d"
+  },
+  {
+    "name": "pinvoke_get_string_length",
+    "address": "0x180017280",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1807977e0"
+  },
+  {
+    "name": "preboard_client_free",
+    "address": "0x180017560",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180babd0f"
+  },
+  {
+    "name": "preboard_client_new",
+    "address": "0x1800172a0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1802d2818"
+  },
+  {
+    "name": "preboard_client_start_service",
+    "address": "0x180017430",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1808fb9ae"
+  },
+  {
+    "name": "preboard_commit_stashbag",
+    "address": "0x180017aa0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18050d048"
+  },
+  {
+    "name": "preboard_create_stashbag",
+    "address": "0x1800179d0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1808500de"
+  },
+  {
+    "name": "preboard_receive",
+    "address": "0x180017820",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18068abad"
+  },
+  {
+    "name": "preboard_receive_with_timeout",
+    "address": "0x180017710",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180a8eede"
+  },
+  {
+    "name": "preboard_send",
+    "address": "0x180017660",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1801158ca"
+  },
+  {
+    "name": "property_list_service_client_free",
+    "address": "0x180017c30",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180abdcf2"
+  },
+  {
+    "name": "property_list_service_client_new",
+    "address": "0x180017b70",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180619f5a"
+  },
+  {
+    "name": "property_list_service_disable_ssl",
+    "address": "0x1800186c0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18055fb62"
+  },
+  {
+    "name": "property_list_service_enable_ssl",
+    "address": "0x1800185c0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1806864b0"
+  },
+  {
+    "name": "property_list_service_receive_plist",
+    "address": "0x1800185b0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1809c799d"
+  },
+  {
+    "name": "property_list_service_receive_plist_with_timeout",
+    "address": "0x1800185a0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18013e290"
+  },
+  {
+    "name": "property_list_service_send_binary_plist",
+    "address": "0x180018040",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180a2f56f"
+  },
+  {
+    "name": "property_list_service_send_xml_plist",
+    "address": "0x180018030",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180b22455"
+  },
+  {
+    "name": "restored_client_free",
+    "address": "0x1800187c0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180645fc6"
+  },
+  {
+    "name": "restored_client_new",
+    "address": "0x180018fb0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18055fb58"
+  },
+  {
+    "name": "restored_client_set_label",
+    "address": "0x180018880",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1808b60f0"
+  },
+  {
+    "name": "restored_get_value",
+    "address": "0x180018f20",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18044f775"
+  },
+  {
+    "name": "restored_goodbye",
+    "address": "0x180019180",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18087dc55"
+  },
+  {
+    "name": "restored_query_type",
+    "address": "0x1800189c0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18062abdf"
+  },
+  {
+    "name": "restored_query_value",
+    "address": "0x180018cf0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18059fa28"
+  },
+  {
+    "name": "restored_reboot",
+    "address": "0x180019570",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180b44ee0"
+  },
+  {
+    "name": "restored_receive",
+    "address": "0x1800188e0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180786b00"
+  },
+  {
+    "name": "restored_send",
+    "address": "0x180018950",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1803eb6eb"
+  },
+  {
+    "name": "restored_start_restore",
+    "address": "0x180019420",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1802d5ff6"
+  },
+  {
+    "name": "sbservices_client_free",
+    "address": "0x180019850",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1809f8dde"
+  },
+  {
+    "name": "sbservices_client_new",
+    "address": "0x1800156b0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1800b63d9"
+  },
+  {
+    "name": "sbservices_client_start_service",
+    "address": "0x180019720",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18032be9f"
+  },
+  {
+    "name": "sbservices_get_home_screen_wallpaper_pngdata",
+    "address": "0x18001a060",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180938769"
+  },
+  {
+    "name": "sbservices_get_icon_pngdata",
+    "address": "0x180019c50",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180bb5522"
+  },
+  {
+    "name": "sbservices_get_icon_state",
+    "address": "0x1800198d0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180aaa134"
+  },
+  {
+    "name": "sbservices_get_interface_orientation",
+    "address": "0x180019e60",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1807e7186"
+  },
+  {
+    "name": "sbservices_set_icon_state",
+    "address": "0x180019ae0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180b27f46"
+  },
+  {
+    "name": "screenshotr_client_free",
+    "address": "0x18001a530",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18014affb"
+  },
+  {
+    "name": "screenshotr_client_new",
+    "address": "0x18001a250",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18087d6d6"
+  },
+  {
+    "name": "screenshotr_client_start_service",
+    "address": "0x18001a400",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18088e10e"
+  },
+  {
+    "name": "screenshotr_screenshot_free",
+    "address": "0x180017260",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18015484d"
+  },
+  {
+    "name": "screenshotr_take_screenshot",
+    "address": "0x18001a5f0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180c46421"
+  },
+  {
+    "name": "service_client_factory_start_service",
+    "address": "0x18001a9a0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1801f6a4d"
+  },
+  {
+    "name": "service_client_free",
+    "address": "0x18001ab00",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180814f90"
+  },
+  {
+    "name": "service_client_new",
+    "address": "0x18001a8f0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180bf468e"
+  },
+  {
+    "name": "service_disable_bypass_ssl",
+    "address": "0x18001ae50",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180962827"
+  },
+  {
+    "name": "service_disable_ssl",
+    "address": "0x18001ade0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18013e286"
+  },
+  {
+    "name": "service_enable_ssl",
+    "address": "0x18001ad80",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180a88dac"
+  },
+  {
+    "name": "service_receive",
+    "address": "0x18001ad60",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180bee0b1"
+  },
+  {
+    "name": "service_receive_with_timeout",
+    "address": "0x18001ac80",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180b92d50"
+  },
+  {
+    "name": "service_send",
+    "address": "0x18001ab80",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1803c6ddd"
+  },
+  {
+    "name": "syslog_relay_client_free",
+    "address": "0x18001b150",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180107c4a"
+  },
+  {
+    "name": "syslog_relay_client_new",
+    "address": "0x18001aeb0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18078b804"
+  },
+  {
+    "name": "syslog_relay_client_start_service",
+    "address": "0x18001b020",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18092a543"
+  },
+  {
+    "name": "syslog_relay_receive",
+    "address": "0x18001b230",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1809e46ad"
+  },
+  {
+    "name": "syslog_relay_receive_with_timeout",
+    "address": "0x18001b250",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180811176"
+  },
+  {
+    "name": "syslog_relay_start_capture",
+    "address": "0x18001b500",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1805c7123"
+  },
+  {
+    "name": "syslog_relay_start_capture_raw",
+    "address": "0x18001b5e0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180944d6d"
+  },
+  {
+    "name": "syslog_relay_stop_capture",
+    "address": "0x18001b6c0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18016cb5c"
+  },
+  {
+    "name": "webinspector_client_free",
+    "address": "0x18001b9c0",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x1804340cf"
+  },
+  {
+    "name": "webinspector_client_new",
+    "address": "0x18001b710",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18063297d"
+  },
+  {
+    "name": "webinspector_client_start_service",
+    "address": "0x18001b890",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18065fa00"
+  },
+  {
+    "name": "webinspector_receive",
+    "address": "0x18001bd50",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x18067a8f6"
+  },
+  {
+    "name": "webinspector_receive_with_timeout",
+    "address": "0x18001bd60",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180c5be98"
+  },
+  {
+    "name": "webinspector_send",
+    "address": "0x18001ba70",
+    "virtualized_entry": true,
+    "instruction": "jmp 0x180c7fb9c"
+  }
+]

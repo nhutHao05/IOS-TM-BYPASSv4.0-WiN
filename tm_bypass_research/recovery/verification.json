@@ -1,0 +1,13 @@
+{
+  "method_definitions": 362,
+  "method_bodies_verified_byte_for_byte_except_literal_recovery": 352,
+  "literal_calls_verified": 1444,
+  "distinct_literals_in_calls": 819,
+  "per_token_csharp_exports": 362,
+  "per_token_decompiler_warning_files": [],
+  "application_compile_errors": 0,
+  "application_compile_warnings": 14,
+  "analysis_pe_sha256": "4d052853671fa97a65489dd8285a1485ca1fd422b786eba823b22e586ce6ee7b",
+  "original_application_executed": false,
+  "real_device_tested": false
+}

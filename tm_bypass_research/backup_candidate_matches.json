@@ -1,0 +1,44 @@
+[
+  {
+    "domain": "SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles",
+    "path": "Library/ConfigurationProfiles/CloudConfigurationDetails.plist",
+    "fileID": "1e6c0783f9b33d00b152067a0661c8fc8841073f",
+    "size": 416,
+    "plaintext_plist": false
+  },
+  {
+    "domain": "SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles",
+    "path": "Library/ConfigurationProfiles/ClientTruth.plist",
+    "fileID": "550a09c4f8c4d89df203ab615ffc979d3c56f613",
+    "size": 2032,
+    "plaintext_plist": false
+  },
+  {
+    "domain": "SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles",
+    "path": "Library/ConfigurationProfiles/ProfileTruth.plist",
+    "fileID": "b2998988ede72dc5ec6d24d258f060d2b2e961b1",
+    "size": 192,
+    "plaintext_plist": false
+  },
+  {
+    "domain": "HomeDomain",
+    "path": "Library/Preferences/com.apple.purplebuddy.plist",
+    "fileID": "80fa782261261e54bb73c0253e5b6beefb6a2f39",
+    "size": 896,
+    "plaintext_plist": false
+  },
+  {
+    "domain": "HomeDomain",
+    "path": "Library/UserConfigurationProfiles/EffectiveUserSettings.plist",
+    "fileID": "6241b2b9da35bc7ac51266cce64774fc975ccf00",
+    "size": 16192,
+    "plaintext_plist": false
+  },
+  {
+    "domain": "HomeDomain",
+    "path": "Library/UserConfigurationProfiles/PublicInfo/PublicEffectiveUserSettings.plist",
+    "fileID": "3aef6f188cf22d663030b159b271f1f2591cf56a",
+    "size": 16192,
+    "plaintext_plist": false
+  }
+]

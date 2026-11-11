@@ -1,0 +1,51 @@
+{
+  "managed": {
+    "ILSpy": "9.1.0.7988",
+    "Roslyn": "4.8.0",
+    ".NET runtime": "8.0.19",
+    "reference framework": ".NET Framework 4.8"
+  },
+  "native": {
+    "Ghidra": "11.3.2 PUBLIC 20250415",
+    "Java": "OpenJDK 21.0.13",
+    "NoVmp": "1.0.6",
+    "Wine": "8.0 Debian bookworm",
+    "Unicorn": "see emulator_venv metadata",
+    "unicorn": "1.0.2",
+    "speakeasy-emulator": "1.5.11"
+  },
+  "python_packages": {
+    "dnfile": "0.18.0",
+    "dncil": "1.0.2",
+    "pefile": "2024.8.26",
+    "capstone": "5.0.9"
+  },
+  "trusted_tool_hashes": {
+    "NoVmp.exe": "545788e150e9fab8f16fc157669ee42fe7c636b2a7cb0b8b8e0622af3455401c",
+    "NoVmp.smallstack.exe": "ca0a404b2b3debbe8c8ad537919018aee414999ed01135a47a31d6a66cdebd66",
+    "ICSharpCode.Decompiler.dll": "2e47c9b7557d071935f4730d5cd692162bd0f6266ce7d29f1d13ffeb6b2dae75",
+    "Ghidra x64 decompiler": "2c44061f65886b97a160d20437950e550212d9c7f4623e4aa3ebac04e84f8e7c"
+  },
+  "novmp_analysis_only_adjustment": "Stack reserve reduced from 32 GiB to 32 MiB for Wine loader compatibility; tool source semantics unchanged.",
+  "novmp_result": "No complete VTIL output; unsupported symbolic switch, constant optimization attempts timed out.",
+  "ghidra_launcher": "run_ghidra.sh uses existing Java 21 compiler modules and the documented Ghidra class loader.",
+  "external_vendor_endpoints_called": false,
+  "external_vendor_credentials_used": false,
+  "real_device_attached": false,
+  "dll_followup": {
+    "dll_import_calls_named": 480,
+    "dll_import_calls_abi_verified": 480,
+    "dll_exports_entering_vm": 287,
+    "complete_vm_devirtualization": false,
+    "contract_cases": 52,
+    "contract_apis": 5,
+    "mock_boundary": "usbmuxd_send / usbmuxd_recv / usbmuxd_recv_timeout",
+    "protected_dll_and_plist_patched_by_contract_harness": false,
+    "optional_ghidra_function_id_databases_removed": true,
+    "harness_sha256": "07b632cff403a91c1fc690a1403489c1194cc949be2fb7f2d1ab0df4ad6b8553"
+  },
+  "method_followup": {
+    "probe_file_sender_sha256": "c6179a8469690c8d4b53aff03d00e639bbbd3c94def1a3c23c1909c0ceeade1d",
+    "probe_mode_dispatch_sha256": "b841a867b1cb230d4abd5f836ae2ab6ab4add5ce8a778432ccbc17f823f671a4"
+  }
+}

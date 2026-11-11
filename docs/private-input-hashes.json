@@ -1,0 +1,77 @@
+[
+  {
+    "path": "TM-BYPASSv4.0 WiN.zip",
+    "bytes": 79412658,
+    "sha256": "69d417290fb1d6d759da26bded7e931158372e949f1e04ca685dc64f4d5f1b30"
+  },
+  {
+    "path": "extracted/TM-BYPASSv4.0/TM-BYPASS.exe",
+    "bytes": 42609664,
+    "sha256": "ba45061d4df61c6a65a9a937fb3e13fb0b0fa4194f2a4bb6784d9c96fc68273e"
+  },
+  {
+    "path": "TM-BYPASS.section_decrypted.exe",
+    "bytes": 42609664,
+    "sha256": "3fdbf19ed08feb7ff13013dc1112b0be153b7bc2613a3cb5b817c0baf3d6f203"
+  },
+  {
+    "path": "resource_assembly.dll",
+    "bytes": 43852800,
+    "sha256": "4ba9a6b774ac32314db3000af287b9fb987efd66845c60b9708a7c5b8e32368c"
+  },
+  {
+    "path": "constants.bin",
+    "bytes": 36240,
+    "sha256": "04f4a442eb3146703f72d6b5a2ef512857e13106d7c90ec21ac242ee880c1b0b"
+  },
+  {
+    "path": "embedded_ikey/MDM_SETUP.exe",
+    "bytes": 5494784,
+    "sha256": "6df298d8ce0de16fa8d776490bdb67b1e7913a8b3e226e22e0807decdebec650"
+  },
+  {
+    "path": "embedded_ikey/imobiledevice.dll",
+    "bytes": 16541696,
+    "sha256": "93937d1910e6a59c9f6533e92a1f59d6d7bf9ab2706a40ac903dbe695682e1e6"
+  },
+  {
+    "path": "embedded_ikey/plist.dll",
+    "bytes": 64000,
+    "sha256": "261f7f4e5abf36f03779957e4d637b87170d7795d94aa0be412fbacae6b6cc0f"
+  },
+  {
+    "path": "embedded_ikey/usbmuxd.dll",
+    "bytes": 35328,
+    "sha256": "8709f3642719215ea2da04195634efb3c258514810840b9f8e6f973f882e243d"
+  },
+  {
+    "path": "native_runtime/wine/MDM_SETUP.exe.memory_ready.bin",
+    "bytes": 9101312,
+    "sha256": "ac5aa19fab4c49b84c27a572398cacff45baccd61818d7a28ddeec6cf6d1a1f2"
+  },
+  {
+    "path": "native_runtime/wine/imobiledevice.dll.memory_ready.bin",
+    "bytes": 31301632,
+    "sha256": "563d3829e723ec5be9c7974b28642c61e132d159017b71ab159e3c91b5e47333"
+  },
+  {
+    "path": "recovery/vmp_input/MDM_SETUP.exe.unpacked",
+    "bytes": 9101312,
+    "sha256": "c5dc6fcec2fc900c0a630c94805cb5d35d1d3689867dbfd1b5ffa3268eff9d8a"
+  },
+  {
+    "path": "recovery/vmp_input/imobiledevice.dll.unpacked",
+    "bytes": 31301632,
+    "sha256": "c4964db00036072755d55eef2e9f82a349bb6d0bff87c2e785fc43c6e4b6d4d0"
+  },
+  {
+    "path": "embedded_nego/Manifest.db",
+    "bytes": 843792,
+    "sha256": "47554d1339205e89ab34e96ddafa8f2b0acf484e81b42a20df93bf09c04f4e83"
+  },
+  {
+    "path": "embedded_nego/Status.plist",
+    "bytes": 151,
+    "sha256": "49a471bf2bce2372d247d4181c3a9e935ceb19b8b477df9ddb0ee94357f6571c"
+  }
+]

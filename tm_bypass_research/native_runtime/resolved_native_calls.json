@@ -1,0 +1,5081 @@
+[
+  {
+    "callsite": "0x140001047",
+    "stub": "0x1400eeef9",
+    "destination": 11933457056,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!__stdio_common_vfprintf",
+      "ucrtbase.dll!_o___stdio_common_vfprintf"
+    ]
+  },
+  {
+    "callsite": "0x1400010ac",
+    "stub": "0x140183063",
+    "destination": 11933772384,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!__stdio_common_vsprintf",
+      "ucrtbase.dll!_o___stdio_common_vsprintf"
+    ]
+  },
+  {
+    "callsite": "0x140001137",
+    "stub": "0x1401b5c0d",
+    "destination": 11933462528,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_malloc",
+      "ucrtbase.dll!malloc"
+    ]
+  },
+  {
+    "callsite": "0x14000139f",
+    "stub": "0x1401cf943",
+    "destination": 11933671296,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_mbsdup",
+      "ucrtbase.dll!_o__strdup",
+      "ucrtbase.dll!_strdup"
+    ]
+  },
+  {
+    "callsite": "0x1400013f1",
+    "stub": "0x1400f402e",
+    "destination": 11933447472,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_fopen",
+      "ucrtbase.dll!fopen"
+    ]
+  },
+  {
+    "callsite": "0x140001409",
+    "stub": "0x14012b3d2",
+    "destination": 11933451696,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_fseek",
+      "ucrtbase.dll!fseek"
+    ]
+  },
+  {
+    "callsite": "0x140001412",
+    "stub": "0x1401d544c",
+    "destination": 11933452112,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_ftell",
+      "ucrtbase.dll!ftell"
+    ]
+  },
+  {
+    "callsite": "0x14000141e",
+    "stub": "0x14010fa0c",
+    "destination": 11933439088,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_rewind",
+      "ucrtbase.dll!rewind"
+    ]
+  },
+  {
+    "callsite": "0x14000142b",
+    "stub": "0x1400c70ac",
+    "destination": 11933440704,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_fclose",
+      "ucrtbase.dll!fclose"
+    ]
+  },
+  {
+    "callsite": "0x140001452",
+    "stub": "0x140217baa",
+    "destination": 11933462528,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_malloc",
+      "ucrtbase.dll!malloc"
+    ]
+  },
+  {
+    "callsite": "0x140001469",
+    "stub": "0x14004f869",
+    "destination": 11933449008,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_fread",
+      "ucrtbase.dll!fread"
+    ]
+  },
+  {
+    "callsite": "0x140001478",
+    "stub": "0x1400cfa71",
+    "destination": 11933440704,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_fclose",
+      "ucrtbase.dll!fclose"
+    ]
+  },
+  {
+    "callsite": "0x140001480",
+    "stub": "0x1401977f4",
+    "destination": 11933440704,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_fclose",
+      "ucrtbase.dll!fclose"
+    ]
+  },
+  {
+    "callsite": "0x1400014aa",
+    "stub": "0x1400a8151",
+    "destination": 7546048,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_from_bin"
+    ]
+  },
+  {
+    "callsite": "0x1400014b3",
+    "stub": "0x1401ce2f9",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x1400014cc",
+    "stub": "0x14018a09e",
+    "destination": 7583360,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_from_xml"
+    ]
+  },
+  {
+    "callsite": "0x1400014d5",
+    "stub": "0x140219c40",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x140001528",
+    "stub": "0x1401bd22d",
+    "destination": 11933415248,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!__acrt_iob_func",
+      "ucrtbase.dll!_o___acrt_iob_func"
+    ]
+  },
+  {
+    "callsite": "0x140001547",
+    "stub": "0x14009de07",
+    "destination": 11933457056,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!__stdio_common_vfprintf",
+      "ucrtbase.dll!_o___stdio_common_vfprintf"
+    ]
+  },
+  {
+    "callsite": "0x1400015a5",
+    "stub": "0x140091593",
+    "destination": 11933663760,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!__stdio_common_vsscanf",
+      "ucrtbase.dll!_o___stdio_common_vsscanf"
+    ]
+  },
+  {
+    "callsite": "0x1400015e7",
+    "stub": "0x140117c6d",
+    "destination": 11933462528,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_malloc",
+      "ucrtbase.dll!malloc"
+    ]
+  },
+  {
+    "callsite": "0x140001627",
+    "stub": "0x1401d546c",
+    "destination": 2069943828,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "kernel32.dll!GetFullPathNameW"
+    ]
+  },
+  {
+    "callsite": "0x140001638",
+    "stub": "0x1401b087a",
+    "destination": 11933462528,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_malloc",
+      "ucrtbase.dll!malloc"
+    ]
+  },
+  {
+    "callsite": "0x14000165c",
+    "stub": "0x1400f31de",
+    "destination": 2069943828,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "kernel32.dll!GetFullPathNameW"
+    ]
+  },
+  {
+    "callsite": "0x1400016b8",
+    "stub": "0x1401865bd",
+    "destination": 2069940996,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "kernel32.dll!FindFirstFileExW"
+    ]
+  },
+  {
+    "callsite": "0x1400016e2",
+    "stub": "0x1401aa29a",
+    "destination": 11933386032,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o__set_errno",
+      "ucrtbase.dll!_set_errno"
+    ]
+  },
+  {
+    "callsite": "0x1400016f5",
+    "stub": "0x140063bca",
+    "destination": 2069940852,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "kernel32.dll!FindClose"
+    ]
+  },
+  {
+    "callsite": "0x14000170c",
+    "stub": "0x140166ee8",
+    "destination": 11933386032,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o__set_errno",
+      "ucrtbase.dll!_set_errno"
+    ]
+  },
+  {
+    "callsite": "0x14000171f",
+    "stub": "0x14013e0ec",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x14000172e",
+    "stub": "0x14004b5e5",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x140001759",
+    "stub": "0x140141188",
+    "destination": 11933386032,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o__set_errno",
+      "ucrtbase.dll!_set_errno"
+    ]
+  },
+  {
+    "callsite": "0x1400017a6",
+    "stub": "0x1401cbaf5",
+    "destination": 11933462528,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_malloc",
+      "ucrtbase.dll!malloc"
+    ]
+  },
+  {
+    "callsite": "0x1400017d0",
+    "stub": "0x140207b31",
+    "destination": 11933575584,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_mbstowcs_s",
+      "ucrtbase.dll!mbstowcs_s"
+    ]
+  },
+  {
+    "callsite": "0x1400017fa",
+    "stub": "0x1400ac523",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x140001813",
+    "stub": "0x14005833c",
+    "destination": 11933386032,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o__set_errno",
+      "ucrtbase.dll!_set_errno"
+    ]
+  },
+  {
+    "callsite": "0x140001893",
+    "stub": "0x140127b6e",
+    "destination": 2069941140,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "kernel32.dll!FindNextFileW"
+    ]
+  },
+  {
+    "callsite": "0x1400018c6",
+    "stub": "0x1401d2f87",
+    "destination": 11933753008,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_wcstombs_s",
+      "ucrtbase.dll!wcstombs_s"
+    ]
+  },
+  {
+    "callsite": "0x1400018f5",
+    "stub": "0x1401e44ab",
+    "destination": 11933753008,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_wcstombs_s",
+      "ucrtbase.dll!wcstombs_s"
+    ]
+  },
+  {
+    "callsite": "0x140001984",
+    "stub": "0x140097ff3",
+    "destination": 2069940852,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "kernel32.dll!FindClose"
+    ]
+  },
+  {
+    "callsite": "0x1400019e5",
+    "stub": "0x1400bb703",
+    "destination": 2069940852,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "kernel32.dll!FindClose"
+    ]
+  },
+  {
+    "callsite": "0x140001a04",
+    "stub": "0x140168b5e",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x140001a19",
+    "stub": "0x140100d07",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x140001a27",
+    "stub": "0x140063ae5",
+    "destination": 11933386032,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o__set_errno",
+      "ucrtbase.dll!_set_errno"
+    ]
+  },
+  {
+    "callsite": "0x140001a43",
+    "stub": "0x140155a70",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x140001a5f",
+    "stub": "0x14018a08f",
+    "destination": 11933386032,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o__set_errno",
+      "ucrtbase.dll!_set_errno"
+    ]
+  },
+  {
+    "callsite": "0x140001b4c",
+    "stub": "0x140206538",
+    "destination": 6442465952,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!afc_get_file_info"
+    ]
+  },
+  {
+    "callsite": "0x140001ba3",
+    "stub": "0x1401df7ea",
+    "destination": 11933682528,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_atol",
+      "ucrtbase.dll!atol"
+    ]
+  },
+  {
+    "callsite": "0x140001bb3",
+    "stub": "0x14012fff1",
+    "destination": 6442472064,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!afc_dictionary_free"
+    ]
+  },
+  {
+    "callsite": "0x140001bd7",
+    "stub": "0x1400605d3",
+    "destination": 6442466528,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!afc_file_open"
+    ]
+  },
+  {
+    "callsite": "0x140001bf9",
+    "stub": "0x1400de406",
+    "destination": 11933462528,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_malloc",
+      "ucrtbase.dll!malloc"
+    ]
+  },
+  {
+    "callsite": "0x140001c33",
+    "stub": "0x1400dd5fd",
+    "destination": 6442467200,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!afc_file_read"
+    ]
+  },
+  {
+    "callsite": "0x140001c6d",
+    "stub": "0x1401c7d84",
+    "destination": 6442472064,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!afc_dictionary_free"
+    ]
+  },
+  {
+    "callsite": "0x140001c78",
+    "stub": "0x1401c6235",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x140001c86",
+    "stub": "0x1401af635",
+    "destination": 6442468208,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!afc_file_close"
+    ]
+  },
+  {
+    "callsite": "0x140001ce3",
+    "stub": "0x1400bdcec",
+    "destination": 2069938452,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "kernel32.dll!CreateDirectoryA"
+    ]
+  },
+  {
+    "callsite": "0x140001cf2",
+    "stub": "0x140169b3c",
+    "destination": 2069943972,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "kernel32.dll!GetLastError"
+    ]
+  },
+  {
+    "callsite": "0x140001d18",
+    "stub": "0x140149a73",
+    "destination": 11933671296,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_mbsdup",
+      "ucrtbase.dll!_o__strdup",
+      "ucrtbase.dll!_strdup"
+    ]
+  },
+  {
+    "callsite": "0x140001d92",
+    "stub": "0x1401a48b5",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x140001eb1",
+    "stub": "0x140155782",
+    "destination": 11933433600,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o__stat64i32",
+      "ucrtbase.dll!_stat64i32"
+    ]
+  },
+  {
+    "callsite": "0x140001ecd",
+    "stub": "0x14020a73f",
+    "destination": 11933462528,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_malloc",
+      "ucrtbase.dll!malloc"
+    ]
+  },
+  {
+    "callsite": "0x140001ef5",
+    "stub": "0x1401c2abf",
+    "destination": 11933462528,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_malloc",
+      "ucrtbase.dll!malloc"
+    ]
+  },
+  {
+    "callsite": "0x140001f66",
+    "stub": "0x1400a6b88",
+    "destination": 11933462528,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_malloc",
+      "ucrtbase.dll!malloc"
+    ]
+  },
+  {
+    "callsite": "0x140001f87",
+    "stub": "0x14008c3b9",
+    "destination": 11933671296,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_mbsdup",
+      "ucrtbase.dll!_o__strdup",
+      "ucrtbase.dll!_strdup"
+    ]
+  },
+  {
+    "callsite": "0x140001fc9",
+    "stub": "0x1400a646d",
+    "destination": 2069939724,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "kernel32.dll!DeleteFileA"
+    ]
+  },
+  {
+    "callsite": "0x140001fd2",
+    "stub": "0x1401d506d",
+    "destination": 2069943972,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "kernel32.dll!GetLastError"
+    ]
+  },
+  {
+    "callsite": "0x140001ff5",
+    "stub": "0x1401d0638",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x140002003",
+    "stub": "0x1401adef3",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x140002029",
+    "stub": "0x1401f0963",
+    "destination": 2069951244,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "kernel32.dll!RemoveDirectoryA"
+    ]
+  },
+  {
+    "callsite": "0x140002032",
+    "stub": "0x1400c4508",
+    "destination": 2069943972,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "kernel32.dll!GetLastError"
+    ]
+  },
+  {
+    "callsite": "0x140002055",
+    "stub": "0x1401e636b",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x140002062",
+    "stub": "0x1401d7bcf",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x1400020d1",
+    "stub": "0x14017638c",
+    "destination": 6442509744,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!lockdownd_client_new_with_handshake"
+    ]
+  },
+  {
+    "callsite": "0x140002103",
+    "stub": "0x140150373",
+    "destination": 7556096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_new_dict"
+    ]
+  },
+  {
+    "callsite": "0x14000211f",
+    "stub": "0x1400f31d7",
+    "destination": 6442507504,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!lockdownd_get_value"
+    ]
+  },
+  {
+    "callsite": "0x140002139",
+    "stub": "0x14018a0f8",
+    "destination": 6442507504,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!lockdownd_get_value"
+    ]
+  },
+  {
+    "callsite": "0x140002155",
+    "stub": "0x140184fa1",
+    "destination": 6442507504,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!lockdownd_get_value"
+    ]
+  },
+  {
+    "callsite": "0x140002160",
+    "stub": "0x14016de53",
+    "destination": 6442506176,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!lockdownd_client_free"
+    ]
+  },
+  {
+    "callsite": "0x140002166",
+    "stub": "0x14007fbb6",
+    "destination": 7556096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_new_dict"
+    ]
+  },
+  {
+    "callsite": "0x14000216f",
+    "stub": "0x1401d0fe1",
+    "destination": 7556192,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_new_array"
+    ]
+  },
+  {
+    "callsite": "0x140002192",
+    "stub": "0x14020e875",
+    "destination": 6442497632,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!instproxy_client_start_service"
+    ]
+  },
+  {
+    "callsite": "0x14000219f",
+    "stub": "0x1401af1bf",
+    "destination": 6442503664,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!instproxy_client_options_new",
+      "imobiledevice.dll!mobilesync_actions_new"
+    ]
+  },
+  {
+    "callsite": "0x1400021c0",
+    "stub": "0x1401d7c70",
+    "destination": 6442503680,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!instproxy_client_options_add"
+    ]
+  },
+  {
+    "callsite": "0x1400021e4",
+    "stub": "0x1401d1d22",
+    "destination": 6442503968,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!instproxy_client_options_set_return_attributes"
+    ]
+  },
+  {
+    "callsite": "0x1400021fb",
+    "stub": "0x14018f81f",
+    "destination": 6442500496,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!instproxy_browse"
+    ]
+  },
+  {
+    "callsite": "0x140002215",
+    "stub": "0x14005e3b0",
+    "destination": 6442555168,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!sbservices_client_start_service"
+    ]
+  },
+  {
+    "callsite": "0x140002239",
+    "stub": "0x1401fac20",
+    "destination": 7561520,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_get_node_type"
+    ]
+  },
+  {
+    "callsite": "0x14000224e",
+    "stub": "0x140219bee",
+    "destination": 7558000,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_array_get_size"
+    ]
+  },
+  {
+    "callsite": "0x140002269",
+    "stub": "0x1401501c9",
+    "destination": 7558032,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_array_get_item"
+    ]
+  },
+  {
+    "callsite": "0x14000227b",
+    "stub": "0x14014b330",
+    "destination": 7559776,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_get_item"
+    ]
+  },
+  {
+    "callsite": "0x140002299",
+    "stub": "0x1401f5b09",
+    "destination": 7557984,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_copy"
+    ]
+  },
+  {
+    "callsite": "0x1400022a6",
+    "stub": "0x1401c628b",
+    "destination": 7558672,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_array_append_item"
+    ]
+  },
+  {
+    "callsite": "0x1400022b4",
+    "stub": "0x1400edb2d",
+    "destination": 7561808,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_get_string_val"
+    ]
+  },
+  {
+    "callsite": "0x1400022c3",
+    "stub": "0x140132e32",
+    "destination": 7559776,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_get_item"
+    ]
+  },
+  {
+    "callsite": "0x1400022d7",
+    "stub": "0x14017fca2",
+    "destination": 7559776,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_get_item"
+    ]
+  },
+  {
+    "callsite": "0x1400022f1",
+    "stub": "0x1401bd172",
+    "destination": 7556096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_new_dict"
+    ]
+  },
+  {
+    "callsite": "0x1400022fe",
+    "stub": "0x1400fdab1",
+    "destination": 7557984,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_copy"
+    ]
+  },
+  {
+    "callsite": "0x140002311",
+    "stub": "0x14020e828",
+    "destination": 7560096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_set_item"
+    ]
+  },
+  {
+    "callsite": "0x14000233b",
+    "stub": "0x1401e84d3",
+    "destination": 6442556496,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!sbservices_get_icon_pngdata"
+    ]
+  },
+  {
+    "callsite": "0x140002351",
+    "stub": "0x140117c89",
+    "destination": 7556960,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_new_data"
+    ]
+  },
+  {
+    "callsite": "0x140002363",
+    "stub": "0x1400c1986",
+    "destination": 7560096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_set_item"
+    ]
+  },
+  {
+    "callsite": "0x14000236e",
+    "stub": "0x1401ac43c",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x140002377",
+    "stub": "0x14006d868",
+    "destination": 7557984,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_copy"
+    ]
+  },
+  {
+    "callsite": "0x14000238b",
+    "stub": "0x1401d7561",
+    "destination": 7560096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_set_item"
+    ]
+  },
+  {
+    "callsite": "0x14000239b",
+    "stub": "0x14004febf",
+    "destination": 7560096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_set_item"
+    ]
+  },
+  {
+    "callsite": "0x1400023a7",
+    "stub": "0x1401c024e",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x1400023ca",
+    "stub": "0x1400a52f5",
+    "destination": 7557296,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_free"
+    ]
+  },
+  {
+    "callsite": "0x1400023da",
+    "stub": "0x140063996",
+    "destination": 6442555472,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!sbservices_client_free"
+    ]
+  },
+  {
+    "callsite": "0x1400023e3",
+    "stub": "0x140052d29",
+    "destination": 6442504144,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!instproxy_client_options_free",
+      "imobiledevice.dll!mobilesync_actions_free"
+    ]
+  },
+  {
+    "callsite": "0x1400023ed",
+    "stub": "0x140202ba4",
+    "destination": 6442497936,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!instproxy_client_free"
+    ]
+  },
+  {
+    "callsite": "0x140002404",
+    "stub": "0x1401b3477",
+    "destination": 7560096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_set_item"
+    ]
+  },
+  {
+    "callsite": "0x140002417",
+    "stub": "0x14005e3a4",
+    "destination": 7559776,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_get_item"
+    ]
+  },
+  {
+    "callsite": "0x140002420",
+    "stub": "0x14005e2e6",
+    "destination": 7557984,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_copy"
+    ]
+  },
+  {
+    "callsite": "0x140002433",
+    "stub": "0x140063969",
+    "destination": 7560096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_set_item"
+    ]
+  },
+  {
+    "callsite": "0x140002444",
+    "stub": "0x1400ccc43",
+    "destination": 7559776,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_get_item"
+    ]
+  },
+  {
+    "callsite": "0x140002451",
+    "stub": "0x140210ed1",
+    "destination": 7557984,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_copy"
+    ]
+  },
+  {
+    "callsite": "0x140002463",
+    "stub": "0x1401cd320",
+    "destination": 7560096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_set_item"
+    ]
+  },
+  {
+    "callsite": "0x14000246d",
+    "stub": "0x14013b2f9",
+    "destination": 7557984,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_copy"
+    ]
+  },
+  {
+    "callsite": "0x14000247f",
+    "stub": "0x1401e6356",
+    "destination": 7560096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_set_item"
+    ]
+  },
+  {
+    "callsite": "0x14000248b",
+    "stub": "0x1400b7959",
+    "destination": 11933462528,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_malloc",
+      "ucrtbase.dll!malloc"
+    ]
+  },
+  {
+    "callsite": "0x140002496",
+    "stub": "0x14017cac2",
+    "destination": 11933706592,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_time64"
+    ]
+  },
+  {
+    "callsite": "0x14000249e",
+    "stub": "0x1401cc241",
+    "destination": 11933578672,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_srand",
+      "ucrtbase.dll!srand"
+    ]
+  },
+  {
+    "callsite": "0x1400024b0",
+    "stub": "0x140154d82",
+    "destination": 11933578704,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_rand",
+      "ucrtbase.dll!rand"
+    ]
+  },
+  {
+    "callsite": "0x1400024de",
+    "stub": "0x14006aff9",
+    "destination": 7556288,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_new_string"
+    ]
+  },
+  {
+    "callsite": "0x1400024f1",
+    "stub": "0x1401503bd",
+    "destination": 7560096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_set_item"
+    ]
+  },
+  {
+    "callsite": "0x1400024fb",
+    "stub": "0x14009b92d",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x14000250c",
+    "stub": "0x1400915cd",
+    "destination": 7559776,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_get_item"
+    ]
+  },
+  {
+    "callsite": "0x14000251a",
+    "stub": "0x1401159ff",
+    "destination": 7557984,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_copy"
+    ]
+  },
+  {
+    "callsite": "0x14000252d",
+    "stub": "0x1401d060d",
+    "destination": 7560096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_set_item"
+    ]
+  },
+  {
+    "callsite": "0x14000253f",
+    "stub": "0x1401ef17f",
+    "destination": 7559776,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_get_item"
+    ]
+  },
+  {
+    "callsite": "0x14000254e",
+    "stub": "0x14021ad98",
+    "destination": 7557984,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_copy"
+    ]
+  },
+  {
+    "callsite": "0x140002560",
+    "stub": "0x14009de01",
+    "destination": 7560096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_set_item"
+    ]
+  },
+  {
+    "callsite": "0x140002573",
+    "stub": "0x14017d883",
+    "destination": 7560096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_set_item"
+    ]
+  },
+  {
+    "callsite": "0x14000257c",
+    "stub": "0x14017aabc",
+    "destination": 11933706592,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_time64"
+    ]
+  },
+  {
+    "callsite": "0x140002589",
+    "stub": "0x1401fd1e6",
+    "destination": 7557120,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_new_date"
+    ]
+  },
+  {
+    "callsite": "0x14000259d",
+    "stub": "0x1401df1d6",
+    "destination": 7560096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_set_item"
+    ]
+  },
+  {
+    "callsite": "0x1400025ae",
+    "stub": "0x140124285",
+    "destination": 7559776,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_get_item"
+    ]
+  },
+  {
+    "callsite": "0x1400025bc",
+    "stub": "0x1401b1932",
+    "destination": 7557984,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_copy"
+    ]
+  },
+  {
+    "callsite": "0x1400025cf",
+    "stub": "0x14004d3a8",
+    "destination": 7560096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_set_item"
+    ]
+  },
+  {
+    "callsite": "0x1400025e1",
+    "stub": "0x14008efd3",
+    "destination": 7559776,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_get_item"
+    ]
+  },
+  {
+    "callsite": "0x1400025f2",
+    "stub": "0x140204f5c",
+    "destination": 7561520,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_get_node_type"
+    ]
+  },
+  {
+    "callsite": "0x140002601",
+    "stub": "0x1401ee606",
+    "destination": 7557984,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_copy"
+    ]
+  },
+  {
+    "callsite": "0x140002614",
+    "stub": "0x1401eb5dd",
+    "destination": 7560096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_set_item"
+    ]
+  },
+  {
+    "callsite": "0x140002625",
+    "stub": "0x1400c387b",
+    "destination": 7559776,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_get_item"
+    ]
+  },
+  {
+    "callsite": "0x14000262e",
+    "stub": "0x140076f22",
+    "destination": 7557984,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_copy"
+    ]
+  },
+  {
+    "callsite": "0x140002641",
+    "stub": "0x14012a727",
+    "destination": 7560096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_set_item"
+    ]
+  },
+  {
+    "callsite": "0x140002653",
+    "stub": "0x1401f4b72",
+    "destination": 7559776,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_get_item"
+    ]
+  },
+  {
+    "callsite": "0x14000265c",
+    "stub": "0x1401d1d88",
+    "destination": 7557984,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_copy"
+    ]
+  },
+  {
+    "callsite": "0x14000266f",
+    "stub": "0x1401c0e7e",
+    "destination": 7560096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_set_item"
+    ]
+  },
+  {
+    "callsite": "0x140002681",
+    "stub": "0x1400a527c",
+    "destination": 7559776,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_get_item"
+    ]
+  },
+  {
+    "callsite": "0x14000268a",
+    "stub": "0x14019f6c6",
+    "destination": 7557984,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_copy"
+    ]
+  },
+  {
+    "callsite": "0x14000269e",
+    "stub": "0x14020e867",
+    "destination": 7560096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_set_item"
+    ]
+  },
+  {
+    "callsite": "0x1400026af",
+    "stub": "0x14018b84a",
+    "destination": 7559776,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_get_item"
+    ]
+  },
+  {
+    "callsite": "0x1400026b8",
+    "stub": "0x1400a5282",
+    "destination": 7556288,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_new_string"
+    ]
+  },
+  {
+    "callsite": "0x1400026cb",
+    "stub": "0x14006b1ec",
+    "destination": 7560096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_set_item"
+    ]
+  },
+  {
+    "callsite": "0x1400026d8",
+    "stub": "0x140203fa2",
+    "destination": 7556288,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_new_string"
+    ]
+  },
+  {
+    "callsite": "0x1400026eb",
+    "stub": "0x140099dd0",
+    "destination": 7560096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_set_item"
+    ]
+  },
+  {
+    "callsite": "0x1400026f4",
+    "stub": "0x14016d129",
+    "destination": 11933671296,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_mbsdup",
+      "ucrtbase.dll!_o__strdup",
+      "ucrtbase.dll!_strdup"
+    ]
+  },
+  {
+    "callsite": "0x14000271b",
+    "stub": "0x1400af94d",
+    "destination": 11933359792,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_toupper",
+      "ucrtbase.dll!toupper"
+    ]
+  },
+  {
+    "callsite": "0x140002741",
+    "stub": "0x1401d6e88",
+    "destination": 7556288,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_new_string"
+    ]
+  },
+  {
+    "callsite": "0x140002754",
+    "stub": "0x14012728e",
+    "destination": 7560096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_set_item"
+    ]
+  },
+  {
+    "callsite": "0x14000275e",
+    "stub": "0x14020e8c1",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x14000278d",
+    "stub": "0x1400ccc62",
+    "destination": 6442465952,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!afc_get_file_info"
+    ]
+  },
+  {
+    "callsite": "0x1400027e2",
+    "stub": "0x140109421",
+    "destination": 11933682528,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_atol",
+      "ucrtbase.dll!atol"
+    ]
+  },
+  {
+    "callsite": "0x1400027f3",
+    "stub": "0x140140ad4",
+    "destination": 6442472064,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!afc_dictionary_free"
+    ]
+  },
+  {
+    "callsite": "0x14000281a",
+    "stub": "0x1401d7c48",
+    "destination": 6442466528,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!afc_file_open"
+    ]
+  },
+  {
+    "callsite": "0x140002831",
+    "stub": "0x14019c4a4",
+    "destination": 11933462528,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_malloc",
+      "ucrtbase.dll!malloc"
+    ]
+  },
+  {
+    "callsite": "0x140002864",
+    "stub": "0x140214c44",
+    "destination": 6442467200,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!afc_file_read"
+    ]
+  },
+  {
+    "callsite": "0x14000289c",
+    "stub": "0x140168b8f",
+    "destination": 6442472064,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!afc_dictionary_free"
+    ]
+  },
+  {
+    "callsite": "0x1400028a8",
+    "stub": "0x1401c4e9b",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x1400028b9",
+    "stub": "0x1401eb5ef",
+    "destination": 6442468208,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!afc_file_close"
+    ]
+  },
+  {
+    "callsite": "0x1400028cb",
+    "stub": "0x14004cdda",
+    "destination": 7556960,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_new_data"
+    ]
+  },
+  {
+    "callsite": "0x1400028dd",
+    "stub": "0x1401bf64a",
+    "destination": 7560096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_set_item"
+    ]
+  },
+  {
+    "callsite": "0x1400028e6",
+    "stub": "0x1401f5b42",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x1400028ec",
+    "stub": "0x14006f848",
+    "destination": 7556096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_new_dict"
+    ]
+  },
+  {
+    "callsite": "0x1400029ae",
+    "stub": "0x140146975",
+    "destination": 11933462528,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_malloc",
+      "ucrtbase.dll!malloc"
+    ]
+  },
+  {
+    "callsite": "0x140002a08",
+    "stub": "0x14014ece3",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x140002a1f",
+    "stub": "0x140209275",
+    "destination": 7556960,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_new_data"
+    ]
+  },
+  {
+    "callsite": "0x140002a2e",
+    "stub": "0x14019820e",
+    "destination": 7560096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_set_item"
+    ]
+  },
+  {
+    "callsite": "0x140002a38",
+    "stub": "0x14017e7ee",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x140002a5c",
+    "stub": "0x140202ddc",
+    "destination": 7560096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_set_item"
+    ]
+  },
+  {
+    "callsite": "0x140002a7c",
+    "stub": "0x1401c8889",
+    "destination": 7557984,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_copy"
+    ]
+  },
+  {
+    "callsite": "0x140002a83",
+    "stub": "0x140150c1c",
+    "destination": 7556096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_new_dict"
+    ]
+  },
+  {
+    "callsite": "0x140002a97",
+    "stub": "0x14012a94c",
+    "destination": 7560096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_set_item"
+    ]
+  },
+  {
+    "callsite": "0x140002aa6",
+    "stub": "0x14010a4ed",
+    "destination": 7557984,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_copy"
+    ]
+  },
+  {
+    "callsite": "0x140002ab5",
+    "stub": "0x1401c4f0d",
+    "destination": 7556288,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_new_string"
+    ]
+  },
+  {
+    "callsite": "0x140002ac7",
+    "stub": "0x14013965d",
+    "destination": 7560096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_set_item"
+    ]
+  },
+  {
+    "callsite": "0x140002ad3",
+    "stub": "0x14017ed84",
+    "destination": 7557296,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_free"
+    ]
+  },
+  {
+    "callsite": "0x140002add",
+    "stub": "0x14017461b",
+    "destination": 7557296,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_free"
+    ]
+  },
+  {
+    "callsite": "0x140002ae8",
+    "stub": "0x140063ab7",
+    "destination": 7557296,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_free"
+    ]
+  },
+  {
+    "callsite": "0x140002b49",
+    "stub": "0x1400a5298",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x140002b78",
+    "stub": "0x140219d1d",
+    "destination": 7559776,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_get_item"
+    ]
+  },
+  {
+    "callsite": "0x140002b8a",
+    "stub": "0x1400c9e31",
+    "destination": 7561520,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_get_node_type"
+    ]
+  },
+  {
+    "callsite": "0x140002ba1",
+    "stub": "0x1400ef604",
+    "destination": 7561808,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_get_string_val"
+    ]
+  },
+  {
+    "callsite": "0x140002bca",
+    "stub": "0x1400a396e",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x140002be9",
+    "stub": "0x140114c96",
+    "destination": 7557296,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_free"
+    ]
+  },
+  {
+    "callsite": "0x140002c2f",
+    "stub": "0x140063da1",
+    "destination": 6442509744,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!lockdownd_client_new_with_handshake"
+    ]
+  },
+  {
+    "callsite": "0x140002c4d",
+    "stub": "0x140161fc5",
+    "destination": 6442516576,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!lockdownd_start_service"
+    ]
+  },
+  {
+    "callsite": "0x140002c6b",
+    "stub": "0x1401b5c47",
+    "destination": 6442497408,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!instproxy_client_new",
+      "imobiledevice.dll!np_client_new"
+    ]
+  },
+  {
+    "callsite": "0x140002c7f",
+    "stub": "0x14017aaf0",
+    "destination": 6442543536,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!np_post_notification"
+    ]
+  },
+  {
+    "callsite": "0x140002c89",
+    "stub": "0x1400ac51d",
+    "destination": 6442542896,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!np_client_free"
+    ]
+  },
+  {
+    "callsite": "0x140002caf",
+    "stub": "0x1400ddc09",
+    "destination": 6442518064,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!lockdownd_service_descriptor_free"
+    ]
+  },
+  {
+    "callsite": "0x140002cc2",
+    "stub": "0x14009e51a",
+    "destination": 6442506176,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!lockdownd_client_free"
+    ]
+  },
+  {
+    "callsite": "0x140002d7d",
+    "stub": "0x140082884",
+    "destination": 7558032,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_array_get_item"
+    ]
+  },
+  {
+    "callsite": "0x140002d91",
+    "stub": "0x140141753",
+    "destination": 7562864,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_get_real_val"
+    ]
+  },
+  {
+    "callsite": "0x140002e54",
+    "stub": "0x1400f15f3",
+    "destination": 6442530192,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!mobilebackup2_send_raw"
+    ]
+  },
+  {
+    "callsite": "0x140002e7b",
+    "stub": "0x1400f83fc",
+    "destination": 6442530192,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!mobilebackup2_send_raw"
+    ]
+  },
+  {
+    "callsite": "0x140002e9b",
+    "stub": "0x1401f2291",
+    "destination": 11933432512,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o__stat64",
+      "ucrtbase.dll!_stat64"
+    ]
+  },
+  {
+    "callsite": "0x140002ea5",
+    "stub": "0x140157b95",
+    "destination": 11933385872,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_errno",
+      "ucrtbase.dll!_o__errno"
+    ]
+  },
+  {
+    "callsite": "0x140002eaf",
+    "stub": "0x14020daf3",
+    "destination": 11933385872,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_errno",
+      "ucrtbase.dll!_o__errno"
+    ]
+  },
+  {
+    "callsite": "0x140002ece",
+    "stub": "0x14015a7bc",
+    "destination": 11933385872,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_errno",
+      "ucrtbase.dll!_o__errno"
+    ]
+  },
+  {
+    "callsite": "0x140002ee9",
+    "stub": "0x1401b39e2",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x140002f03",
+    "stub": "0x140219c74",
+    "destination": 11933447472,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_fopen",
+      "ucrtbase.dll!fopen"
+    ]
+  },
+  {
+    "callsite": "0x140002f10",
+    "stub": "0x1401c44e4",
+    "destination": 11933385872,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_errno",
+      "ucrtbase.dll!_o__errno"
+    ]
+  },
+  {
+    "callsite": "0x140002f9f",
+    "stub": "0x1401af660",
+    "destination": 6442530192,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!mobilebackup2_send_raw"
+    ]
+  },
+  {
+    "callsite": "0x140002fc9",
+    "stub": "0x1401af6d2",
+    "destination": 11933449008,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_fread",
+      "ucrtbase.dll!fread"
+    ]
+  },
+  {
+    "callsite": "0x140002feb",
+    "stub": "0x1400c269b",
+    "destination": 6442530192,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!mobilebackup2_send_raw"
+    ]
+  },
+  {
+    "callsite": "0x14000300b",
+    "stub": "0x14005f3f0",
+    "destination": 11933440704,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_fclose",
+      "ucrtbase.dll!fclose"
+    ]
+  },
+  {
+    "callsite": "0x14000303c",
+    "stub": "0x14015bf41",
+    "destination": 6442530192,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!mobilebackup2_send_raw"
+    ]
+  },
+  {
+    "callsite": "0x140003060",
+    "stub": "0x1401c44ea",
+    "destination": 11933440704,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_fclose",
+      "ucrtbase.dll!fclose"
+    ]
+  },
+  {
+    "callsite": "0x14000307e",
+    "stub": "0x1401c7d74",
+    "destination": 11933385872,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_errno",
+      "ucrtbase.dll!_o__errno"
+    ]
+  },
+  {
+    "callsite": "0x140003094",
+    "stub": "0x140184f29",
+    "destination": 7556096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_new_dict"
+    ]
+  },
+  {
+    "callsite": "0x14000309f",
+    "stub": "0x140060338",
+    "destination": 11933386096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_strerror",
+      "ucrtbase.dll!strerror"
+    ]
+  },
+  {
+    "callsite": "0x1400030d0",
+    "stub": "0x140110b34",
+    "destination": 7556096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_new_dict"
+    ]
+  },
+  {
+    "callsite": "0x1400030dc",
+    "stub": "0x140089f0c",
+    "destination": 7556288,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_new_string"
+    ]
+  },
+  {
+    "callsite": "0x1400030f0",
+    "stub": "0x1401ddb50",
+    "destination": 7560096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_set_item"
+    ]
+  },
+  {
+    "callsite": "0x1400030f9",
+    "stub": "0x1401df808",
+    "destination": 7556576,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_new_uint"
+    ]
+  },
+  {
+    "callsite": "0x14000310c",
+    "stub": "0x14012d30a",
+    "destination": 7560096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_set_item"
+    ]
+  },
+  {
+    "callsite": "0x14000311b",
+    "stub": "0x1400bf3f1",
+    "destination": 7560096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_set_item"
+    ]
+  },
+  {
+    "callsite": "0x140003192",
+    "stub": "0x14008bad7",
+    "destination": 6442530192,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!mobilebackup2_send_raw"
+    ]
+  },
+  {
+    "callsite": "0x1400031cc",
+    "stub": "0x1400b7ec9",
+    "destination": 11933440704,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_fclose",
+      "ucrtbase.dll!fclose"
+    ]
+  },
+  {
+    "callsite": "0x1400031de",
+    "stub": "0x14009e541",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x14000324b",
+    "stub": "0x1400e4e7e",
+    "destination": 6442530528,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!mobilebackup2_receive_raw"
+    ]
+  },
+  {
+    "callsite": "0x1400032de",
+    "stub": "0x1401eb5f5",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x1400032ee",
+    "stub": "0x14006f7af",
+    "destination": 11933462528,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_malloc",
+      "ucrtbase.dll!malloc"
+    ]
+  },
+  {
+    "callsite": "0x14000330b",
+    "stub": "0x1400aa559",
+    "destination": 6442530528,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!mobilebackup2_receive_raw"
+    ]
+  },
+  {
+    "callsite": "0x1400033e4",
+    "stub": "0x140100cf2",
+    "destination": 7561520,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_get_node_type"
+    ]
+  },
+  {
+    "callsite": "0x1400033f7",
+    "stub": "0x1401557b4",
+    "destination": 7558000,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_array_get_size"
+    ]
+  },
+  {
+    "callsite": "0x140003418",
+    "stub": "0x1401f6433",
+    "destination": 7558032,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_array_get_item"
+    ]
+  },
+  {
+    "callsite": "0x140003425",
+    "stub": "0x14012d2ef",
+    "destination": 7561520,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_get_node_type"
+    ]
+  },
+  {
+    "callsite": "0x140003438",
+    "stub": "0x140214eb2",
+    "destination": 7562368,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_get_uint_val"
+    ]
+  },
+  {
+    "callsite": "0x1400034da",
+    "stub": "0x1400c9e47",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x140003506",
+    "stub": "0x140073c88",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x140003531",
+    "stub": "0x1401bb467",
+    "destination": 6442530528,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!mobilebackup2_receive_raw"
+    ]
+  },
+  {
+    "callsite": "0x14000358e",
+    "stub": "0x14017e7d6",
+    "destination": 6442530528,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!mobilebackup2_receive_raw"
+    ]
+  },
+  {
+    "callsite": "0x1400035c0",
+    "stub": "0x14015039b",
+    "destination": 2069939724,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "kernel32.dll!DeleteFileA"
+    ]
+  },
+  {
+    "callsite": "0x1400035ca",
+    "stub": "0x1400872d9",
+    "destination": 2069943972,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "kernel32.dll!GetLastError"
+    ]
+  },
+  {
+    "callsite": "0x1400035d9",
+    "stub": "0x1401a1570",
+    "destination": 11933447472,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_fopen",
+      "ucrtbase.dll!fopen"
+    ]
+  },
+  {
+    "callsite": "0x14000362f",
+    "stub": "0x1401627d0",
+    "destination": 6442530528,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!mobilebackup2_receive_raw"
+    ]
+  },
+  {
+    "callsite": "0x14000364d",
+    "stub": "0x14009e64d",
+    "destination": 11933445648,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_fwrite",
+      "ucrtbase.dll!fwrite"
+    ]
+  },
+  {
+    "callsite": "0x14000375a",
+    "stub": "0x1400fb637",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x14000377c",
+    "stub": "0x1400600eb",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x140003787",
+    "stub": "0x140055b95",
+    "destination": 11933415248,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!__acrt_iob_func",
+      "ucrtbase.dll!_o___acrt_iob_func"
+    ]
+  },
+  {
+    "callsite": "0x140003791",
+    "stub": "0x1401ce323",
+    "destination": 11933440112,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_fflush",
+      "ucrtbase.dll!fflush"
+    ]
+  },
+  {
+    "callsite": "0x1400037cd",
+    "stub": "0x14014ecd3",
+    "destination": 6442530528,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!mobilebackup2_receive_raw"
+    ]
+  },
+  {
+    "callsite": "0x14000381b",
+    "stub": "0x140114079",
+    "destination": 6442530528,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!mobilebackup2_receive_raw"
+    ]
+  },
+  {
+    "callsite": "0x14000382a",
+    "stub": "0x140150bae",
+    "destination": 11933440704,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_fclose",
+      "ucrtbase.dll!fclose"
+    ]
+  },
+  {
+    "callsite": "0x140003849",
+    "stub": "0x1400639cf",
+    "destination": 11933462528,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_malloc",
+      "ucrtbase.dll!malloc"
+    ]
+  },
+  {
+    "callsite": "0x140003865",
+    "stub": "0x140130671",
+    "destination": 6442530528,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!mobilebackup2_receive_raw"
+    ]
+  },
+  {
+    "callsite": "0x14000387e",
+    "stub": "0x1401627e1",
+    "destination": 11933415248,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!__acrt_iob_func",
+      "ucrtbase.dll!_o___acrt_iob_func"
+    ]
+  },
+  {
+    "callsite": "0x140003899",
+    "stub": "0x140074635",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x1400038bb",
+    "stub": "0x140076ece",
+    "destination": 11933385872,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_errno",
+      "ucrtbase.dll!_o__errno"
+    ]
+  },
+  {
+    "callsite": "0x1400038e3",
+    "stub": "0x1400879b0",
+    "destination": 11933385872,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_errno",
+      "ucrtbase.dll!_o__errno"
+    ]
+  },
+  {
+    "callsite": "0x1400038ea",
+    "stub": "0x1400c195a",
+    "destination": 11933386096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_strerror",
+      "ucrtbase.dll!strerror"
+    ]
+  },
+  {
+    "callsite": "0x140003985",
+    "stub": "0x1400a1d15",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x1400039ad",
+    "stub": "0x14014a55d",
+    "destination": 11933462528,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_malloc",
+      "ucrtbase.dll!malloc"
+    ]
+  },
+  {
+    "callsite": "0x1400039c8",
+    "stub": "0x140063a36",
+    "destination": 6442530528,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!mobilebackup2_receive_raw"
+    ]
+  },
+  {
+    "callsite": "0x1400039d2",
+    "stub": "0x1401cd36d",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x1400039db",
+    "stub": "0x140202da2",
+    "destination": 2069939724,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "kernel32.dll!DeleteFileA"
+    ]
+  },
+  {
+    "callsite": "0x1400039e5",
+    "stub": "0x1400eb3ef",
+    "destination": 2069943972,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "kernel32.dll!GetLastError"
+    ]
+  },
+  {
+    "callsite": "0x1400039f3",
+    "stub": "0x1402074fc",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x140003a00",
+    "stub": "0x1400c3935",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x140003a07",
+    "stub": "0x1400b0e7f",
+    "destination": 7556096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_new_dict"
+    ]
+  },
+  {
+    "callsite": "0x140003a1e",
+    "stub": "0x14017ab13",
+    "destination": 6442531904,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!mobilebackup2_send_status_response"
+    ]
+  },
+  {
+    "callsite": "0x140003a26",
+    "stub": "0x1401f6b98",
+    "destination": 7557296,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_free"
+    ]
+  },
+  {
+    "callsite": "0x140003aa5",
+    "stub": "0x14010f12f",
+    "destination": 7561520,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_get_node_type"
+    ]
+  },
+  {
+    "callsite": "0x140003ab6",
+    "stub": "0x140184fe3",
+    "destination": 7558000,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_array_get_size"
+    ]
+  },
+  {
+    "callsite": "0x140003ad6",
+    "stub": "0x1401a1dbe",
+    "destination": 7558032,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_array_get_item"
+    ]
+  },
+  {
+    "callsite": "0x140003aec",
+    "stub": "0x1401df834",
+    "destination": 7561520,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_get_node_type"
+    ]
+  },
+  {
+    "callsite": "0x140003afe",
+    "stub": "0x140218adf",
+    "destination": 7561808,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_get_string_val"
+    ]
+  },
+  {
+    "callsite": "0x140003b45",
+    "stub": "0x14021160a",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x140003b4a",
+    "stub": "0x1400d1f5d",
+    "destination": 7556096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_new_dict"
+    ]
+  },
+  {
+    "callsite": "0x140003bd8",
+    "stub": "0x1400e0803",
+    "destination": 7556096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_new_dict"
+    ]
+  },
+  {
+    "callsite": "0x140003bea",
+    "stub": "0x140076735",
+    "destination": 11933433600,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o__stat64i32",
+      "ucrtbase.dll!_stat64i32"
+    ]
+  },
+  {
+    "callsite": "0x140003c22",
+    "stub": "0x1401c62a4",
+    "destination": 7556288,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_new_string"
+    ]
+  },
+  {
+    "callsite": "0x140003c34",
+    "stub": "0x140126b95",
+    "destination": 7560096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_set_item"
+    ]
+  },
+  {
+    "callsite": "0x140003c3f",
+    "stub": "0x140101bdb",
+    "destination": 7556576,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_new_uint"
+    ]
+  },
+  {
+    "callsite": "0x140003c52",
+    "stub": "0x14018f840",
+    "destination": 7560096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_set_item"
+    ]
+  },
+  {
+    "callsite": "0x140003c65",
+    "stub": "0x1401adf4f",
+    "destination": 7557120,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_new_date"
+    ]
+  },
+  {
+    "callsite": "0x140003c77",
+    "stub": "0x1401ccbd1",
+    "destination": 7560096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_set_item"
+    ]
+  },
+  {
+    "callsite": "0x140003c86",
+    "stub": "0x140052d1c",
+    "destination": 7560096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_set_item"
+    ]
+  },
+  {
+    "callsite": "0x140003c90",
+    "stub": "0x1400c198c",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x140003cc7",
+    "stub": "0x14006cb98",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x140003cd8",
+    "stub": "0x1400c4488",
+    "destination": 6442531904,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!mobilebackup2_send_status_response"
+    ]
+  },
+  {
+    "callsite": "0x140003ce3",
+    "stub": "0x14020a734",
+    "destination": 7557296,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_free"
+    ]
+  },
+  {
+    "callsite": "0x140003d61",
+    "stub": "0x1401b3e42",
+    "destination": 11933447472,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_fopen",
+      "ucrtbase.dll!fopen"
+    ]
+  },
+  {
+    "callsite": "0x140003d8e",
+    "stub": "0x1401ce2ff",
+    "destination": 11933447472,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_fopen",
+      "ucrtbase.dll!fopen"
+    ]
+  },
+  {
+    "callsite": "0x140003dae",
+    "stub": "0x1401b3e04",
+    "destination": 11933440704,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_fclose",
+      "ucrtbase.dll!fclose"
+    ]
+  },
+  {
+    "callsite": "0x140003dcb",
+    "stub": "0x14011c8eb",
+    "destination": 11933449008,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_fread",
+      "ucrtbase.dll!fread"
+    ]
+  },
+  {
+    "callsite": "0x140003df0",
+    "stub": "0x14006bc74",
+    "destination": 11933445648,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_fwrite",
+      "ucrtbase.dll!fwrite"
+    ]
+  },
+  {
+    "callsite": "0x140003e09",
+    "stub": "0x140166f4e",
+    "destination": 11933449008,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_fread",
+      "ucrtbase.dll!fread"
+    ]
+  },
+  {
+    "callsite": "0x140003e18",
+    "stub": "0x140079fc1",
+    "destination": 11933440704,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_fclose",
+      "ucrtbase.dll!fclose"
+    ]
+  },
+  {
+    "callsite": "0x140003e31",
+    "stub": "0x1400edd48",
+    "destination": 11933440704,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_fclose",
+      "ucrtbase.dll!fclose"
+    ]
+  },
+  {
+    "callsite": "0x140003eb0",
+    "stub": "0x1401d75ab",
+    "destination": 11933433600,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o__stat64i32",
+      "ucrtbase.dll!_stat64i32"
+    ]
+  },
+  {
+    "callsite": "0x140003ee1",
+    "stub": "0x1401ff062",
+    "destination": 11933433600,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o__stat64i32",
+      "ucrtbase.dll!_stat64i32"
+    ]
+  },
+  {
+    "callsite": "0x140003f04",
+    "stub": "0x140118b91",
+    "destination": 11933385872,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_errno",
+      "ucrtbase.dll!_o__errno"
+    ]
+  },
+  {
+    "callsite": "0x140003f0d",
+    "stub": "0x1400b412a",
+    "destination": 11933385872,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_errno",
+      "ucrtbase.dll!_o__errno"
+    ]
+  },
+  {
+    "callsite": "0x140003f14",
+    "stub": "0x1400f2be9",
+    "destination": 11933386096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_strerror",
+      "ucrtbase.dll!strerror"
+    ]
+  },
+  {
+    "callsite": "0x140003fbc",
+    "stub": "0x140203753",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x140003fca",
+    "stub": "0x140101c04",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x14000400f",
+    "stub": "0x1400f44c7",
+    "destination": 11933385872,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_errno",
+      "ucrtbase.dll!_o__errno"
+    ]
+  },
+  {
+    "callsite": "0x140004016",
+    "stub": "0x140110b13",
+    "destination": 11933385872,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_errno",
+      "ucrtbase.dll!_o__errno"
+    ]
+  },
+  {
+    "callsite": "0x14000401e",
+    "stub": "0x14015f604",
+    "destination": 11933386096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_strerror",
+      "ucrtbase.dll!strerror"
+    ]
+  },
+  {
+    "callsite": "0x140004049",
+    "stub": "0x14016cadb",
+    "destination": 11933415248,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!__acrt_iob_func",
+      "ucrtbase.dll!_o___acrt_iob_func"
+    ]
+  },
+  {
+    "callsite": "0x1400040c0",
+    "stub": "0x14006a65f",
+    "destination": 11933388640,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!signal"
+    ]
+  },
+  {
+    "callsite": "0x1400040d1",
+    "stub": "0x14017921b",
+    "destination": 11933388640,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!signal"
+    ]
+  },
+  {
+    "callsite": "0x1400040d8",
+    "stub": "0x14015a860",
+    "destination": 6442490800,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!idevice_set_debug_level"
+    ]
+  },
+  {
+    "callsite": "0x14000410b",
+    "stub": "0x14014fbba",
+    "destination": 2069945844,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "kernel32.dll!GetTempPathA"
+    ]
+  },
+  {
+    "callsite": "0x140004122",
+    "stub": "0x1400a78ee",
+    "destination": 11933680032,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!strncat"
+    ]
+  },
+  {
+    "callsite": "0x14000413b",
+    "stub": "0x14017e827",
+    "destination": 6442490816,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!idevice_new_with_options"
+    ]
+  },
+  {
+    "callsite": "0x14000417e",
+    "stub": "0x14008cb47",
+    "destination": 6442493376,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!idevice_get_udid"
+    ]
+  },
+  {
+    "callsite": "0x140004188",
+    "stub": "0x1400757f6",
+    "destination": 11933671296,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_mbsdup",
+      "ucrtbase.dll!_o__strdup",
+      "ucrtbase.dll!_strdup"
+    ]
+  },
+  {
+    "callsite": "0x1400041bf",
+    "stub": "0x14015afca",
+    "destination": 11933433600,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o__stat64i32",
+      "ucrtbase.dll!_stat64i32"
+    ]
+  },
+  {
+    "callsite": "0x1400041ce",
+    "stub": "0x14008658b",
+    "destination": 6442491152,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!idevice_free"
+    ]
+  },
+  {
+    "callsite": "0x1400041d7",
+    "stub": "0x14020a144",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x14000421c",
+    "stub": "0x1400d6e70",
+    "destination": 11933433600,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o__stat64i32",
+      "ucrtbase.dll!_stat64i32"
+    ]
+  },
+  {
+    "callsite": "0x140004229",
+    "stub": "0x14014477a",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x14000424f",
+    "stub": "0x1401d5230",
+    "destination": 6442491152,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!idevice_free"
+    ]
+  },
+  {
+    "callsite": "0x140004258",
+    "stub": "0x140168b4f",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x140004261",
+    "stub": "0x1401b3e80",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x140004282",
+    "stub": "0x14010ad72",
+    "destination": 7559776,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_get_item"
+    ]
+  },
+  {
+    "callsite": "0x140004295",
+    "stub": "0x1400d6e69",
+    "destination": 7561520,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_get_node_type"
+    ]
+  },
+  {
+    "callsite": "0x1400042a9",
+    "stub": "0x1401c28d7",
+    "destination": 7562112,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_get_bool_val"
+    ]
+  },
+  {
+    "callsite": "0x1400042b5",
+    "stub": "0x1401d7bde",
+    "destination": 7557296,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_free"
+    ]
+  },
+  {
+    "callsite": "0x1400042bd",
+    "stub": "0x140050556",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x1400042d9",
+    "stub": "0x1400614bc",
+    "destination": 6442509744,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!lockdownd_client_new_with_handshake"
+    ]
+  },
+  {
+    "callsite": "0x1400042f5",
+    "stub": "0x1400cce5b",
+    "destination": 6442491152,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!idevice_free"
+    ]
+  },
+  {
+    "callsite": "0x140004323",
+    "stub": "0x1401d7c41",
+    "destination": 6442507504,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!lockdownd_get_value"
+    ]
+  },
+  {
+    "callsite": "0x140004333",
+    "stub": "0x1400d1f73",
+    "destination": 7561520,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_get_node_type"
+    ]
+  },
+  {
+    "callsite": "0x140004346",
+    "stub": "0x14017cafd",
+    "destination": 7562112,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_get_bool_val"
+    ]
+  },
+  {
+    "callsite": "0x140004351",
+    "stub": "0x1401bbced",
+    "destination": 7557296,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_free"
+    ]
+  },
+  {
+    "callsite": "0x140004373",
+    "stub": "0x1400c38db",
+    "destination": 6442507504,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!lockdownd_get_value"
+    ]
+  },
+  {
+    "callsite": "0x140004382",
+    "stub": "0x1401bc32c",
+    "destination": 7561520,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_get_node_type"
+    ]
+  },
+  {
+    "callsite": "0x140004396",
+    "stub": "0x14006b035",
+    "destination": 7561808,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_get_string_val"
+    ]
+  },
+  {
+    "callsite": "0x1400043a1",
+    "stub": "0x14013885c",
+    "destination": 7557296,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_free"
+    ]
+  },
+  {
+    "callsite": "0x140004408",
+    "stub": "0x1400d1978",
+    "destination": 6442516576,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!lockdownd_start_service"
+    ]
+  },
+  {
+    "callsite": "0x14000442b",
+    "stub": "0x1400c97a3",
+    "destination": 6442497408,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!instproxy_client_new",
+      "imobiledevice.dll!np_client_new"
+    ]
+  },
+  {
+    "callsite": "0x14000443f",
+    "stub": "0x1400bf506",
+    "destination": 6442545392,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!np_set_notify_callback"
+    ]
+  },
+  {
+    "callsite": "0x140004486",
+    "stub": "0x1401b9085",
+    "destination": 6442544288,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!np_observe_notifications"
+    ]
+  },
+  {
+    "callsite": "0x1400044ad",
+    "stub": "0x14013ad45",
+    "destination": 6442516576,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!lockdownd_start_service"
+    ]
+  },
+  {
+    "callsite": "0x1400044cc",
+    "stub": "0x1401f5b3c",
+    "destination": 6442460432,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!afc_client_new"
+    ]
+  },
+  {
+    "callsite": "0x1400044db",
+    "stub": "0x14016de42",
+    "destination": 6442518064,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!lockdownd_service_descriptor_free"
+    ]
+  },
+  {
+    "callsite": "0x1400044fa",
+    "stub": "0x140218b1b",
+    "destination": 6442516592,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!lockdownd_start_service_with_escrow_bag"
+    ]
+  },
+  {
+    "callsite": "0x140004505",
+    "stub": "0x1401c59d8",
+    "destination": 6442506176,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!lockdownd_client_free"
+    ]
+  },
+  {
+    "callsite": "0x140004541",
+    "stub": "0x140169917",
+    "destination": 6442528576,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!mobilebackup2_client_new"
+    ]
+  },
+  {
+    "callsite": "0x140004551",
+    "stub": "0x140179241",
+    "destination": 6442518064,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!lockdownd_service_descriptor_free"
+    ]
+  },
+  {
+    "callsite": "0x140004585",
+    "stub": "0x14017bdeb",
+    "destination": 6442530720,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!mobilebackup2_version_exchange"
+    ]
+  },
+  {
+    "callsite": "0x1400045d8",
+    "stub": "0x1401e27bc",
+    "destination": 11933433600,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o__stat64i32",
+      "ucrtbase.dll!_stat64i32"
+    ]
+  },
+  {
+    "callsite": "0x140004641",
+    "stub": "0x1401e29a7",
+    "destination": 6442466528,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!afc_file_open"
+    ]
+  },
+  {
+    "callsite": "0x14000468e",
+    "stub": "0x140181c84",
+    "destination": 6442468544,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!afc_file_lock"
+    ]
+  },
+  {
+    "callsite": "0x1400046a7",
+    "stub": "0x140184036",
+    "destination": 2069949660,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "kernel32.dll!QueryPerformanceFrequency"
+    ]
+  },
+  {
+    "callsite": "0x1400046b0",
+    "stub": "0x140052d22",
+    "destination": 2069949636,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "kernel32.dll!QueryPerformanceCounter"
+    ]
+  },
+  {
+    "callsite": "0x1400046ba",
+    "stub": "0x14006cb92",
+    "destination": 2069949636,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "kernel32.dll!QueryPerformanceCounter"
+    ]
+  },
+  {
+    "callsite": "0x1400046f6",
+    "stub": "0x140109121",
+    "destination": 6442468208,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!afc_file_close"
+    ]
+  },
+  {
+    "callsite": "0x140004728",
+    "stub": "0x14017cab6",
+    "destination": 6442468208,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!afc_file_close"
+    ]
+  },
+  {
+    "callsite": "0x140004777",
+    "stub": "0x140117c5f",
+    "destination": 7556096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_new_dict"
+    ]
+  },
+  {
+    "callsite": "0x140004783",
+    "stub": "0x1401c44d7",
+    "destination": 7556448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_new_bool"
+    ]
+  },
+  {
+    "callsite": "0x140004796",
+    "stub": "0x1400e8cbb",
+    "destination": 7560096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_set_item"
+    ]
+  },
+  {
+    "callsite": "0x1400047b7",
+    "stub": "0x1401f45fc",
+    "destination": 6442531504,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!mobilebackup2_send_request"
+    ]
+  },
+  {
+    "callsite": "0x1400047c1",
+    "stub": "0x1401bbd13",
+    "destination": 7557296,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_free"
+    ]
+  },
+  {
+    "callsite": "0x140004820",
+    "stub": "0x1400f8403",
+    "destination": 6442468544,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!afc_file_lock"
+    ]
+  },
+  {
+    "callsite": "0x14000482d",
+    "stub": "0x1400ac545",
+    "destination": 6442468208,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!afc_file_close"
+    ]
+  },
+  {
+    "callsite": "0x14000485b",
+    "stub": "0x1401c289c",
+    "destination": 6442506176,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!lockdownd_client_free"
+    ]
+  },
+  {
+    "callsite": "0x140004892",
+    "stub": "0x14016a57a",
+    "destination": 2069938452,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "kernel32.dll!CreateDirectoryA"
+    ]
+  },
+  {
+    "callsite": "0x1400048a7",
+    "stub": "0x1401dbdbc",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x1400048b2",
+    "stub": "0x1401edefe",
+    "destination": 2069943972,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "kernel32.dll!GetLastError"
+    ]
+  },
+  {
+    "callsite": "0x140004914",
+    "stub": "0x1401e29c8",
+    "destination": 2069938452,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "kernel32.dll!CreateDirectoryA"
+    ]
+  },
+  {
+    "callsite": "0x14000491d",
+    "stub": "0x1400f8ea8",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x140004927",
+    "stub": "0x140211ca5",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x140004959",
+    "stub": "0x1401504b7",
+    "destination": 7557296,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_free"
+    ]
+  },
+  {
+    "callsite": "0x140004992",
+    "stub": "0x14015a834",
+    "destination": 11933415248,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!__acrt_iob_func",
+      "ucrtbase.dll!_o___acrt_iob_func"
+    ]
+  },
+  {
+    "callsite": "0x1400049b6",
+    "stub": "0x140214bf1",
+    "destination": 2069939724,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "kernel32.dll!DeleteFileA"
+    ]
+  },
+  {
+    "callsite": "0x1400049bf",
+    "stub": "0x1401e1722",
+    "destination": 2069943972,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "kernel32.dll!GetLastError"
+    ]
+  },
+  {
+    "callsite": "0x1400049e1",
+    "stub": "0x140204ed6",
+    "destination": 7575248,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_to_xml"
+    ]
+  },
+  {
+    "callsite": "0x1400049f9",
+    "stub": "0x14010f9f6",
+    "destination": 11933447472,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_fopen",
+      "ucrtbase.dll!fopen"
+    ]
+  },
+  {
+    "callsite": "0x140004a16",
+    "stub": "0x1401bd21f",
+    "destination": 11933445648,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_fwrite",
+      "ucrtbase.dll!fwrite"
+    ]
+  },
+  {
+    "callsite": "0x140004a1f",
+    "stub": "0x1400cce62",
+    "destination": 11933440704,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_fclose",
+      "ucrtbase.dll!fclose"
+    ]
+  },
+  {
+    "callsite": "0x140004a29",
+    "stub": "0x1401cf9b2",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x140004a34",
+    "stub": "0x1400c8032",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x140004a3e",
+    "stub": "0x1400a4181",
+    "destination": 7557296,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_free"
+    ]
+  },
+  {
+    "callsite": "0x140004a8f",
+    "stub": "0x14005e3b6",
+    "destination": 6442531504,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!mobilebackup2_send_request"
+    ]
+  },
+  {
+    "callsite": "0x140004b34",
+    "stub": "0x14013ad4b",
+    "destination": 6442531504,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!mobilebackup2_send_request"
+    ]
+  },
+  {
+    "callsite": "0x140004b70",
+    "stub": "0x1400ea761",
+    "destination": 6442531504,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!mobilebackup2_send_request"
+    ]
+  },
+  {
+    "callsite": "0x140004bab",
+    "stub": "0x1402036f6",
+    "destination": 7556096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_new_dict"
+    ]
+  },
+  {
+    "callsite": "0x140004bbb",
+    "stub": "0x14018cd63",
+    "destination": 7556288,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_new_string"
+    ]
+  },
+  {
+    "callsite": "0x140004bce",
+    "stub": "0x140206541",
+    "destination": 7560096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_set_item"
+    ]
+  },
+  {
+    "callsite": "0x140004c02",
+    "stub": "0x1401cc247",
+    "destination": 6442531504,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!mobilebackup2_send_request"
+    ]
+  },
+  {
+    "callsite": "0x140004c0e",
+    "stub": "0x140047695",
+    "destination": 7557296,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_free"
+    ]
+  },
+  {
+    "callsite": "0x140004c2d",
+    "stub": "0x1401865e8",
+    "destination": 7556096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_new_dict"
+    ]
+  },
+  {
+    "callsite": "0x140004c3b",
+    "stub": "0x14007b3f8",
+    "destination": 7556288,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_new_string"
+    ]
+  },
+  {
+    "callsite": "0x140004c4d",
+    "stub": "0x14011ba5a",
+    "destination": 7560096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_set_item"
+    ]
+  },
+  {
+    "callsite": "0x140004c5a",
+    "stub": "0x140181c9c",
+    "destination": 7556288,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_new_string"
+    ]
+  },
+  {
+    "callsite": "0x140004c6e",
+    "stub": "0x1401cd2d7",
+    "destination": 7560096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_set_item"
+    ]
+  },
+  {
+    "callsite": "0x140004c82",
+    "stub": "0x1400f7148",
+    "destination": 6442529312,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!mobilebackup2_send_message"
+    ]
+  },
+  {
+    "callsite": "0x140004cb1",
+    "stub": "0x1400dde52",
+    "destination": 6442482016,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!diagnostics_relay_client_start_service"
+    ]
+  },
+  {
+    "callsite": "0x140004cc4",
+    "stub": "0x140175924",
+    "destination": 7556192,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_new_array"
+    ]
+  },
+  {
+    "callsite": "0x140004cd4",
+    "stub": "0x1400a6b66",
+    "destination": 7556288,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_new_string"
+    ]
+  },
+  {
+    "callsite": "0x140004ce0",
+    "stub": "0x140094713",
+    "destination": 7558672,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_array_append_item"
+    ]
+  },
+  {
+    "callsite": "0x140004cf2",
+    "stub": "0x14004e5de",
+    "destination": 6442483568,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!diagnostics_relay_query_mobilegestalt"
+    ]
+  },
+  {
+    "callsite": "0x140004d12",
+    "stub": "0x140076eb6",
+    "destination": 7561456,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_access_path"
+    ]
+  },
+  {
+    "callsite": "0x140004d1f",
+    "stub": "0x1401e635c",
+    "destination": 7562112,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_get_bool_val"
+    ]
+  },
+  {
+    "callsite": "0x140004d29",
+    "stub": "0x1401d5a11",
+    "destination": 7557296,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_free"
+    ]
+  },
+  {
+    "callsite": "0x140004d33",
+    "stub": "0x1400c97dc",
+    "destination": 7557296,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_free"
+    ]
+  },
+  {
+    "callsite": "0x140004d3e",
+    "stub": "0x140088fa3",
+    "destination": 6442482384,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!diagnostics_relay_goodbye"
+    ]
+  },
+  {
+    "callsite": "0x140004d47",
+    "stub": "0x1401a2313",
+    "destination": 6442482320,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!diagnostics_relay_client_free",
+      "imobiledevice.dll!file_relay_client_free",
+      "imobiledevice.dll!mobileactivation_client_free"
+    ]
+  },
+  {
+    "callsite": "0x140004d51",
+    "stub": "0x14012ffdc",
+    "destination": 7557296,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_free"
+    ]
+  },
+  {
+    "callsite": "0x140004da2",
+    "stub": "0x140086006",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x140004dbb",
+    "stub": "0x14009fa68",
+    "destination": 6442529808,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!mobilebackup2_receive_message"
+    ]
+  },
+  {
+    "callsite": "0x140004e0b",
+    "stub": "0x140116f39",
+    "destination": 7556096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_new_dict"
+    ]
+  },
+  {
+    "callsite": "0x140004e16",
+    "stub": "0x1401bbcc9",
+    "destination": 7556448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_new_bool"
+    ]
+  },
+  {
+    "callsite": "0x140004e29",
+    "stub": "0x1400830e4",
+    "destination": 7560096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_set_item"
+    ]
+  },
+  {
+    "callsite": "0x140004e31",
+    "stub": "0x14007b42f",
+    "destination": 7556448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_new_bool"
+    ]
+  },
+  {
+    "callsite": "0x140004e45",
+    "stub": "0x1401ac360",
+    "destination": 7560096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_set_item"
+    ]
+  },
+  {
+    "callsite": "0x140004e4d",
+    "stub": "0x1400ab958",
+    "destination": 7556448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_new_bool"
+    ]
+  },
+  {
+    "callsite": "0x140004e5f",
+    "stub": "0x14011e1c7",
+    "destination": 7560096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_set_item"
+    ]
+  },
+  {
+    "callsite": "0x140004e6d",
+    "stub": "0x1400c0a7f",
+    "destination": 7556288,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_new_string"
+    ]
+  },
+  {
+    "callsite": "0x140004e80",
+    "stub": "0x14014da90",
+    "destination": 7560096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_set_item"
+    ]
+  },
+  {
+    "callsite": "0x140004e9f",
+    "stub": "0x14010b810",
+    "destination": 6442531504,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!mobilebackup2_send_request"
+    ]
+  },
+  {
+    "callsite": "0x140004eaa",
+    "stub": "0x140063b8a",
+    "destination": 7557296,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_free"
+    ]
+  },
+  {
+    "callsite": "0x140004f1c",
+    "stub": "0x1401d7c29",
+    "destination": 7561520,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_get_node_type"
+    ]
+  },
+  {
+    "callsite": "0x140004f2d",
+    "stub": "0x1400f44e3",
+    "destination": 7558000,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_array_get_size"
+    ]
+  },
+  {
+    "callsite": "0x140004f45",
+    "stub": "0x14008ac97",
+    "destination": 7558032,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_array_get_item"
+    ]
+  },
+  {
+    "callsite": "0x140004f51",
+    "stub": "0x1400cbe96",
+    "destination": 7558000,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_array_get_size"
+    ]
+  },
+  {
+    "callsite": "0x140004f65",
+    "stub": "0x1400c44e6",
+    "destination": 7558032,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_array_get_item"
+    ]
+  },
+  {
+    "callsite": "0x140004f71",
+    "stub": "0x140082238",
+    "destination": 7561520,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_get_node_type"
+    ]
+  },
+  {
+    "callsite": "0x140004f88",
+    "stub": "0x1401f13d7",
+    "destination": 7561808,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_get_string_val"
+    ]
+  },
+  {
+    "callsite": "0x140004fb1",
+    "stub": "0x1401d5248",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x140004fbf",
+    "stub": "0x1400bbce7",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x140004fde",
+    "stub": "0x1400bfacd",
+    "destination": 6442530192,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!mobilebackup2_send_raw"
+    ]
+  },
+  {
+    "callsite": "0x140004fee",
+    "stub": "0x14005e9a1",
+    "destination": 7556096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_new_dict"
+    ]
+  },
+  {
+    "callsite": "0x140005001",
+    "stub": "0x140204f7d",
+    "destination": 6442531904,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!mobilebackup2_send_status_response"
+    ]
+  },
+  {
+    "callsite": "0x14000500b",
+    "stub": "0x1401d1191",
+    "destination": 7557296,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_free"
+    ]
+  },
+  {
+    "callsite": "0x14000504b",
+    "stub": "0x140209290",
+    "destination": 7557296,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_free"
+    ]
+  },
+  {
+    "callsite": "0x14000505a",
+    "stub": "0x1401034ed",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x14000507f",
+    "stub": "0x1401d5482",
+    "destination": 7557296,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_free"
+    ]
+  },
+  {
+    "callsite": "0x140005089",
+    "stub": "0x14016e021",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x1400050f4",
+    "stub": "0x140079fcb",
+    "destination": 6442531904,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!mobilebackup2_send_status_response"
+    ]
+  },
+  {
+    "callsite": "0x14000516b",
+    "stub": "0x1400c9e14",
+    "destination": 2069943108,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "kernel32.dll!GetDiskFreeSpaceExA"
+    ]
+  },
+  {
+    "callsite": "0x14000517e",
+    "stub": "0x14012f1a0",
+    "destination": 7556576,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_new_uint"
+    ]
+  },
+  {
+    "callsite": "0x140005193",
+    "stub": "0x1400f03fd",
+    "destination": 6442531904,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!mobilebackup2_send_status_response"
+    ]
+  },
+  {
+    "callsite": "0x14000519d",
+    "stub": "0x14006ee5c",
+    "destination": 7557296,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_free"
+    ]
+  },
+  {
+    "callsite": "0x140005207",
+    "stub": "0x1401bbd00",
+    "destination": 7561520,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_get_node_type"
+    ]
+  },
+  {
+    "callsite": "0x140005218",
+    "stub": "0x1401c8674",
+    "destination": 7558000,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_array_get_size"
+    ]
+  },
+  {
+    "callsite": "0x140005230",
+    "stub": "0x14010ad57",
+    "destination": 7558032,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_array_get_item"
+    ]
+  },
+  {
+    "callsite": "0x140005246",
+    "stub": "0x14020255f",
+    "destination": 7561808,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_get_string_val"
+    ]
+  },
+  {
+    "callsite": "0x140005267",
+    "stub": "0x1401d5a00",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x140005278",
+    "stub": "0x140155a4d",
+    "destination": 11933385872,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_errno",
+      "ucrtbase.dll!_o__errno"
+    ]
+  },
+  {
+    "callsite": "0x140005280",
+    "stub": "0x1401060b5",
+    "destination": 11933386096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_strerror",
+      "ucrtbase.dll!strerror"
+    ]
+  },
+  {
+    "callsite": "0x140005289",
+    "stub": "0x140150199",
+    "destination": 11933385872,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_errno",
+      "ucrtbase.dll!_o__errno"
+    ]
+  },
+  {
+    "callsite": "0x140005294",
+    "stub": "0x1400f1f36",
+    "destination": 11933385872,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_errno",
+      "ucrtbase.dll!_o__errno"
+    ]
+  },
+  {
+    "callsite": "0x1400052ac",
+    "stub": "0x14008973d",
+    "destination": 11933385872,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_errno",
+      "ucrtbase.dll!_o__errno"
+    ]
+  },
+  {
+    "callsite": "0x1400052d1",
+    "stub": "0x14012f165",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x1400052e3",
+    "stub": "0x1401b3db4",
+    "destination": 6442531904,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!mobilebackup2_send_status_response"
+    ]
+  },
+  {
+    "callsite": "0x140005383",
+    "stub": "0x14014e276",
+    "destination": 7558032,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_array_get_item"
+    ]
+  },
+  {
+    "callsite": "0x140005394",
+    "stub": "0x1401b3467",
+    "destination": 7558032,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_array_get_item"
+    ]
+  },
+  {
+    "callsite": "0x14000539f",
+    "stub": "0x14013ad3e",
+    "destination": 7561520,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_get_node_type"
+    ]
+  },
+  {
+    "callsite": "0x1400053b1",
+    "stub": "0x14018d561",
+    "destination": 7561520,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_get_node_type"
+    ]
+  },
+  {
+    "callsite": "0x1400053cf",
+    "stub": "0x1401cafc4",
+    "destination": 7561808,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_get_string_val"
+    ]
+  },
+  {
+    "callsite": "0x1400053dd",
+    "stub": "0x140063987",
+    "destination": 7561808,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_get_string_val"
+    ]
+  },
+  {
+    "callsite": "0x140005441",
+    "stub": "0x14004f879",
+    "destination": 11933433600,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o__stat64i32",
+      "ucrtbase.dll!_stat64i32"
+    ]
+  },
+  {
+    "callsite": "0x14000546c",
+    "stub": "0x140063a65",
+    "destination": 11933433600,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o__stat64i32",
+      "ucrtbase.dll!_stat64i32"
+    ]
+  },
+  {
+    "callsite": "0x140005496",
+    "stub": "0x140153df6",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x1400054a0",
+    "stub": "0x14014ab7b",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x1400054aa",
+    "stub": "0x140203fa8",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x1400054b3",
+    "stub": "0x14020b53f",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x1400054ba",
+    "stub": "0x1401fc2c5",
+    "destination": 7556096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_new_dict"
+    ]
+  },
+  {
+    "callsite": "0x1400054cf",
+    "stub": "0x140202585",
+    "destination": 6442531904,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!mobilebackup2_send_status_response"
+    ]
+  },
+  {
+    "callsite": "0x1400054da",
+    "stub": "0x140168b49",
+    "destination": 7557296,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_free"
+    ]
+  },
+  {
+    "callsite": "0x140005538",
+    "stub": "0x14014c548",
+    "destination": 7558032,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_array_get_item"
+    ]
+  },
+  {
+    "callsite": "0x140005546",
+    "stub": "0x14006f7a4",
+    "destination": 7561520,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_get_node_type"
+    ]
+  },
+  {
+    "callsite": "0x140005568",
+    "stub": "0x1401cd1cf",
+    "destination": 7559776,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_get_item"
+    ]
+  },
+  {
+    "callsite": "0x14000557e",
+    "stub": "0x140053365",
+    "destination": 7561520,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_get_node_type"
+    ]
+  },
+  {
+    "callsite": "0x140005598",
+    "stub": "0x1401c7da7",
+    "destination": 7562368,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_get_uint_val"
+    ]
+  },
+  {
+    "callsite": "0x1400055d4",
+    "stub": "0x1401d6e8e",
+    "destination": 7558032,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_array_get_item"
+    ]
+  },
+  {
+    "callsite": "0x1400055e4",
+    "stub": "0x1401cda6b",
+    "destination": 7558000,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_array_get_size"
+    ]
+  },
+  {
+    "callsite": "0x140005627",
+    "stub": "0x1401d2f68",
+    "destination": 7558032,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_array_get_item"
+    ]
+  },
+  {
+    "callsite": "0x140005632",
+    "stub": "0x1400e1113",
+    "destination": 7561520,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_get_node_type"
+    ]
+  },
+  {
+    "callsite": "0x14000564c",
+    "stub": "0x14007ca36",
+    "destination": 7561808,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_get_string_val"
+    ]
+  },
+  {
+    "callsite": "0x140005664",
+    "stub": "0x1401adf5d",
+    "destination": 11933688416,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!strchr"
+    ]
+  },
+  {
+    "callsite": "0x14000569f",
+    "stub": "0x140150454",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x1400056ac",
+    "stub": "0x1400bfac6",
+    "destination": 11933433600,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o__stat64i32",
+      "ucrtbase.dll!_stat64i32"
+    ]
+  },
+  {
+    "callsite": "0x1400056de",
+    "stub": "0x1401c62c6",
+    "destination": 2069939724,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "kernel32.dll!DeleteFileA"
+    ]
+  },
+  {
+    "callsite": "0x1400056e9",
+    "stub": "0x1401159bf",
+    "destination": 2069943972,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "kernel32.dll!GetLastError"
+    ]
+  },
+  {
+    "callsite": "0x14000571b",
+    "stub": "0x1400ca742",
+    "destination": 11933386096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_strerror",
+      "ucrtbase.dll!strerror"
+    ]
+  },
+  {
+    "callsite": "0x14000574a",
+    "stub": "0x140211651",
+    "destination": 11933386096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_strerror",
+      "ucrtbase.dll!strerror"
+    ]
+  },
+  {
+    "callsite": "0x140005756",
+    "stub": "0x140198255",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x140005771",
+    "stub": "0x14015a813",
+    "destination": 7556096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_new_dict"
+    ]
+  },
+  {
+    "callsite": "0x140005788",
+    "stub": "0x1401a926f",
+    "destination": 6442531904,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!mobilebackup2_send_status_response"
+    ]
+  },
+  {
+    "callsite": "0x140005793",
+    "stub": "0x14017c8a0",
+    "destination": 7557296,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_free"
+    ]
+  },
+  {
+    "callsite": "0x1400057e7",
+    "stub": "0x1401f4613",
+    "destination": 7558032,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_array_get_item"
+    ]
+  },
+  {
+    "callsite": "0x1400057f3",
+    "stub": "0x14004d8c9",
+    "destination": 7559504,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_get_size"
+    ]
+  },
+  {
+    "callsite": "0x140005827",
+    "stub": "0x1400a972d",
+    "destination": 7559344,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_array_new_iter",
+      "plist.dll!plist_dict_new_iter"
+    ]
+  },
+  {
+    "callsite": "0x14000585b",
+    "stub": "0x1401d7c4e",
+    "destination": 7559536,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_next_item"
+    ]
+  },
+  {
+    "callsite": "0x140005871",
+    "stub": "0x140210eeb",
+    "destination": 7561520,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_get_node_type"
+    ]
+  },
+  {
+    "callsite": "0x14000588b",
+    "stub": "0x1401f8bfd",
+    "destination": 7561808,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_get_string_val"
+    ]
+  },
+  {
+    "callsite": "0x1400058b4",
+    "stub": "0x14012397e",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x1400058d8",
+    "stub": "0x14006e269",
+    "destination": 11933433600,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o__stat64i32",
+      "ucrtbase.dll!_stat64i32"
+    ]
+  },
+  {
+    "callsite": "0x140005905",
+    "stub": "0x1401afd55",
+    "destination": 2069939724,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "kernel32.dll!DeleteFileA"
+    ]
+  },
+  {
+    "callsite": "0x14000590e",
+    "stub": "0x1401ede88",
+    "destination": 2069943972,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "kernel32.dll!GetLastError"
+    ]
+  },
+  {
+    "callsite": "0x14000591a",
+    "stub": "0x14004adcd",
+    "destination": 11933455328,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_rename",
+      "ucrtbase.dll!rename"
+    ]
+  },
+  {
+    "callsite": "0x140005928",
+    "stub": "0x1400cbf20",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x140005930",
+    "stub": "0x14012b3b3",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x14000593a",
+    "stub": "0x14018f825",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x140005956",
+    "stub": "0x1400faa2b",
+    "destination": 11933385872,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_errno",
+      "ucrtbase.dll!_o__errno"
+    ]
+  },
+  {
+    "callsite": "0x14000595e",
+    "stub": "0x140214c52",
+    "destination": 11933385872,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_errno",
+      "ucrtbase.dll!_o__errno"
+    ]
+  },
+  {
+    "callsite": "0x140005966",
+    "stub": "0x1401e27c2",
+    "destination": 11933386096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_strerror",
+      "ucrtbase.dll!strerror"
+    ]
+  },
+  {
+    "callsite": "0x140005985",
+    "stub": "0x140207474",
+    "destination": 11933385872,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_errno",
+      "ucrtbase.dll!_o__errno"
+    ]
+  },
+  {
+    "callsite": "0x1400059ad",
+    "stub": "0x140217bd2",
+    "destination": 11933385872,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_errno",
+      "ucrtbase.dll!_o__errno"
+    ]
+  },
+  {
+    "callsite": "0x1400059b4",
+    "stub": "0x1400ad322",
+    "destination": 11933386096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_strerror",
+      "ucrtbase.dll!strerror"
+    ]
+  },
+  {
+    "callsite": "0x1400059c2",
+    "stub": "0x1401ccba4",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x1400059e6",
+    "stub": "0x1401ab765",
+    "destination": 7556096,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_new_dict"
+    ]
+  },
+  {
+    "callsite": "0x1400059fc",
+    "stub": "0x1401cfc61",
+    "destination": 6442531904,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!mobilebackup2_send_status_response"
+    ]
+  },
+  {
+    "callsite": "0x140005a08",
+    "stub": "0x14016ea18",
+    "destination": 7557296,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_free"
+    ]
+  },
+  {
+    "callsite": "0x140005a79",
+    "stub": "0x1400cfde5",
+    "destination": 7559776,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_get_item"
+    ]
+  },
+  {
+    "callsite": "0x140005a92",
+    "stub": "0x140174625",
+    "destination": 7561520,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_get_node_type"
+    ]
+  },
+  {
+    "callsite": "0x140005aa4",
+    "stub": "0x1401e9fad",
+    "destination": 7561808,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_get_string_val"
+    ]
+  },
+  {
+    "callsite": "0x140005ae1",
+    "stub": "0x140149a40",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x140005af3",
+    "stub": "0x1400d1968",
+    "destination": 7559776,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_dict_get_item"
+    ]
+  },
+  {
+    "callsite": "0x140005b07",
+    "stub": "0x140123b53",
+    "destination": 7561520,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_get_node_type"
+    ]
+  },
+  {
+    "callsite": "0x140005b21",
+    "stub": "0x14020e816",
+    "destination": 7561808,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "plist.dll!plist_get_string_val"
+    ]
+  },
+  {
+    "callsite": "0x140005b48",
+    "stub": "0x140218b48",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x140005bc5",
+    "stub": "0x1400ba4a0",
+    "destination": 11933415248,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!__acrt_iob_func",
+      "ucrtbase.dll!_o___acrt_iob_func"
+    ]
+  },
+  {
+    "callsite": "0x140005bce",
+    "stub": "0x140094d02",
+    "destination": 11933440112,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_fflush",
+      "ucrtbase.dll!fflush"
+    ]
+  },
+  {
+    "callsite": "0x140005be4",
+    "stub": "0x1401242a8",
+    "destination": 6442464432,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!afc_remove_path"
+    ]
+  },
+  {
+    "callsite": "0x140005bf5",
+    "stub": "0x14010b981",
+    "destination": 6442464432,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!afc_remove_path"
+    ]
+  },
+  {
+    "callsite": "0x140005ca9",
+    "stub": "0x1401c622a",
+    "destination": 6442506176,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!lockdownd_client_free"
+    ]
+  },
+  {
+    "callsite": "0x140005cc2",
+    "stub": "0x140216529",
+    "destination": 6442524352,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!mobilebackup2_client_free",
+      "imobiledevice.dll!mobilebackup_client_free"
+    ]
+  },
+  {
+    "callsite": "0x140005cd6",
+    "stub": "0x140114b5e",
+    "destination": 6442460960,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!afc_client_free"
+    ]
+  },
+  {
+    "callsite": "0x140005cea",
+    "stub": "0x140126b78",
+    "destination": 6442542896,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!np_client_free"
+    ]
+  },
+  {
+    "callsite": "0x140005cf9",
+    "stub": "0x140146f5f",
+    "destination": 6442491152,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "imobiledevice.dll!idevice_free"
+    ]
+  },
+  {
+    "callsite": "0x140005d0a",
+    "stub": "0x1400f8303",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x140005d1a",
+    "stub": "0x14016cae1",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  },
+  {
+    "callsite": "0x140005d2e",
+    "stub": "0x1401ff06d",
+    "destination": 11933462448,
+    "exception": "Invalid memory fetch (UC_ERR_FETCH_UNMAPPED)",
+    "symbol": [
+      "ucrtbase.dll!_o_free",
+      "ucrtbase.dll!free"
+    ]
+  }
+]

@@ -1,0 +1,115 @@
+{
+  "scope": "Original helper Status.plist gate with plist-load and plist APIs mocked",
+  "cases_passed": 8,
+  "results": [
+    {
+      "case": "embedded-status",
+      "accepted_by_helper": true,
+      "expected": true,
+      "events": [
+        {
+          "api": "mock_load_plist",
+          "path": "LAB-BACKUP/LAB-UDID/Status.plist",
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "case": "minimal-finished",
+      "accepted_by_helper": true,
+      "expected": true,
+      "events": [
+        {
+          "api": "mock_load_plist",
+          "path": "LAB-BACKUP/LAB-UDID/Status.plist",
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "case": "other-fields-invalid",
+      "accepted_by_helper": true,
+      "expected": true,
+      "events": [
+        {
+          "api": "mock_load_plist",
+          "path": "LAB-BACKUP/LAB-UDID/Status.plist",
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "case": "unfinished",
+      "accepted_by_helper": false,
+      "expected": false,
+      "events": [
+        {
+          "api": "mock_load_plist",
+          "path": "LAB-BACKUP/LAB-UDID/Status.plist",
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "case": "case-sensitive",
+      "accepted_by_helper": false,
+      "expected": false,
+      "events": [
+        {
+          "api": "mock_load_plist",
+          "path": "LAB-BACKUP/LAB-UDID/Status.plist",
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "case": "wrong-type",
+      "accepted_by_helper": false,
+      "expected": false,
+      "events": [
+        {
+          "api": "mock_load_plist",
+          "path": "LAB-BACKUP/LAB-UDID/Status.plist",
+          "loaded": true
+        },
+        {
+          "api": "mock_printf",
+          "format": "%s: ERROR could not get SnapshotState key from Status.plist!\n"
+        }
+      ]
+    },
+    {
+      "case": "missing-key",
+      "accepted_by_helper": false,
+      "expected": false,
+      "events": [
+        {
+          "api": "mock_load_plist",
+          "path": "LAB-BACKUP/LAB-UDID/Status.plist",
+          "loaded": true
+        },
+        {
+          "api": "mock_printf",
+          "format": "%s: ERROR could not get SnapshotState key from Status.plist!\n"
+        }
+      ]
+    },
+    {
+      "case": "missing-plist",
+      "accepted_by_helper": false,
+      "expected": false,
+      "events": [
+        {
+          "api": "mock_load_plist",
+          "path": "LAB-BACKUP/LAB-UDID/Status.plist",
+          "loaded": false
+        },
+        {
+          "api": "mock_printf",
+          "format": "Could not read Status.plist!\n"
+        }
+      ]
+    }
+  ],
+  "device_acceptance_or_mdm_removal_not_tested": true
+}

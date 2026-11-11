@@ -1,0 +1,14 @@
+{
+  "named_import_call_sites": 480,
+  "verified_import_call_sites": 480,
+  "tail_import_wrappers": 9,
+  "analysis_copy_changed_bytes": 486,
+  "exports": 287,
+  "exports_entering_vm": 287,
+  "linear_sweep_vm_entry_jumps": 274,
+  "pseudocode_fragments_exported": 370,
+  "fragments_with_explicit_warnings": 241,
+  "complete_dll_source_recovered": false,
+  "analysis_copy_sha256": "2f69453c4b0e70850a3ae462b5ef56fdf6da25eeef5e1c5834e4d574fe7bd551",
+  "scope": "Import-call ABI and analysis-copy changes only; not complete VM devirtualization."
+}

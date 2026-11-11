@@ -1,0 +1,14 @@
+{
+  "sites": 754,
+  "call_sites": 480,
+  "verified_call_sites": 480,
+  "patched_bytes": 486,
+  "tail_import_wrappers": 9,
+  "stack_deltas": {
+    "8": 254,
+    "0": 221,
+    "null": 274,
+    "16": 5
+  },
+  "unverified": []
+}

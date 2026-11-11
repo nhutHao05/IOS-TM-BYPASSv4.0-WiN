@@ -1,0 +1,87 @@
+{
+  "scope": "Actual mode-initialization slice and switch block; not full device execution",
+  "initialization_address": "0x1400040de",
+  "initial_mode": 1,
+  "mode_stored_in_stack": 1,
+  "default_mode_name": "Restore",
+  "restore_entry": "0x140004dea",
+  "dispatch_cases_verified": 9,
+  "writes_to_mode_register_before_dispatch": [
+    {
+      "address": "0x1400040f6",
+      "instruction": "mov r12d, eax"
+    },
+    {
+      "address": "0x1400045a3",
+      "instruction": "mov r12d, 6"
+    },
+    {
+      "address": "0x1400045bb",
+      "instruction": "mov r12d, 6"
+    },
+    {
+      "address": "0x1400046fb",
+      "instruction": "mov r12d, 6"
+    },
+    {
+      "address": "0x140004734",
+      "instruction": "lea r12d, [rdi + 6]"
+    }
+  ],
+  "switch_cases": [
+    {
+      "mode": 0,
+      "meaning": "Backup",
+      "target": "0x140004866",
+      "dispatch_matches_table": true
+    },
+    {
+      "mode": 1,
+      "meaning": "Restore",
+      "target": "0x140004dea",
+      "dispatch_matches_table": true
+    },
+    {
+      "mode": 2,
+      "meaning": "Info",
+      "target": "0x140004b02",
+      "dispatch_matches_table": true
+    },
+    {
+      "mode": 3,
+      "meaning": "List",
+      "target": "0x140004b47",
+      "dispatch_matches_table": true
+    },
+    {
+      "mode": 4,
+      "meaning": "Unback",
+      "target": "0x140004b9f",
+      "dispatch_matches_table": true
+    },
+    {
+      "mode": 5,
+      "meaning": "ChangePassword",
+      "target": "0x140004c2c",
+      "dispatch_matches_table": true
+    },
+    {
+      "mode": 6,
+      "meaning": "Leave",
+      "target": "0x140004d5d",
+      "dispatch_matches_table": true
+    },
+    {
+      "mode": 7,
+      "meaning": "Cloud",
+      "target": "0x140004777",
+      "dispatch_matches_table": true
+    },
+    {
+      "mode": 8,
+      "meaning": "out_of_range",
+      "target": "0x140004d5d",
+      "dispatch_matches_table": true
+    }
+  ]
+}

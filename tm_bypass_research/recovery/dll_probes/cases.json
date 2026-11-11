@@ -1,0 +1,1530 @@
+[
+  {
+    "input": {
+      "id": "restore_full",
+      "api": "REQUEST",
+      "client": 2,
+      "name": "Restore",
+      "target": "LAB-TARGET",
+      "source": "LAB-SOURCE",
+      "options": {
+        "RestoreSystemFiles": false,
+        "RestoreDontCopyBackup": true,
+        "RestorePreserveSettings": true,
+        "Password": "mdm"
+      },
+      "status": 0,
+      "status_text": null,
+      "raw_mode": 0,
+      "null_data": false,
+      "zero_length": false,
+      "null_bytes": false
+    },
+    "expected": {
+      "return_code": 0,
+      "captures": 1,
+      "wire": [
+        "DLMessageProcessMessage",
+        {
+          "TargetIdentifier": "LAB-TARGET",
+          "SourceIdentifier": "LAB-SOURCE",
+          "Options": {
+            "RestoreSystemFiles": false,
+            "RestoreDontCopyBackup": true,
+            "RestorePreserveSettings": true,
+            "Password": "mdm"
+          },
+          "MessageName": "Restore"
+        }
+      ],
+      "bytes": null,
+      "raw_calls": null,
+      "data_hex": ""
+    }
+  },
+  {
+    "input": {
+      "id": "restore_minimal",
+      "api": "REQUEST",
+      "client": 2,
+      "name": "Restore",
+      "target": "LAB-TARGET",
+      "source": null,
+      "options": null,
+      "status": 0,
+      "status_text": null,
+      "raw_mode": 0,
+      "null_data": false,
+      "zero_length": false,
+      "null_bytes": false
+    },
+    "expected": {
+      "return_code": 0,
+      "captures": 1,
+      "wire": [
+        "DLMessageProcessMessage",
+        {
+          "TargetIdentifier": "LAB-TARGET",
+          "MessageName": "Restore"
+        }
+      ],
+      "bytes": null,
+      "raw_calls": null,
+      "data_hex": ""
+    }
+  },
+  {
+    "input": {
+      "id": "backup",
+      "api": "REQUEST",
+      "client": 2,
+      "name": "Backup",
+      "target": "LAB-TARGET",
+      "source": "LAB-SOURCE",
+      "options": {
+        "ForceFullBackup": true
+      },
+      "status": 0,
+      "status_text": null,
+      "raw_mode": 0,
+      "null_data": false,
+      "zero_length": false,
+      "null_bytes": false
+    },
+    "expected": {
+      "return_code": 0,
+      "captures": 1,
+      "wire": [
+        "DLMessageProcessMessage",
+        {
+          "TargetIdentifier": "LAB-TARGET",
+          "SourceIdentifier": "LAB-SOURCE",
+          "Options": {
+            "ForceFullBackup": true
+          },
+          "MessageName": "Backup"
+        }
+      ],
+      "bytes": null,
+      "raw_calls": null,
+      "data_hex": ""
+    }
+  },
+  {
+    "input": {
+      "id": "unback_password",
+      "api": "REQUEST",
+      "client": 2,
+      "name": "Unback",
+      "target": "LAB-TARGET",
+      "source": null,
+      "options": {
+        "Password": "lab-secret"
+      },
+      "status": 0,
+      "status_text": null,
+      "raw_mode": 0,
+      "null_data": false,
+      "zero_length": false,
+      "null_bytes": false
+    },
+    "expected": {
+      "return_code": 0,
+      "captures": 1,
+      "wire": [
+        "DLMessageProcessMessage",
+        {
+          "TargetIdentifier": "LAB-TARGET",
+          "Options": {
+            "Password": "lab-secret"
+          },
+          "Password": "lab-secret",
+          "MessageName": "Unback"
+        }
+      ],
+      "bytes": null,
+      "raw_calls": null,
+      "data_hex": ""
+    }
+  },
+  {
+    "input": {
+      "id": "unback_empty",
+      "api": "REQUEST",
+      "client": 2,
+      "name": "Unback",
+      "target": "LAB-TARGET",
+      "source": null,
+      "options": {},
+      "status": 0,
+      "status_text": null,
+      "raw_mode": 0,
+      "null_data": false,
+      "zero_length": false,
+      "null_bytes": false
+    },
+    "expected": {
+      "return_code": 0,
+      "captures": 1,
+      "wire": [
+        "DLMessageProcessMessage",
+        {
+          "TargetIdentifier": "LAB-TARGET",
+          "Options": {},
+          "MessageName": "Unback"
+        }
+      ],
+      "bytes": null,
+      "raw_calls": null,
+      "data_hex": ""
+    }
+  },
+  {
+    "input": {
+      "id": "cloud_true",
+      "api": "REQUEST",
+      "client": 2,
+      "name": "EnableCloudBackup",
+      "target": "LAB-TARGET",
+      "source": null,
+      "options": {
+        "CloudBackupState": true
+      },
+      "status": 0,
+      "status_text": null,
+      "raw_mode": 0,
+      "null_data": false,
+      "zero_length": false,
+      "null_bytes": false
+    },
+    "expected": {
+      "return_code": 0,
+      "captures": 1,
+      "wire": [
+        "DLMessageProcessMessage",
+        {
+          "TargetIdentifier": "LAB-TARGET",
+          "Options": {
+            "CloudBackupState": true
+          },
+          "CloudBackupState": true,
+          "MessageName": "EnableCloudBackup"
+        }
+      ],
+      "bytes": null,
+      "raw_calls": null,
+      "data_hex": ""
+    }
+  },
+  {
+    "input": {
+      "id": "cloud_false",
+      "api": "REQUEST",
+      "client": 2,
+      "name": "EnableCloudBackup",
+      "target": "LAB-TARGET",
+      "source": null,
+      "options": {
+        "CloudBackupState": false
+      },
+      "status": 0,
+      "status_text": null,
+      "raw_mode": 0,
+      "null_data": false,
+      "zero_length": false,
+      "null_bytes": false
+    },
+    "expected": {
+      "return_code": 0,
+      "captures": 1,
+      "wire": [
+        "DLMessageProcessMessage",
+        {
+          "TargetIdentifier": "LAB-TARGET",
+          "Options": {
+            "CloudBackupState": false
+          },
+          "CloudBackupState": false,
+          "MessageName": "EnableCloudBackup"
+        }
+      ],
+      "bytes": null,
+      "raw_calls": null,
+      "data_hex": ""
+    }
+  },
+  {
+    "input": {
+      "id": "request_unknown",
+      "api": "REQUEST",
+      "client": 2,
+      "name": "LabUnknownRequest",
+      "target": "LAB-TARGET",
+      "source": null,
+      "options": {
+        "Item": [
+          "x",
+          3
+        ],
+        "Data": {
+          "__bytes_hex__": "00ff"
+        }
+      },
+      "status": 0,
+      "status_text": null,
+      "raw_mode": 0,
+      "null_data": false,
+      "zero_length": false,
+      "null_bytes": false
+    },
+    "expected": {
+      "return_code": 0,
+      "captures": 1,
+      "wire": [
+        "DLMessageProcessMessage",
+        {
+          "TargetIdentifier": "LAB-TARGET",
+          "Options": {
+            "Item": [
+              "x",
+              3
+            ],
+            "Data": {
+              "__bytes_hex__": "00ff"
+            }
+          },
+          "MessageName": "LabUnknownRequest"
+        }
+      ],
+      "bytes": null,
+      "raw_calls": null,
+      "data_hex": ""
+    }
+  },
+  {
+    "input": {
+      "id": "request_null_name",
+      "api": "REQUEST",
+      "client": 2,
+      "name": null,
+      "target": "LAB-TARGET",
+      "source": null,
+      "options": null,
+      "status": 0,
+      "status_text": null,
+      "raw_mode": 0,
+      "null_data": false,
+      "zero_length": false,
+      "null_bytes": false
+    },
+    "expected": {
+      "return_code": -1,
+      "captures": 0,
+      "wire": null,
+      "bytes": null,
+      "raw_calls": 0,
+      "data_hex": ""
+    }
+  },
+  {
+    "input": {
+      "id": "request_null_target",
+      "api": "REQUEST",
+      "client": 2,
+      "name": "Restore",
+      "target": null,
+      "source": null,
+      "options": null,
+      "status": 0,
+      "status_text": null,
+      "raw_mode": 0,
+      "null_data": false,
+      "zero_length": false,
+      "null_bytes": false
+    },
+    "expected": {
+      "return_code": -1,
+      "captures": 0,
+      "wire": null,
+      "bytes": null,
+      "raw_calls": 0,
+      "data_hex": ""
+    }
+  },
+  {
+    "input": {
+      "id": "request_null_client",
+      "api": "REQUEST",
+      "client": 0,
+      "name": "Restore",
+      "target": "LAB-TARGET",
+      "source": null,
+      "options": null,
+      "status": 0,
+      "status_text": null,
+      "raw_mode": 0,
+      "null_data": false,
+      "zero_length": false,
+      "null_bytes": false
+    },
+    "expected": {
+      "return_code": -1,
+      "captures": 0,
+      "wire": null,
+      "bytes": null,
+      "raw_calls": 0,
+      "data_hex": ""
+    }
+  },
+  {
+    "input": {
+      "id": "request_null_parent",
+      "api": "REQUEST",
+      "client": 1,
+      "name": "Restore",
+      "target": "LAB-TARGET",
+      "source": null,
+      "options": null,
+      "status": 0,
+      "status_text": null,
+      "raw_mode": 0,
+      "null_data": false,
+      "zero_length": false,
+      "null_bytes": false
+    },
+    "expected": {
+      "return_code": -1,
+      "captures": 0,
+      "wire": null,
+      "bytes": null,
+      "raw_calls": 0,
+      "data_hex": ""
+    }
+  },
+  {
+    "input": {
+      "id": "request_empty_name",
+      "api": "REQUEST",
+      "client": 2,
+      "name": "",
+      "target": "LAB-TARGET",
+      "source": null,
+      "options": null,
+      "status": 0,
+      "status_text": null,
+      "raw_mode": 0,
+      "null_data": false,
+      "zero_length": false,
+      "null_bytes": false
+    },
+    "expected": {
+      "return_code": 0,
+      "captures": 1,
+      "wire": [
+        "DLMessageProcessMessage",
+        {
+          "TargetIdentifier": "LAB-TARGET",
+          "MessageName": ""
+        }
+      ],
+      "bytes": null,
+      "raw_calls": null,
+      "data_hex": ""
+    }
+  },
+  {
+    "input": {
+      "id": "request_empty_target",
+      "api": "REQUEST",
+      "client": 2,
+      "name": "Restore",
+      "target": "",
+      "source": null,
+      "options": null,
+      "status": 0,
+      "status_text": null,
+      "raw_mode": 0,
+      "null_data": false,
+      "zero_length": false,
+      "null_bytes": false
+    },
+    "expected": {
+      "return_code": 0,
+      "captures": 1,
+      "wire": [
+        "DLMessageProcessMessage",
+        {
+          "TargetIdentifier": "",
+          "MessageName": "Restore"
+        }
+      ],
+      "bytes": null,
+      "raw_calls": null,
+      "data_hex": ""
+    }
+  },
+  {
+    "input": {
+      "id": "request_empty_source",
+      "api": "REQUEST",
+      "client": 2,
+      "name": "Restore",
+      "target": "LAB-TARGET",
+      "source": "",
+      "options": null,
+      "status": 0,
+      "status_text": null,
+      "raw_mode": 0,
+      "null_data": false,
+      "zero_length": false,
+      "null_bytes": false
+    },
+    "expected": {
+      "return_code": 0,
+      "captures": 1,
+      "wire": [
+        "DLMessageProcessMessage",
+        {
+          "TargetIdentifier": "LAB-TARGET",
+          "SourceIdentifier": "",
+          "MessageName": "Restore"
+        }
+      ],
+      "bytes": null,
+      "raw_calls": null,
+      "data_hex": ""
+    }
+  },
+  {
+    "input": {
+      "id": "request_options_array",
+      "api": "REQUEST",
+      "client": 2,
+      "name": "Restore",
+      "target": "LAB-TARGET",
+      "source": null,
+      "options": [
+        "value",
+        2
+      ],
+      "status": 0,
+      "status_text": null,
+      "raw_mode": 0,
+      "null_data": false,
+      "zero_length": false,
+      "null_bytes": false
+    },
+    "expected": {
+      "return_code": 0,
+      "captures": 1,
+      "wire": [
+        "DLMessageProcessMessage",
+        {
+          "TargetIdentifier": "LAB-TARGET",
+          "Options": [
+            "value",
+            2
+          ],
+          "MessageName": "Restore"
+        }
+      ],
+      "bytes": null,
+      "raw_calls": null,
+      "data_hex": ""
+    }
+  },
+  {
+    "input": {
+      "id": "request_nested_name",
+      "api": "REQUEST",
+      "client": 2,
+      "name": "Restore",
+      "target": "LAB-TARGET",
+      "source": null,
+      "options": {
+        "MessageName": "NestedOnly"
+      },
+      "status": 0,
+      "status_text": null,
+      "raw_mode": 0,
+      "null_data": false,
+      "zero_length": false,
+      "null_bytes": false
+    },
+    "expected": {
+      "return_code": 0,
+      "captures": 1,
+      "wire": [
+        "DLMessageProcessMessage",
+        {
+          "TargetIdentifier": "LAB-TARGET",
+          "Options": {
+            "MessageName": "NestedOnly"
+          },
+          "MessageName": "Restore"
+        }
+      ],
+      "bytes": null,
+      "raw_calls": null,
+      "data_hex": ""
+    }
+  },
+  {
+    "input": {
+      "id": "request_utf8",
+      "api": "REQUEST",
+      "client": 2,
+      "name": "Info",
+      "target": "LAB-TARGET",
+      "source": null,
+      "options": {
+        "Label": "Nghiên cứu"
+      },
+      "status": 0,
+      "status_text": null,
+      "raw_mode": 0,
+      "null_data": false,
+      "zero_length": false,
+      "null_bytes": false
+    },
+    "expected": {
+      "return_code": 0,
+      "captures": 1,
+      "wire": [
+        "DLMessageProcessMessage",
+        {
+          "TargetIdentifier": "LAB-TARGET",
+          "Options": {
+            "Label": "Nghiên cứu"
+          },
+          "MessageName": "Info"
+        }
+      ],
+      "bytes": null,
+      "raw_calls": null,
+      "data_hex": ""
+    }
+  },
+  {
+    "input": {
+      "id": "message_simple",
+      "api": "MESSAGE",
+      "client": 2,
+      "name": "Info",
+      "target": null,
+      "source": null,
+      "options": null,
+      "status": 0,
+      "status_text": null,
+      "raw_mode": 0,
+      "null_data": false,
+      "zero_length": false,
+      "null_bytes": false
+    },
+    "expected": {
+      "return_code": 0,
+      "captures": 1,
+      "wire": [
+        "DLMessageProcessMessage",
+        {
+          "MessageName": "Info"
+        }
+      ],
+      "bytes": null,
+      "raw_calls": null,
+      "data_hex": ""
+    }
+  },
+  {
+    "input": {
+      "id": "message_options",
+      "api": "MESSAGE",
+      "client": 2,
+      "name": "Restore",
+      "target": null,
+      "source": null,
+      "options": {
+        "RestoreSystemFiles": false,
+        "RestoreDontCopyBackup": true,
+        "RestorePreserveSettings": true,
+        "Password": "mdm"
+      },
+      "status": 0,
+      "status_text": null,
+      "raw_mode": 0,
+      "null_data": false,
+      "zero_length": false,
+      "null_bytes": false
+    },
+    "expected": {
+      "return_code": 0,
+      "captures": 1,
+      "wire": [
+        "DLMessageProcessMessage",
+        {
+          "RestoreSystemFiles": false,
+          "RestoreDontCopyBackup": true,
+          "RestorePreserveSettings": true,
+          "Password": "mdm",
+          "MessageName": "Restore"
+        }
+      ],
+      "bytes": null,
+      "raw_calls": null,
+      "data_hex": ""
+    }
+  },
+  {
+    "input": {
+      "id": "message_overwrite",
+      "api": "MESSAGE",
+      "client": 2,
+      "name": "Info",
+      "target": null,
+      "source": null,
+      "options": {
+        "MessageName": "Original",
+        "Value": 5
+      },
+      "status": 0,
+      "status_text": null,
+      "raw_mode": 0,
+      "null_data": false,
+      "zero_length": false,
+      "null_bytes": false
+    },
+    "expected": {
+      "return_code": 0,
+      "captures": 1,
+      "wire": [
+        "DLMessageProcessMessage",
+        {
+          "MessageName": "Info",
+          "Value": 5
+        }
+      ],
+      "bytes": null,
+      "raw_calls": null,
+      "data_hex": ""
+    }
+  },
+  {
+    "input": {
+      "id": "message_passthrough",
+      "api": "MESSAGE",
+      "client": 2,
+      "name": null,
+      "target": null,
+      "source": null,
+      "options": {
+        "MessageName": "Existing",
+        "Value": 5
+      },
+      "status": 0,
+      "status_text": null,
+      "raw_mode": 0,
+      "null_data": false,
+      "zero_length": false,
+      "null_bytes": false
+    },
+    "expected": {
+      "return_code": 0,
+      "captures": 1,
+      "wire": [
+        "DLMessageProcessMessage",
+        {
+          "MessageName": "Existing",
+          "Value": 5
+        }
+      ],
+      "bytes": null,
+      "raw_calls": null,
+      "data_hex": ""
+    }
+  },
+  {
+    "input": {
+      "id": "message_no_name_key",
+      "api": "MESSAGE",
+      "client": 2,
+      "name": null,
+      "target": null,
+      "source": null,
+      "options": {
+        "Value": 5
+      },
+      "status": 0,
+      "status_text": null,
+      "raw_mode": 0,
+      "null_data": false,
+      "zero_length": false,
+      "null_bytes": false
+    },
+    "expected": {
+      "return_code": 0,
+      "captures": 1,
+      "wire": [
+        "DLMessageProcessMessage",
+        {
+          "Value": 5
+        }
+      ],
+      "bytes": null,
+      "raw_calls": null,
+      "data_hex": ""
+    }
+  },
+  {
+    "input": {
+      "id": "message_both_null",
+      "api": "MESSAGE",
+      "client": 2,
+      "name": null,
+      "target": null,
+      "source": null,
+      "options": null,
+      "status": 0,
+      "status_text": null,
+      "raw_mode": 0,
+      "null_data": false,
+      "zero_length": false,
+      "null_bytes": false
+    },
+    "expected": {
+      "return_code": -1,
+      "captures": 0,
+      "wire": null,
+      "bytes": null,
+      "raw_calls": 0,
+      "data_hex": ""
+    }
+  },
+  {
+    "input": {
+      "id": "message_array",
+      "api": "MESSAGE",
+      "client": 2,
+      "name": "Info",
+      "target": null,
+      "source": null,
+      "options": [],
+      "status": 0,
+      "status_text": null,
+      "raw_mode": 0,
+      "null_data": false,
+      "zero_length": false,
+      "null_bytes": false
+    },
+    "expected": {
+      "return_code": -1,
+      "captures": 0,
+      "wire": null,
+      "bytes": null,
+      "raw_calls": 0,
+      "data_hex": ""
+    }
+  },
+  {
+    "input": {
+      "id": "message_string",
+      "api": "MESSAGE",
+      "client": 2,
+      "name": "Info",
+      "target": null,
+      "source": null,
+      "options": "test",
+      "status": 0,
+      "status_text": null,
+      "raw_mode": 0,
+      "null_data": false,
+      "zero_length": false,
+      "null_bytes": false
+    },
+    "expected": {
+      "return_code": -1,
+      "captures": 0,
+      "wire": null,
+      "bytes": null,
+      "raw_calls": 0,
+      "data_hex": ""
+    }
+  },
+  {
+    "input": {
+      "id": "message_null_client",
+      "api": "MESSAGE",
+      "client": 0,
+      "name": "Info",
+      "target": null,
+      "source": null,
+      "options": null,
+      "status": 0,
+      "status_text": null,
+      "raw_mode": 0,
+      "null_data": false,
+      "zero_length": false,
+      "null_bytes": false
+    },
+    "expected": {
+      "return_code": -1,
+      "captures": 0,
+      "wire": null,
+      "bytes": null,
+      "raw_calls": 0,
+      "data_hex": ""
+    }
+  },
+  {
+    "input": {
+      "id": "message_null_parent",
+      "api": "MESSAGE",
+      "client": 1,
+      "name": "Info",
+      "target": null,
+      "source": null,
+      "options": null,
+      "status": 0,
+      "status_text": null,
+      "raw_mode": 0,
+      "null_data": false,
+      "zero_length": false,
+      "null_bytes": false
+    },
+    "expected": {
+      "return_code": -1,
+      "captures": 0,
+      "wire": null,
+      "bytes": null,
+      "raw_calls": 0,
+      "data_hex": ""
+    }
+  },
+  {
+    "input": {
+      "id": "message_empty_name",
+      "api": "MESSAGE",
+      "client": 2,
+      "name": "",
+      "target": null,
+      "source": null,
+      "options": {},
+      "status": 0,
+      "status_text": null,
+      "raw_mode": 0,
+      "null_data": false,
+      "zero_length": false,
+      "null_bytes": false
+    },
+    "expected": {
+      "return_code": 0,
+      "captures": 1,
+      "wire": [
+        "DLMessageProcessMessage",
+        {
+          "MessageName": ""
+        }
+      ],
+      "bytes": null,
+      "raw_calls": null,
+      "data_hex": ""
+    }
+  },
+  {
+    "input": {
+      "id": "status_success",
+      "api": "STATUS",
+      "client": 2,
+      "name": null,
+      "target": null,
+      "source": null,
+      "options": null,
+      "status": 0,
+      "status_text": null,
+      "raw_mode": 0,
+      "null_data": false,
+      "zero_length": false,
+      "null_bytes": false
+    },
+    "expected": {
+      "return_code": 0,
+      "captures": 1,
+      "wire": [
+        "DLMessageStatusResponse",
+        0,
+        "___EmptyParameterString___",
+        "___EmptyParameterString___"
+      ],
+      "bytes": null,
+      "raw_calls": null,
+      "data_hex": ""
+    }
+  },
+  {
+    "input": {
+      "id": "status_error",
+      "api": "STATUS",
+      "client": 2,
+      "name": null,
+      "target": null,
+      "source": null,
+      "options": {
+        "Detail": "synthetic"
+      },
+      "status": 6,
+      "status_text": "Lab error",
+      "raw_mode": 0,
+      "null_data": false,
+      "zero_length": false,
+      "null_bytes": false
+    },
+    "expected": {
+      "return_code": 0,
+      "captures": 1,
+      "wire": [
+        "DLMessageStatusResponse",
+        6,
+        "Lab error",
+        {
+          "Detail": "synthetic"
+        }
+      ],
+      "bytes": null,
+      "raw_calls": null,
+      "data_hex": ""
+    }
+  },
+  {
+    "input": {
+      "id": "status_negative",
+      "api": "STATUS",
+      "client": 2,
+      "name": null,
+      "target": null,
+      "source": null,
+      "options": [
+        "synthetic"
+      ],
+      "status": -6,
+      "status_text": "",
+      "raw_mode": 0,
+      "null_data": false,
+      "zero_length": false,
+      "null_bytes": false
+    },
+    "expected": {
+      "return_code": 0,
+      "captures": 1,
+      "wire": [
+        "DLMessageStatusResponse",
+        18446744073709551610,
+        "",
+        [
+          "synthetic"
+        ]
+      ],
+      "bytes": null,
+      "raw_calls": null,
+      "data_hex": ""
+    }
+  },
+  {
+    "input": {
+      "id": "status_null_client",
+      "api": "STATUS",
+      "client": 0,
+      "name": null,
+      "target": null,
+      "source": null,
+      "options": null,
+      "status": 0,
+      "status_text": null,
+      "raw_mode": 0,
+      "null_data": false,
+      "zero_length": false,
+      "null_bytes": false
+    },
+    "expected": {
+      "return_code": -1,
+      "captures": 0,
+      "wire": null,
+      "bytes": null,
+      "raw_calls": 0,
+      "data_hex": ""
+    }
+  },
+  {
+    "input": {
+      "id": "status_null_parent",
+      "api": "STATUS",
+      "client": 1,
+      "name": null,
+      "target": null,
+      "source": null,
+      "options": null,
+      "status": 0,
+      "status_text": null,
+      "raw_mode": 0,
+      "null_data": false,
+      "zero_length": false,
+      "null_bytes": false
+    },
+    "expected": {
+      "return_code": -1,
+      "captures": 0,
+      "wire": null,
+      "bytes": null,
+      "raw_calls": 0,
+      "data_hex": ""
+    }
+  },
+  {
+    "input": {
+      "id": "send_mode0",
+      "api": "SEND_RAW",
+      "client": 2,
+      "name": null,
+      "target": null,
+      "source": null,
+      "options": null,
+      "status": 0,
+      "status_text": null,
+      "raw_mode": 0,
+      "null_data": false,
+      "zero_length": false,
+      "null_bytes": false
+    },
+    "expected": {
+      "return_code": 0,
+      "captures": 0,
+      "wire": null,
+      "bytes": 7,
+      "raw_calls": 4,
+      "data_hex": "41424344454647"
+    }
+  },
+  {
+    "input": {
+      "id": "send_mode1",
+      "api": "SEND_RAW",
+      "client": 2,
+      "name": null,
+      "target": null,
+      "source": null,
+      "options": null,
+      "status": 0,
+      "status_text": null,
+      "raw_mode": 1,
+      "null_data": false,
+      "zero_length": false,
+      "null_bytes": false
+    },
+    "expected": {
+      "return_code": -3,
+      "captures": 0,
+      "wire": null,
+      "bytes": 0,
+      "raw_calls": 1,
+      "data_hex": ""
+    }
+  },
+  {
+    "input": {
+      "id": "send_mode2",
+      "api": "SEND_RAW",
+      "client": 2,
+      "name": null,
+      "target": null,
+      "source": null,
+      "options": null,
+      "status": 0,
+      "status_text": null,
+      "raw_mode": 2,
+      "null_data": false,
+      "zero_length": false,
+      "null_bytes": false
+    },
+    "expected": {
+      "return_code": -3,
+      "captures": 0,
+      "wire": null,
+      "bytes": 0,
+      "raw_calls": 2,
+      "data_hex": "4142"
+    }
+  },
+  {
+    "input": {
+      "id": "send_mode3",
+      "api": "SEND_RAW",
+      "client": 2,
+      "name": null,
+      "target": null,
+      "source": null,
+      "options": null,
+      "status": 0,
+      "status_text": null,
+      "raw_mode": 3,
+      "null_data": false,
+      "zero_length": false,
+      "null_bytes": false
+    },
+    "expected": {
+      "return_code": -3,
+      "captures": 0,
+      "wire": null,
+      "bytes": 0,
+      "raw_calls": 1,
+      "data_hex": "4142"
+    }
+  },
+  {
+    "input": {
+      "id": "send_null_client",
+      "api": "SEND_RAW",
+      "client": 0,
+      "name": null,
+      "target": null,
+      "source": null,
+      "options": null,
+      "status": 0,
+      "status_text": null,
+      "raw_mode": 0,
+      "null_data": false,
+      "zero_length": false,
+      "null_bytes": false
+    },
+    "expected": {
+      "return_code": -1,
+      "captures": 0,
+      "wire": null,
+      "bytes": 2779096485,
+      "raw_calls": 0,
+      "data_hex": ""
+    }
+  },
+  {
+    "input": {
+      "id": "send_null_parent",
+      "api": "SEND_RAW",
+      "client": 1,
+      "name": null,
+      "target": null,
+      "source": null,
+      "options": null,
+      "status": 0,
+      "status_text": null,
+      "raw_mode": 0,
+      "null_data": false,
+      "zero_length": false,
+      "null_bytes": false
+    },
+    "expected": {
+      "return_code": -1,
+      "captures": 0,
+      "wire": null,
+      "bytes": 2779096485,
+      "raw_calls": 0,
+      "data_hex": ""
+    }
+  },
+  {
+    "input": {
+      "id": "send_null_data",
+      "api": "SEND_RAW",
+      "client": 2,
+      "name": null,
+      "target": null,
+      "source": null,
+      "options": null,
+      "status": 0,
+      "status_text": null,
+      "raw_mode": 0,
+      "null_data": true,
+      "zero_length": false,
+      "null_bytes": false
+    },
+    "expected": {
+      "return_code": -1,
+      "captures": 0,
+      "wire": null,
+      "bytes": 2779096485,
+      "raw_calls": 0,
+      "data_hex": ""
+    }
+  },
+  {
+    "input": {
+      "id": "send_zero_length",
+      "api": "SEND_RAW",
+      "client": 2,
+      "name": null,
+      "target": null,
+      "source": null,
+      "options": null,
+      "status": 0,
+      "status_text": null,
+      "raw_mode": 0,
+      "null_data": false,
+      "zero_length": true,
+      "null_bytes": false
+    },
+    "expected": {
+      "return_code": -1,
+      "captures": 0,
+      "wire": null,
+      "bytes": 2779096485,
+      "raw_calls": 0,
+      "data_hex": ""
+    }
+  },
+  {
+    "input": {
+      "id": "send_null_bytes",
+      "api": "SEND_RAW",
+      "client": 2,
+      "name": null,
+      "target": null,
+      "source": null,
+      "options": null,
+      "status": 0,
+      "status_text": null,
+      "raw_mode": 0,
+      "null_data": false,
+      "zero_length": false,
+      "null_bytes": true
+    },
+    "expected": {
+      "return_code": -1,
+      "captures": 0,
+      "wire": null,
+      "bytes": 2779096485,
+      "raw_calls": 0,
+      "data_hex": ""
+    }
+  },
+  {
+    "input": {
+      "id": "recv_mode0",
+      "api": "RECEIVE_RAW",
+      "client": 2,
+      "name": null,
+      "target": null,
+      "source": null,
+      "options": null,
+      "status": 0,
+      "status_text": null,
+      "raw_mode": 0,
+      "null_data": false,
+      "zero_length": false,
+      "null_bytes": false
+    },
+    "expected": {
+      "return_code": 0,
+      "captures": 0,
+      "wire": null,
+      "bytes": 7,
+      "raw_calls": 4,
+      "data_hex": "41424344454647"
+    }
+  },
+  {
+    "input": {
+      "id": "recv_mode1",
+      "api": "RECEIVE_RAW",
+      "client": 2,
+      "name": null,
+      "target": null,
+      "source": null,
+      "options": null,
+      "status": 0,
+      "status_text": null,
+      "raw_mode": 1,
+      "null_data": false,
+      "zero_length": false,
+      "null_bytes": false
+    },
+    "expected": {
+      "return_code": 0,
+      "captures": 0,
+      "wire": null,
+      "bytes": 0,
+      "raw_calls": 1,
+      "data_hex": ""
+    }
+  },
+  {
+    "input": {
+      "id": "recv_mode2",
+      "api": "RECEIVE_RAW",
+      "client": 2,
+      "name": null,
+      "target": null,
+      "source": null,
+      "options": null,
+      "status": 0,
+      "status_text": null,
+      "raw_mode": 2,
+      "null_data": false,
+      "zero_length": false,
+      "null_bytes": false
+    },
+    "expected": {
+      "return_code": 0,
+      "captures": 0,
+      "wire": null,
+      "bytes": 2,
+      "raw_calls": 2,
+      "data_hex": "4142"
+    }
+  },
+  {
+    "input": {
+      "id": "recv_mode3",
+      "api": "RECEIVE_RAW",
+      "client": 2,
+      "name": null,
+      "target": null,
+      "source": null,
+      "options": null,
+      "status": 0,
+      "status_text": null,
+      "raw_mode": 3,
+      "null_data": false,
+      "zero_length": false,
+      "null_bytes": false
+    },
+    "expected": {
+      "return_code": 0,
+      "captures": 0,
+      "wire": null,
+      "bytes": 0,
+      "raw_calls": 1,
+      "data_hex": "4142"
+    }
+  },
+  {
+    "input": {
+      "id": "recv_null_client",
+      "api": "RECEIVE_RAW",
+      "client": 0,
+      "name": null,
+      "target": null,
+      "source": null,
+      "options": null,
+      "status": 0,
+      "status_text": null,
+      "raw_mode": 0,
+      "null_data": false,
+      "zero_length": false,
+      "null_bytes": false
+    },
+    "expected": {
+      "return_code": -1,
+      "captures": 0,
+      "wire": null,
+      "bytes": 2779096485,
+      "raw_calls": 0,
+      "data_hex": ""
+    }
+  },
+  {
+    "input": {
+      "id": "recv_null_parent",
+      "api": "RECEIVE_RAW",
+      "client": 1,
+      "name": null,
+      "target": null,
+      "source": null,
+      "options": null,
+      "status": 0,
+      "status_text": null,
+      "raw_mode": 0,
+      "null_data": false,
+      "zero_length": false,
+      "null_bytes": false
+    },
+    "expected": {
+      "return_code": -1,
+      "captures": 0,
+      "wire": null,
+      "bytes": 2779096485,
+      "raw_calls": 0,
+      "data_hex": ""
+    }
+  },
+  {
+    "input": {
+      "id": "recv_null_data",
+      "api": "RECEIVE_RAW",
+      "client": 2,
+      "name": null,
+      "target": null,
+      "source": null,
+      "options": null,
+      "status": 0,
+      "status_text": null,
+      "raw_mode": 0,
+      "null_data": true,
+      "zero_length": false,
+      "null_bytes": false
+    },
+    "expected": {
+      "return_code": -1,
+      "captures": 0,
+      "wire": null,
+      "bytes": 2779096485,
+      "raw_calls": 0,
+      "data_hex": ""
+    }
+  },
+  {
+    "input": {
+      "id": "recv_zero_length",
+      "api": "RECEIVE_RAW",
+      "client": 2,
+      "name": null,
+      "target": null,
+      "source": null,
+      "options": null,
+      "status": 0,
+      "status_text": null,
+      "raw_mode": 0,
+      "null_data": false,
+      "zero_length": true,
+      "null_bytes": false
+    },
+    "expected": {
+      "return_code": -1,
+      "captures": 0,
+      "wire": null,
+      "bytes": 2779096485,
+      "raw_calls": 0,
+      "data_hex": ""
+    }
+  },
+  {
+    "input": {
+      "id": "recv_null_bytes",
+      "api": "RECEIVE_RAW",
+      "client": 2,
+      "name": null,
+      "target": null,
+      "source": null,
+      "options": null,
+      "status": 0,
+      "status_text": null,
+      "raw_mode": 0,
+      "null_data": false,
+      "zero_length": false,
+      "null_bytes": true
+    },
+    "expected": {
+      "return_code": -1,
+      "captures": 0,
+      "wire": null,
+      "bytes": 2779096485,
+      "raw_calls": 0,
+      "data_hex": ""
+    }
+  }
+]

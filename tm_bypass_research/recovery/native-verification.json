@@ -1,0 +1,11 @@
+{
+  "native_import_call_sites_measured": 542,
+  "removed_dummy_register_pushes": 258,
+  "removed_return_traps": 284,
+  "changed_bytes_verified": 542,
+  "native_core_functions_exported": 64,
+  "native_main_pseudocode_lines": 1850,
+  "native_analysis_pe_sha256": "8edb726f45c6b6542846f086044a25cf639e00c6e15372d07016c19f71f6f63d",
+  "native_pseudocode_compiled_or_device_tested": false,
+  "protected_dll_fully_devirtualized": false
+}

@@ -1,0 +1,31 @@
+{
+  "scope": "MDM workflow after application installation",
+  "helper_sha256": "6df298d8ce0de16fa8d776490bdb67b1e7913a8b3e226e22e0807decdebec650",
+  "helper_native_call_sites_named": 542,
+  "restore_request_verified_by": [
+    "unpacked machine-code block emulation with mocked APIs",
+    "actual protected DLL under offline Wine; intercepted before transport"
+  ],
+  "wire_request": [
+    "DLMessageProcessMessage",
+    {
+      "TargetIdentifier": "OFFLINE-LAB-UDID",
+      "SourceIdentifier": "OFFLINE-LAB-UDID",
+      "Options": {
+        "RestoreSystemFiles": false,
+        "RestoreDontCopyBackup": true,
+        "RestorePreserveSettings": true,
+        "Password": "mdm"
+      },
+      "MessageName": "Restore"
+    }
+  ],
+  "real_device_used": false,
+  "vendor_api_credentials_used": false,
+  "vendor_endpoints_called": false,
+  "remaining": [
+    "encrypted backup content lacks matching vendor-generated Manifest.plist",
+    "some DLL functions remain virtualized; original complete source not recovered",
+    "backend source is absent from package"
+  ]
+}

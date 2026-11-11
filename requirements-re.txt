@@ -1,0 +1,6 @@
+pefile==2024.8.26
+dnfile==0.18.0
+dncil==1.0.2
+capstone==5.0.9
+unicorn==1.0.2
+setuptools==80.9.0

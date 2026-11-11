@@ -1,0 +1,19 @@
+{
+  "provenance": {
+    "sample": "TM-BYPASSv4.0 WiN.zip",
+    "helper_sha256": "6df298d8ce0de16fa8d776490bdb67b1e7913a8b3e226e22e0807decdebec650",
+    "method": "protected DLL run under offline Wine; intercepted before transport; dummy UDID",
+    "helper_request_callsite": "0x140004e9f"
+  },
+  "request": {
+    "TargetIdentifier": "OFFLINE-LAB-UDID",
+    "SourceIdentifier": "OFFLINE-LAB-UDID",
+    "Options": {
+      "RestoreSystemFiles": false,
+      "RestoreDontCopyBackup": true,
+      "RestorePreserveSettings": true,
+      "Password": "mdm"
+    },
+    "MessageName": "Restore"
+  }
+}

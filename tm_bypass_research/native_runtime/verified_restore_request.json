@@ -1,0 +1,37 @@
+{
+  "scope": "isolated block emulation; all external APIs mocked",
+  "events": [
+    {
+      "api": "plist_dict_set_item",
+      "key": "RestoreSystemFiles",
+      "value": false
+    },
+    {
+      "api": "plist_dict_set_item",
+      "key": "RestoreDontCopyBackup",
+      "value": true
+    },
+    {
+      "api": "plist_dict_set_item",
+      "key": "RestorePreserveSettings",
+      "value": true
+    },
+    {
+      "api": "plist_dict_set_item",
+      "key": "Password",
+      "value": "mdm"
+    },
+    {
+      "api": "mobilebackup2_send_request",
+      "request": "Restore",
+      "target": "OFFLINE-LAB-UDID",
+      "source": "OFFLINE-LAB-UDID",
+      "options": {
+        "RestoreSystemFiles": false,
+        "RestoreDontCopyBackup": true,
+        "RestorePreserveSettings": true,
+        "Password": "mdm"
+      }
+    }
+  ]
+}

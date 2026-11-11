@@ -1,0 +1,34 @@
+{
+  "cases": 52,
+  "actual_cases": 52,
+  "passed": 52,
+  "differences": [],
+  "integer_interpretations": [
+    {
+      "id": "status_negative",
+      "python_signed": -6,
+      "libplist_unsigned": 18446744073709551610
+    }
+  ],
+  "original_protected_dll_used": true,
+  "binary_plist_boundary_mocked": false,
+  "raw_service_boundaries_mocked": false,
+  "usbmuxd_transport_boundaries_mocked": true,
+  "imobiledevice_code_patched_by_harness": false,
+  "plist_code_patched_by_harness": false,
+  "case_groups": {
+    "REQUEST": 18,
+    "MESSAGE": 11,
+    "STATUS": 5,
+    "SEND_RAW": 9,
+    "RECEIVE_RAW": 9
+  },
+  "reference": "libimobiledevice/libimobiledevice tag 1.3.0; source files retained in reference/",
+  "sample_hashes": {
+    "imobiledevice.dll": "93937d1910e6a59c9f6533e92a1f59d6d7bf9ab2706a40ac903dbe695682e1e6",
+    "plist.dll": "261f7f4e5abf36f03779957e4d637b87170d7795d94aa0be412fbacae6b6cc0f",
+    "usbmuxd.dll": "8709f3642719215ea2da04195634efb3c258514810840b9f8e6f973f882e243d"
+  },
+  "real_device_or_network_used": false,
+  "claim": "Observed contract equivalence for these inputs only; not full DLL source recovery."
+}

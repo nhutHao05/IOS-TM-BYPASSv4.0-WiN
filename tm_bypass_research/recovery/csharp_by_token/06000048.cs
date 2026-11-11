@@ -1,0 +1,71 @@
+// Recovered from method token 0x06000048; analyst names; not the original source.
+using System.ComponentModel;
+using System.Drawing;
+using System.Runtime.CompilerServices;
+using System.Windows.Forms;
+using Siticone.UI.WinForms;
+
+[MethodImpl(MethodImplOptions.NoInlining)]
+private void Recovered_06_0048_Name()
+{
+	ComponentResourceManager componentResourceManager = new ComponentResourceManager(typeof(Recovered_02_000f_TypeName));
+	Recovered_04_0030_Name = new RichTextBox();
+	Recovered_04_0031_Name = new RichTextBox();
+	Recovered_04_0032_Name = new SiticoneGradientButton();
+	SuspendLayout();
+	Recovered_04_0030_Name.BackColor = Color.Black;
+	Recovered_04_0030_Name.BorderStyle = BorderStyle.None;
+	Recovered_04_0030_Name.Font = new Font("Segoe UI Semibold", 11f, FontStyle.Bold, GraphicsUnit.Point, 0);
+	Recovered_04_0030_Name.ForeColor = Color.White;
+	Recovered_04_0030_Name.Location = new Point(1, 1);
+	Recovered_04_0030_Name.Name = "richTextBox1";
+	Recovered_04_0030_Name.ReadOnly = true;
+	Recovered_04_0030_Name.Size = new Size(229, 70);
+	Recovered_04_0030_Name.TabIndex = 18;
+	Recovered_04_0030_Name.Text = "";
+	Recovered_04_0031_Name.BackColor = Color.Black;
+	Recovered_04_0031_Name.BorderStyle = BorderStyle.None;
+	Recovered_04_0031_Name.Font = new Font("Segoe UI Semibold", 11f, FontStyle.Bold, GraphicsUnit.Point, 0);
+	Recovered_04_0031_Name.ForeColor = Color.White;
+	Recovered_04_0031_Name.Location = new Point(21, 12);
+	Recovered_04_0031_Name.Name = "richTextBox2";
+	Recovered_04_0031_Name.ReadOnly = true;
+	Recovered_04_0031_Name.Size = new Size(197, 25);
+	Recovered_04_0031_Name.TabIndex = 19;
+	Recovered_04_0031_Name.Text = "iDevice Backup Successfully";
+	Recovered_04_0032_Name.BorderColor = Color.Lime;
+	Recovered_04_0032_Name.BorderThickness = 1;
+	Recovered_04_0032_Name.CheckedState.Parent = Recovered_04_0032_Name;
+	Recovered_04_0032_Name.CustomImages.Parent = Recovered_04_0032_Name;
+	Recovered_04_0032_Name.FillColor = Color.Red;
+	Recovered_04_0032_Name.FillColor2 = Color.Red;
+	Recovered_04_0032_Name.Font = new Font("Segoe UI", 9f);
+	Recovered_04_0032_Name.ForeColor = Color.White;
+	Recovered_04_0032_Name.HoveredState.Parent = Recovered_04_0032_Name;
+	Recovered_04_0032_Name.Location = new Point(83, 38);
+	Recovered_04_0032_Name.Margin = new Padding(2);
+	Recovered_04_0032_Name.Name = "siticoneGradientButton1";
+	Recovered_04_0032_Name.ShadowDecoration.Parent = Recovered_04_0032_Name;
+	Recovered_04_0032_Name.Size = new Size(65, 20);
+	Recovered_04_0032_Name.TabIndex = 20;
+	Recovered_04_0032_Name.Text = "CLOSE";
+	Recovered_04_0032_Name.Click += Recovered_06_0046_Name;
+	base.AutoScaleDimensions = new SizeF(6f, 13f);
+	base.AutoScaleMode = AutoScaleMode.Font;
+	BackColor = Color.Lime;
+	BackgroundImageLayout = ImageLayout.None;
+	base.ClientSize = new Size(231, 72);
+	base.ControlBox = false;
+	base.Controls.Add(Recovered_04_0032_Name);
+	base.Controls.Add(Recovered_04_0031_Name);
+	base.Controls.Add(Recovered_04_0030_Name);
+	ForeColor = Color.Transparent;
+	base.FormBorderStyle = FormBorderStyle.None;
+	base.Icon = (Icon)componentResourceManager.GetObject("$this.Icon");
+	base.MaximizeBox = false;
+	base.MinimizeBox = false;
+	base.Name = "SuccessBoxBackup";
+	base.ShowIcon = false;
+	base.StartPosition = FormStartPosition.CenterScreen;
+	ResumeLayout(performLayout: false);
+}

@@ -1,0 +1,1289 @@
+{
+  "scope": "Original x64 file-sender routine 0x140002dc0 with external APIs mocked",
+  "success_cases": 14,
+  "error_control_cases": 3,
+  "all_success_payloads_byte_identical": true,
+  "all_error_controls_passed": true,
+  "maximum_data_chunk": 32768,
+  "file_data_code": 12,
+  "success_code": 0,
+  "local_error_code": 6,
+  "no_real_device_or_network": true,
+  "results": [
+    {
+      "case": "synthetic-0",
+      "source": null,
+      "bytes": 0,
+      "input_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sent_payload_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "data_chunk_sizes": [],
+      "terminal_status": 0,
+      "helper_return": 0,
+      "mocked_api_events": [
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 4,
+          "sent": 4
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 22,
+          "sent": 22
+        },
+        {
+          "api": "_stat64",
+          "path": "LAB-BACKUP/LAB-UDID/aa/opaque.bin"
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 5,
+          "sent": 5
+        }
+      ]
+    },
+    {
+      "case": "synthetic-1",
+      "source": null,
+      "bytes": 1,
+      "input_sha256": "e7cf46a078fed4fafd0b5e3aff144802b853f8ae459a4f0c14add3314b7cc3a6",
+      "sent_payload_sha256": "e7cf46a078fed4fafd0b5e3aff144802b853f8ae459a4f0c14add3314b7cc3a6",
+      "data_chunk_sizes": [
+        1
+      ],
+      "terminal_status": 0,
+      "helper_return": 0,
+      "mocked_api_events": [
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 4,
+          "sent": 4
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 22,
+          "sent": 22
+        },
+        {
+          "api": "_stat64",
+          "path": "LAB-BACKUP/LAB-UDID/aa/opaque.bin"
+        },
+        {
+          "api": "fopen",
+          "path": "LAB-BACKUP/LAB-UDID/aa/opaque.bin",
+          "mode": "rb"
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 5,
+          "sent": 5
+        },
+        {
+          "api": "fread",
+          "returned": 1
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 1,
+          "sent": 1
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 5,
+          "sent": 5
+        }
+      ]
+    },
+    {
+      "case": "synthetic-32767",
+      "source": null,
+      "bytes": 32767,
+      "input_sha256": "9d344cd7a5c9ae44a3aa5ef63a6a0199b44ba198c863062b1f3419df8b8f0ccc",
+      "sent_payload_sha256": "9d344cd7a5c9ae44a3aa5ef63a6a0199b44ba198c863062b1f3419df8b8f0ccc",
+      "data_chunk_sizes": [
+        32767
+      ],
+      "terminal_status": 0,
+      "helper_return": 0,
+      "mocked_api_events": [
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 4,
+          "sent": 4
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 22,
+          "sent": 22
+        },
+        {
+          "api": "_stat64",
+          "path": "LAB-BACKUP/LAB-UDID/aa/opaque.bin"
+        },
+        {
+          "api": "fopen",
+          "path": "LAB-BACKUP/LAB-UDID/aa/opaque.bin",
+          "mode": "rb"
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 5,
+          "sent": 5
+        },
+        {
+          "api": "fread",
+          "returned": 32767
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 32767,
+          "sent": 32767
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 5,
+          "sent": 5
+        }
+      ]
+    },
+    {
+      "case": "synthetic-32768",
+      "source": null,
+      "bytes": 32768,
+      "input_sha256": "a06fa47c2671def27679fe048a287aeb2823c07a1e15d6395e02b3cec681c73d",
+      "sent_payload_sha256": "a06fa47c2671def27679fe048a287aeb2823c07a1e15d6395e02b3cec681c73d",
+      "data_chunk_sizes": [
+        32768
+      ],
+      "terminal_status": 0,
+      "helper_return": 0,
+      "mocked_api_events": [
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 4,
+          "sent": 4
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 22,
+          "sent": 22
+        },
+        {
+          "api": "_stat64",
+          "path": "LAB-BACKUP/LAB-UDID/aa/opaque.bin"
+        },
+        {
+          "api": "fopen",
+          "path": "LAB-BACKUP/LAB-UDID/aa/opaque.bin",
+          "mode": "rb"
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 5,
+          "sent": 5
+        },
+        {
+          "api": "fread",
+          "returned": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 32768,
+          "sent": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 5,
+          "sent": 5
+        }
+      ]
+    },
+    {
+      "case": "synthetic-32769",
+      "source": null,
+      "bytes": 32769,
+      "input_sha256": "9cc2c0a06e539982a30dd20dded669f0e6a806e42f642bbac880e9cbaa48443b",
+      "sent_payload_sha256": "9cc2c0a06e539982a30dd20dded669f0e6a806e42f642bbac880e9cbaa48443b",
+      "data_chunk_sizes": [
+        32768,
+        1
+      ],
+      "terminal_status": 0,
+      "helper_return": 0,
+      "mocked_api_events": [
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 4,
+          "sent": 4
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 22,
+          "sent": 22
+        },
+        {
+          "api": "_stat64",
+          "path": "LAB-BACKUP/LAB-UDID/aa/opaque.bin"
+        },
+        {
+          "api": "fopen",
+          "path": "LAB-BACKUP/LAB-UDID/aa/opaque.bin",
+          "mode": "rb"
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 5,
+          "sent": 5
+        },
+        {
+          "api": "fread",
+          "returned": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 32768,
+          "sent": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 5,
+          "sent": 5
+        },
+        {
+          "api": "fread",
+          "returned": 1
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 1,
+          "sent": 1
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 5,
+          "sent": 5
+        }
+      ]
+    },
+    {
+      "case": "synthetic-65536",
+      "source": null,
+      "bytes": 65536,
+      "input_sha256": "6fc179cfd193754e6109ad043f56d146c7e7d7c3623ffceae318266286f58388",
+      "sent_payload_sha256": "6fc179cfd193754e6109ad043f56d146c7e7d7c3623ffceae318266286f58388",
+      "data_chunk_sizes": [
+        32768,
+        32768
+      ],
+      "terminal_status": 0,
+      "helper_return": 0,
+      "mocked_api_events": [
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 4,
+          "sent": 4
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 22,
+          "sent": 22
+        },
+        {
+          "api": "_stat64",
+          "path": "LAB-BACKUP/LAB-UDID/aa/opaque.bin"
+        },
+        {
+          "api": "fopen",
+          "path": "LAB-BACKUP/LAB-UDID/aa/opaque.bin",
+          "mode": "rb"
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 5,
+          "sent": 5
+        },
+        {
+          "api": "fread",
+          "returned": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 32768,
+          "sent": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 5,
+          "sent": 5
+        },
+        {
+          "api": "fread",
+          "returned": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 32768,
+          "sent": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 5,
+          "sent": 5
+        }
+      ]
+    },
+    {
+      "case": "synthetic-65553",
+      "source": null,
+      "bytes": 65553,
+      "input_sha256": "c31f58ab5244ed6a7c0201aa2b1b255518fa3bd7680e5fc130dd1bb8ccd69331",
+      "sent_payload_sha256": "c31f58ab5244ed6a7c0201aa2b1b255518fa3bd7680e5fc130dd1bb8ccd69331",
+      "data_chunk_sizes": [
+        32768,
+        32768,
+        17
+      ],
+      "terminal_status": 0,
+      "helper_return": 0,
+      "mocked_api_events": [
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 4,
+          "sent": 4
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 22,
+          "sent": 22
+        },
+        {
+          "api": "_stat64",
+          "path": "LAB-BACKUP/LAB-UDID/aa/opaque.bin"
+        },
+        {
+          "api": "fopen",
+          "path": "LAB-BACKUP/LAB-UDID/aa/opaque.bin",
+          "mode": "rb"
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 5,
+          "sent": 5
+        },
+        {
+          "api": "fread",
+          "returned": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 32768,
+          "sent": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 5,
+          "sent": 5
+        },
+        {
+          "api": "fread",
+          "returned": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 32768,
+          "sent": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 5,
+          "sent": 5
+        },
+        {
+          "api": "fread",
+          "returned": 17
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 17,
+          "sent": 17
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 5,
+          "sent": 5
+        }
+      ]
+    },
+    {
+      "case": "1e6c0783f9b33d00b152067a0661c8fc8841073f",
+      "source": "embedded_nego/1e/1e6c0783f9b33d00b152067a0661c8fc8841073f",
+      "bytes": 416,
+      "input_sha256": "2e258afa683747aef76ea8743d08a2bc6ba0e90481d1e3bab69d0437014cbd59",
+      "sent_payload_sha256": "2e258afa683747aef76ea8743d08a2bc6ba0e90481d1e3bab69d0437014cbd59",
+      "data_chunk_sizes": [
+        416
+      ],
+      "terminal_status": 0,
+      "helper_return": 0,
+      "mocked_api_events": [
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 4,
+          "sent": 4
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 52,
+          "sent": 52
+        },
+        {
+          "api": "_stat64",
+          "path": "LAB-BACKUP/LAB-UDID/1e/1e6c0783f9b33d00b152067a0661c8fc8841073f"
+        },
+        {
+          "api": "fopen",
+          "path": "LAB-BACKUP/LAB-UDID/1e/1e6c0783f9b33d00b152067a0661c8fc8841073f",
+          "mode": "rb"
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 5,
+          "sent": 5
+        },
+        {
+          "api": "fread",
+          "returned": 416
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 416,
+          "sent": 416
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 5,
+          "sent": 5
+        }
+      ]
+    },
+    {
+      "case": "550a09c4f8c4d89df203ab615ffc979d3c56f613",
+      "source": "embedded_nego/55/550a09c4f8c4d89df203ab615ffc979d3c56f613",
+      "bytes": 2032,
+      "input_sha256": "e9691b7604d7078e853e109f6dafcc9eced346f9741bd67e89a42a72a0bd45da",
+      "sent_payload_sha256": "e9691b7604d7078e853e109f6dafcc9eced346f9741bd67e89a42a72a0bd45da",
+      "data_chunk_sizes": [
+        2032
+      ],
+      "terminal_status": 0,
+      "helper_return": 0,
+      "mocked_api_events": [
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 4,
+          "sent": 4
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 52,
+          "sent": 52
+        },
+        {
+          "api": "_stat64",
+          "path": "LAB-BACKUP/LAB-UDID/55/550a09c4f8c4d89df203ab615ffc979d3c56f613"
+        },
+        {
+          "api": "fopen",
+          "path": "LAB-BACKUP/LAB-UDID/55/550a09c4f8c4d89df203ab615ffc979d3c56f613",
+          "mode": "rb"
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 5,
+          "sent": 5
+        },
+        {
+          "api": "fread",
+          "returned": 2032
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 2032,
+          "sent": 2032
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 5,
+          "sent": 5
+        }
+      ]
+    },
+    {
+      "case": "b2998988ede72dc5ec6d24d258f060d2b2e961b1",
+      "source": "embedded_nego/b2/b2998988ede72dc5ec6d24d258f060d2b2e961b1",
+      "bytes": 192,
+      "input_sha256": "7aff64408c039acdab713bae12203e08c2de24c7e0802521f1e874126995acc7",
+      "sent_payload_sha256": "7aff64408c039acdab713bae12203e08c2de24c7e0802521f1e874126995acc7",
+      "data_chunk_sizes": [
+        192
+      ],
+      "terminal_status": 0,
+      "helper_return": 0,
+      "mocked_api_events": [
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 4,
+          "sent": 4
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 52,
+          "sent": 52
+        },
+        {
+          "api": "_stat64",
+          "path": "LAB-BACKUP/LAB-UDID/b2/b2998988ede72dc5ec6d24d258f060d2b2e961b1"
+        },
+        {
+          "api": "fopen",
+          "path": "LAB-BACKUP/LAB-UDID/b2/b2998988ede72dc5ec6d24d258f060d2b2e961b1",
+          "mode": "rb"
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 5,
+          "sent": 5
+        },
+        {
+          "api": "fread",
+          "returned": 192
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 192,
+          "sent": 192
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 5,
+          "sent": 5
+        }
+      ]
+    },
+    {
+      "case": "80fa782261261e54bb73c0253e5b6beefb6a2f39",
+      "source": "embedded_nego/80/80fa782261261e54bb73c0253e5b6beefb6a2f39",
+      "bytes": 896,
+      "input_sha256": "67be92eb01b33362eedb84f504f7efe79e1449eca24ce467cbbd745796fcc7fe",
+      "sent_payload_sha256": "67be92eb01b33362eedb84f504f7efe79e1449eca24ce467cbbd745796fcc7fe",
+      "data_chunk_sizes": [
+        896
+      ],
+      "terminal_status": 0,
+      "helper_return": 0,
+      "mocked_api_events": [
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 4,
+          "sent": 4
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 52,
+          "sent": 52
+        },
+        {
+          "api": "_stat64",
+          "path": "LAB-BACKUP/LAB-UDID/80/80fa782261261e54bb73c0253e5b6beefb6a2f39"
+        },
+        {
+          "api": "fopen",
+          "path": "LAB-BACKUP/LAB-UDID/80/80fa782261261e54bb73c0253e5b6beefb6a2f39",
+          "mode": "rb"
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 5,
+          "sent": 5
+        },
+        {
+          "api": "fread",
+          "returned": 896
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 896,
+          "sent": 896
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 5,
+          "sent": 5
+        }
+      ]
+    },
+    {
+      "case": "6241b2b9da35bc7ac51266cce64774fc975ccf00",
+      "source": "embedded_nego/62/6241b2b9da35bc7ac51266cce64774fc975ccf00",
+      "bytes": 16192,
+      "input_sha256": "f59d5711b2e0f0a1974f2111ebe88dba061c8931f06049aa1ad1c4c9789c9768",
+      "sent_payload_sha256": "f59d5711b2e0f0a1974f2111ebe88dba061c8931f06049aa1ad1c4c9789c9768",
+      "data_chunk_sizes": [
+        16192
+      ],
+      "terminal_status": 0,
+      "helper_return": 0,
+      "mocked_api_events": [
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 4,
+          "sent": 4
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 52,
+          "sent": 52
+        },
+        {
+          "api": "_stat64",
+          "path": "LAB-BACKUP/LAB-UDID/62/6241b2b9da35bc7ac51266cce64774fc975ccf00"
+        },
+        {
+          "api": "fopen",
+          "path": "LAB-BACKUP/LAB-UDID/62/6241b2b9da35bc7ac51266cce64774fc975ccf00",
+          "mode": "rb"
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 5,
+          "sent": 5
+        },
+        {
+          "api": "fread",
+          "returned": 16192
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 16192,
+          "sent": 16192
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 5,
+          "sent": 5
+        }
+      ]
+    },
+    {
+      "case": "3aef6f188cf22d663030b159b271f1f2591cf56a",
+      "source": "embedded_nego/3a/3aef6f188cf22d663030b159b271f1f2591cf56a",
+      "bytes": 16192,
+      "input_sha256": "450f5a629003a0bb87b59c71f6db5adc9d6cfec294f57d4d1f14d9b4de233669",
+      "sent_payload_sha256": "450f5a629003a0bb87b59c71f6db5adc9d6cfec294f57d4d1f14d9b4de233669",
+      "data_chunk_sizes": [
+        16192
+      ],
+      "terminal_status": 0,
+      "helper_return": 0,
+      "mocked_api_events": [
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 4,
+          "sent": 4
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 52,
+          "sent": 52
+        },
+        {
+          "api": "_stat64",
+          "path": "LAB-BACKUP/LAB-UDID/3a/3aef6f188cf22d663030b159b271f1f2591cf56a"
+        },
+        {
+          "api": "fopen",
+          "path": "LAB-BACKUP/LAB-UDID/3a/3aef6f188cf22d663030b159b271f1f2591cf56a",
+          "mode": "rb"
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 5,
+          "sent": 5
+        },
+        {
+          "api": "fread",
+          "returned": 16192
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 16192,
+          "sent": 16192
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 5,
+          "sent": 5
+        }
+      ]
+    },
+    {
+      "case": "manifest-db",
+      "source": "embedded_nego/Manifest.db",
+      "bytes": 843792,
+      "input_sha256": "47554d1339205e89ab34e96ddafa8f2b0acf484e81b42a20df93bf09c04f4e83",
+      "sent_payload_sha256": "47554d1339205e89ab34e96ddafa8f2b0acf484e81b42a20df93bf09c04f4e83",
+      "data_chunk_sizes": [
+        32768,
+        32768,
+        32768,
+        32768,
+        32768,
+        32768,
+        32768,
+        32768,
+        32768,
+        32768,
+        32768,
+        32768,
+        32768,
+        32768,
+        32768,
+        32768,
+        32768,
+        32768,
+        32768,
+        32768,
+        32768,
+        32768,
+        32768,
+        32768,
+        32768,
+        24592
+      ],
+      "terminal_status": 0,
+      "helper_return": 0,
+      "mocked_api_events": [
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 4,
+          "sent": 4
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 20,
+          "sent": 20
+        },
+        {
+          "api": "_stat64",
+          "path": "LAB-BACKUP/LAB-UDID/Manifest.db"
+        },
+        {
+          "api": "fopen",
+          "path": "LAB-BACKUP/LAB-UDID/Manifest.db",
+          "mode": "rb"
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 5,
+          "sent": 5
+        },
+        {
+          "api": "fread",
+          "returned": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 32768,
+          "sent": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 5,
+          "sent": 5
+        },
+        {
+          "api": "fread",
+          "returned": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 32768,
+          "sent": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 5,
+          "sent": 5
+        },
+        {
+          "api": "fread",
+          "returned": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 32768,
+          "sent": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 5,
+          "sent": 5
+        },
+        {
+          "api": "fread",
+          "returned": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 32768,
+          "sent": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 5,
+          "sent": 5
+        },
+        {
+          "api": "fread",
+          "returned": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 32768,
+          "sent": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 5,
+          "sent": 5
+        },
+        {
+          "api": "fread",
+          "returned": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 32768,
+          "sent": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 5,
+          "sent": 5
+        },
+        {
+          "api": "fread",
+          "returned": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 32768,
+          "sent": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 5,
+          "sent": 5
+        },
+        {
+          "api": "fread",
+          "returned": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 32768,
+          "sent": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 5,
+          "sent": 5
+        },
+        {
+          "api": "fread",
+          "returned": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 32768,
+          "sent": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 5,
+          "sent": 5
+        },
+        {
+          "api": "fread",
+          "returned": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 32768,
+          "sent": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 5,
+          "sent": 5
+        },
+        {
+          "api": "fread",
+          "returned": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 32768,
+          "sent": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 5,
+          "sent": 5
+        },
+        {
+          "api": "fread",
+          "returned": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 32768,
+          "sent": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 5,
+          "sent": 5
+        },
+        {
+          "api": "fread",
+          "returned": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 32768,
+          "sent": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 5,
+          "sent": 5
+        },
+        {
+          "api": "fread",
+          "returned": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 32768,
+          "sent": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 5,
+          "sent": 5
+        },
+        {
+          "api": "fread",
+          "returned": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 32768,
+          "sent": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 5,
+          "sent": 5
+        },
+        {
+          "api": "fread",
+          "returned": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 32768,
+          "sent": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 5,
+          "sent": 5
+        },
+        {
+          "api": "fread",
+          "returned": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 32768,
+          "sent": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 5,
+          "sent": 5
+        },
+        {
+          "api": "fread",
+          "returned": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 32768,
+          "sent": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 5,
+          "sent": 5
+        },
+        {
+          "api": "fread",
+          "returned": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 32768,
+          "sent": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 5,
+          "sent": 5
+        },
+        {
+          "api": "fread",
+          "returned": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 32768,
+          "sent": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 5,
+          "sent": 5
+        },
+        {
+          "api": "fread",
+          "returned": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 32768,
+          "sent": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 5,
+          "sent": 5
+        },
+        {
+          "api": "fread",
+          "returned": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 32768,
+          "sent": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 5,
+          "sent": 5
+        },
+        {
+          "api": "fread",
+          "returned": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 32768,
+          "sent": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 5,
+          "sent": 5
+        },
+        {
+          "api": "fread",
+          "returned": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 32768,
+          "sent": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 5,
+          "sent": 5
+        },
+        {
+          "api": "fread",
+          "returned": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 32768,
+          "sent": 32768
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 5,
+          "sent": 5
+        },
+        {
+          "api": "fread",
+          "returned": 24592
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 24592,
+          "sent": 24592
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 5,
+          "sent": 5
+        }
+      ]
+    },
+    {
+      "case": "missing-file",
+      "helper_return": 4294967295,
+      "wire_bytes": 43,
+      "helper_return_signed": -1,
+      "errors": {
+        "LAB-UDID/aa/opaque.bin": {
+          "DLFileErrorString": "No such file",
+          "DLFileErrorCode": 18446744073709551610
+        }
+      },
+      "control_assertions_passed": true,
+      "mocked_api_events": [
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 4,
+          "sent": 4
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 22,
+          "sent": 22
+        },
+        {
+          "api": "_stat64",
+          "path": "LAB-BACKUP/LAB-UDID/aa/opaque.bin"
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 17,
+          "sent": 17
+        }
+      ]
+    },
+    {
+      "case": "read-error",
+      "helper_return": 4294967295,
+      "wire_bytes": 56,
+      "helper_return_signed": -1,
+      "errors": {
+        "LAB-UDID/aa/opaque.bin": {
+          "DLFileErrorString": "Synthetic read error",
+          "DLFileErrorCode": 18446744073709551611
+        }
+      },
+      "control_assertions_passed": true,
+      "mocked_api_events": [
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 4,
+          "sent": 4
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 22,
+          "sent": 22
+        },
+        {
+          "api": "_stat64",
+          "path": "LAB-BACKUP/LAB-UDID/aa/opaque.bin"
+        },
+        {
+          "api": "fopen",
+          "path": "LAB-BACKUP/LAB-UDID/aa/opaque.bin",
+          "mode": "rb"
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 5,
+          "sent": 5
+        },
+        {
+          "api": "fread",
+          "returned": 0
+        },
+        {
+          "api": "mock_printf",
+          "format": "%s: read error\n"
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 25,
+          "sent": 25
+        }
+      ]
+    },
+    {
+      "case": "short-write",
+      "helper_return": 4294967295,
+      "wire_bytes": 47,
+      "helper_return_signed": -1,
+      "errors": null,
+      "control_assertions_passed": true,
+      "mocked_api_events": [
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 4,
+          "sent": 4
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 22,
+          "sent": 22
+        },
+        {
+          "api": "_stat64",
+          "path": "LAB-BACKUP/LAB-UDID/aa/opaque.bin"
+        },
+        {
+          "api": "fopen",
+          "path": "LAB-BACKUP/LAB-UDID/aa/opaque.bin",
+          "mode": "rb"
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 5,
+          "sent": 5
+        },
+        {
+          "api": "fread",
+          "returned": 17
+        },
+        {
+          "api": "mobilebackup2_send_raw",
+          "requested": 17,
+          "sent": 16
+        },
+        {
+          "api": "mock_printf",
+          "format": "Error: sent only %d of %d bytes\n"
+        }
+      ]
+    }
+  ]
+}

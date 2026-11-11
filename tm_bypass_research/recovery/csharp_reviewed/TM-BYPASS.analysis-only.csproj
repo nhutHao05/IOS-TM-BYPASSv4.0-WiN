@@ -1,0 +1,49 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>TM-BYPASS</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net48</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>12.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="Siticone.UI">
+      <HintPath>work/tm_bypass_research/recovery/references/Siticone.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Renci.SshNet">
+      <HintPath>work/tm_bypass_research/recovery/references/Renci.SshNet.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>work/tm_bypass_research/recovery/references/ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="plist-cil">
+      <HintPath>work/tm_bypass_research/recovery/references/plist-cil.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management">
+      <HintPath>work/tm_bypass_research/recovery/references/System.Management.dll</HintPath>
+    </Reference>
+    <Reference Include="LibUsbDotNet.LibUsbDotNet">
+      <HintPath>work/tm_bypass_research/recovery/references/LibUsbDotNet.LibUsbDotNet.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>work/tm_bypass_research/recovery/references/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="ciXdPivfhoXtlgbhiJzbafQUCzPFA">
+      <HintPath>work/tm_bypass_research/recovery/references/ciXdPivfhoXtlgbhiJzbafQUCzPFA.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>work/tm_bypass_research/recovery/references/System.IO.Compression.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <HintPath>work/tm_bypass_research/recovery/references/Microsoft.CSharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

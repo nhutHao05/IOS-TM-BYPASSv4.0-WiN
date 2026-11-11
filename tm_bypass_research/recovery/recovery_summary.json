@@ -1,0 +1,8 @@
+{
+  "output": "/workspace/work/tm_bypass_research/recovery/TM-BYPASS.analysis-only.exe",
+  "literal_calls_rewritten": 1444,
+  "unique_literals": 819,
+  "analyst_aliases": 604,
+  "metadata_bytes": 183656,
+  "analysis_only": true
+}
